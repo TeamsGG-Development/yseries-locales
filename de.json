@@ -324,7 +324,7 @@
 		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!"
 	},
 	"mail": {
-		"confirmDeleteMailLabel": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
+		"confirmDeleteMailLabel": "Bist du dir Sicher, dass du diese E-Mail löschen möchtest?",
 		"inboxLabel": "Posteingang",
 		"todayLabel": "Heute",
 		"yesterdayLabel": "Gestern",
