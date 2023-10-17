@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.1"
+		"VERSION": "1.0.2"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -17,7 +17,8 @@
 		"minuminPinLengthSuggestion": "At least 4 digits recommended",
 		"startLabel": "Start",
 		"nextLabel": "Next",
-		"skipLabel": "Skip"
+		"skipLabel": "Skip",
+		"sharedLocationLabel": "Shared location"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Welcome!",
@@ -87,7 +88,8 @@
 		"recipientLabel": "Recipient",
 		"enterMessagePlaceholder": "Enter message",
 		"invalidNumber": "Invalid number",
-		"addMemberLabel": "Add member"
+		"addMemberLabel": "Add member",
+		"confirmRemoveMemberLabel": "Are you sure you want to remove this member?"
 	},
 	"settings": {
 		"settingsTabTitle": "Settings",
@@ -320,5 +322,13 @@
 		"orLabel": "or",
 		"accountAlreadyExistsLabel": "An account with that username already exists!",
 		"invalidUsernameOrPasswordLabel": "Username or password is incorrect!"
+	},
+	"mail": {
+		"confirmDeleteMailLabel": "Are you sure you want to delete this email?",
+		"inboxLabel": "Inbox",
+		"todayLabel": "Today",
+		"yesterdayLabel": "Yesterday",
+		"emptyEmailsLabel": "No emails",
+		"deleteMailSuccessMessage": "Email deleted"
 	}
 }

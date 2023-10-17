@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.1"
+		"VERSION": "1.0.2"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -17,7 +17,8 @@
 		"minuminPinLengthSuggestion": "Il est recommandé d'avoir au moins 4 chiffres",
 		"startLabel": "Démarrer",
 		"nextLabel": "Suivant",
-		"skipLabel": "Passer"
+		"skipLabel": "Passer",
+		"sharedLocationLabel": "Emplacement partagé"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bienvenue !",
@@ -87,7 +88,8 @@
 		"recipientLabel": "Destinataire",
 		"enterMessagePlaceholder": "Saisissez votre message",
 		"invalidNumber": "Numéro invalide",
-		"addMemberLabel": "Ajouter un membre"
+		"addMemberLabel": "Ajouter un membre",
+		"confirmRemoveMemberLabel": "Confirmez-vous la suppression de ce membre ?"
 	},
 	"settings": {
 		"settingsTabTitle": "Paramètres",
@@ -320,5 +322,13 @@
 		"orLabel": "ou",
 		"accountAlreadyExistsLabel": "Un compte avec ce nom d'utilisateur existe déjà !",
 		"invalidUsernameOrPasswordLabel": "Nom d'utilisateur ou mot de passe incorrect !"
+	},
+	"mail": {
+		"confirmDeleteMailLabel": "Êtes-vous sûr de vouloir supprimer cet e-mail ?",
+		"inboxLabel": "Boîte de réception",
+		"todayLabel": "Aujourd'hui",
+		"yesterdayLabel": "Hier",
+		"emptyEmailsLabel": "Aucun e-mail",
+		"deleteMailSuccessMessage": "E-mail supprimé"
 	}
 }

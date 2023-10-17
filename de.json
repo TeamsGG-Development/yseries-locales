@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dies wird nicht im Telefon verwendet.",
-		"VERSION": "1.0.1"
+		"VERSION": "1.0.0"
 	},
 	"general": {
 		"saveLabel": "Speichern",
@@ -17,7 +17,8 @@
 		"minuminPinLengthSuggestion": "Mindestens 4 Ziffern empfohlen",
 		"startLabel": "Start",
 		"nextLabel": "Weiter",
-		"skipLabel": "Überspringen"
+		"skipLabel": "Überspringen",
+		"sharedLocationLabel": "Geteilter Standort"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Willkommen!",
@@ -87,7 +88,8 @@
 		"recipientLabel": "Empfänger",
 		"enterMessagePlaceholder": "Nachricht eingeben",
 		"invalidNumber": "Ungültige Nummer",
-		"addMemberLabel": "Mitglied hinzufügen"
+		"addMemberLabel": "Mitglied hinzufügen",
+		"confirmRemoveMemberLabel": "Bestätigen Sie die Entfernung dieses Mitglieds?"
 	},
 	"settings": {
 		"settingsTabTitle": "Einstellungen",
@@ -320,5 +322,13 @@
 		"orLabel": "oder",
 		"accountAlreadyExistsLabel": "Ein Konto mit diesem Benutzernamen existiert bereits!",
 		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!"
+	},
+	"mail": {
+		"confirmDeleteMailLabel": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
+		"inboxLabel": "Posteingang",
+		"todayLabel": "Heute",
+		"yesterdayLabel": "Gestern",
+		"emptyEmailsLabel": "Keine E-Mails",
+		"deleteMailSuccessMessage": "E-Mail gelöscht"
 	}
 }

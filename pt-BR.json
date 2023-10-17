@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Isso não é usado no telefone.",
-		"VERSION": "1.0.1"
+		"VERSION": "1.0.2"
 	},
 	"general": {
 		"saveLabel": "Salvar",
@@ -17,7 +17,8 @@
 		"minuminPinLengthSuggestion": "Recomenda-se pelo menos 4 dígitos",
 		"startLabel": "Iniciar",
 		"nextLabel": "Próximo",
-		"skipLabel": "Pular"
+		"skipLabel": "Pular",
+		"sharedLocationLabel": "Local compartilhado"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bem-vindo!",
@@ -72,7 +73,8 @@
 		"removeLabel": "Remover",
 		"addContactLabel": "Adicionar contato",
 		"nameLabel": "Nome",
-		"phoneLabel": "Telefone"
+		"phoneLabel": "Telefone",
+		"confirmRemoveMemberLabel": "Tem certeza de que deseja remover este membro?"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensagens",
@@ -198,7 +200,7 @@
 		"lockedLabel": "Fechada",
 		"giveKeyLabel": "Dar chave",
 		"manageLabel": "Gerenciar",
-		"keyholdersLabel": "Detentores de chave"
+		"keyholdersLabel": "Portadores da Chave"
 	},
 	"clock": {
 		"stopwatchLabel": "Cronômetro",
