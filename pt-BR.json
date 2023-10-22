@@ -343,6 +343,7 @@
 		"noRecentChannels": "Nenhum canal recente",
 		"channelPlaceholder": "Canal",
 		"connectedLabel": "Conectado",
-		"disconnectedLabel": "Desconectado"
+		"disconnectedLabel": "Desconectado",
+		"maxChannelAllowed": "Frequência máxima do canal atingida"
 	}
 }

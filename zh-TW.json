@@ -343,6 +343,7 @@
 		"noRecentChannels": "沒有最近的頻道",
 		"channelPlaceholder": "頻道",
 		"connectedLabel": "已連線",
-		"disconnectedLabel": "未連線"
+		"disconnectedLabel": "未連線",
+		"maxChannelAllowed": "已達到最大頻道頻率"
 	}
 }
