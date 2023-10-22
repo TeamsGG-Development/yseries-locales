@@ -330,5 +330,17 @@
 		"yesterdayLabel": "Hier",
 		"emptyEmailsLabel": "Aucun e-mail",
 		"deleteMailSuccessMessage": "E-mail supprimé"
+	},
+	"radio": {
+		"invalidChannel": "Canal invalide",
+		"channelOutOfRange": "Le canal est hors de portée",
+		"channelJoined": "Canal rejoint",
+		"channelLeft": "Canal quitté",
+		"maxVolumeReached": "Vous avez atteint le volume maximum",
+		"minVolumeReached": "Vous avez atteint le volume minimum",
+		"radioMuted": "Radio désactivée",
+		"mhzLabel": "MHz",
+		"noRecentChannels": "Aucun canal récent",
+		"channelPlaceholder": "Canal"
 	}
 }

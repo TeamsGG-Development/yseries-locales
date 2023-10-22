@@ -330,5 +330,17 @@
 		"yesterdayLabel": "昨天",
 		"emptyEmailsLabel": "没有邮件",
 		"deleteMailSuccessMessage": "电子邮件已删除"
+	},
+	"radio": {
+		"invalidChannel": "無效頻道",
+		"channelOutOfRange": "頻道超出範圍",
+		"channelJoined": "加入頻道",
+		"channelLeft": "離開頻道",
+		"maxVolumeReached": "您已達到最大音量",
+		"minVolumeReached": "您已達到最小音量",
+		"radioMuted": "收音機靜音",
+		"mhzLabel": "MHz",
+		"noRecentChannels": "沒有最近的頻道",
+		"channelPlaceholder": "頻道"
 	}
 }
