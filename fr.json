@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.2"
+		"VERSION": "1.0.4"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -200,7 +200,9 @@
 		"lockedLabel": "Verrouillée",
 		"giveKeyLabel": "Donner la clé",
 		"manageLabel": "Gérer",
-		"keyholdersLabel": "Détenteurs de clé"
+		"keyholdersLabel": "Détenteurs de clé",
+		"holderNotReachable": "Le titulaire n'est pas joignable",
+		"targetIdPlaceholder": "ID de la cible"
 	},
 	"clock": {
 		"stopwatchLabel": "Chronomètre",
@@ -345,5 +347,49 @@
 		"connectedLabel": "Connecté",
 		"disconnectedLabel": "Déconnecté",
 		"maxChannelAllowed": "Fréquence maximale du canal atteinte"
+	},
+	"ybuy": {
+		"exploreTabTitle": "Explorer",
+		"favoritesTabTitle": "Favoris",
+		"profileTabTitle": "Profil",
+		"noRecentAdsLabel": "Aucune annonce récente",
+		"cannotCallYourselfLabel": "Vous ne pouvez pas vous appeler vous-même",
+		"cannotMessageYourselfLabel": "Vous ne pouvez pas vous envoyer de messages à vous-même",
+		"callLabel": "Appeler",
+		"messageLabel": "Message",
+		"freeLabel": "Gratuit",
+		"descriptionLabel": "Description",
+		"descriptionPlaceholder": "par ex. KTM 250 EXC-F",
+		"confirmRemoveFavorite": "Êtes-vous sûr de vouloir supprimer cette annonce de vos favoris ?",
+		"noFavoriteAds": "Aucune annonce favorite",
+		"confirmArchiveAd": "Êtes-vous sûr de vouloir archiver cette annonce ?",
+		"createAdLabel": "Créer une annonce",
+		"editAdLabel": "Modifier l'annonce",
+		"yourAdsLabel": "Vos annonces",
+		"editLabel": "Modifier",
+		"archiveLabel": "Archiver",
+		"noOwnAds": "Vous n'avez aucune annonce",
+		"addPhotosLabel": "Ajouter des photos",
+		"titleLabel": "Titre",
+		"titlePlaceholder": "par ex. Vélo KTM",
+		"photosLabel": "Photos",
+		"addMoreLabel": "Ajouter plus",
+		"photosDescription1": "La première image sera la principale dans votre annonce.",
+		"photosDescription2": "Vous pouvez changer l'ordre en les faisant glisser.",
+		"chooseCategory": "Choisir une catégorie",
+		"catRealEstate": "Immobilier",
+		"catVehicles": "Véhicules",
+		"catElectronics": "Électronique",
+		"catServices": "Services",
+		"catOther": "Autres",
+		"priceLabel": "Prix",
+		"pricePlaceholder": "par ex. 1000",
+		"contactNameLabel": "Nom de contact",
+		"contactNamePlaceholder": "par ex. Mike Smith",
+		"contactPhoneLabel": "Téléphone de contact",
+		"contactPhonePlaceholder": "par ex. 555-555-555",
+		"allowCalls": "Autoriser les appels",
+		"allowMessages": "Autoriser les messages",
+		"createLabel": "Créer"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Isso não é usado no telefone.",
-		"VERSION": "1.0.2"
+		"VERSION": "1.0.4"
 	},
 	"general": {
 		"saveLabel": "Salvar",
@@ -200,7 +200,9 @@
 		"lockedLabel": "Fechada",
 		"giveKeyLabel": "Dar chave",
 		"manageLabel": "Gerenciar",
-		"keyholdersLabel": "Portadores da Chave"
+		"keyholdersLabel": "Portadores da Chave",
+		"holderNotReachable": "O titular não está disponível",
+		"targetIdPlaceholder": "ID do alvo"
 	},
 	"clock": {
 		"stopwatchLabel": "Cronômetro",
@@ -345,5 +347,49 @@
 		"connectedLabel": "Conectado",
 		"disconnectedLabel": "Desconectado",
 		"maxChannelAllowed": "Frequência máxima do canal atingida"
+	},
+	"ybuy": {
+		"exploreTabTitle": "Explorar",
+		"favoritesTabTitle": "Favoritos",
+		"profileTabTitle": "Perfil",
+		"noRecentAdsLabel": "Nenhum anúncio recente",
+		"cannotCallYourselfLabel": "Você não pode ligar para si mesmo",
+		"cannotMessageYourselfLabel": "Você não pode enviar mensagens para si mesmo",
+		"callLabel": "Ligar",
+		"messageLabel": "Mensagem",
+		"freeLabel": "Grátis",
+		"descriptionLabel": "Descrição",
+		"descriptionPlaceholder": "ex. KTM 250 EXC-F",
+		"confirmRemoveFavorite": "Tem certeza de que deseja remover este anúncio dos favoritos?",
+		"noFavoriteAds": "Nenhum anúncio favorito",
+		"confirmArchiveAd": "Tem certeza de que deseja arquivar este anúncio?",
+		"createAdLabel": "Criar anúncio",
+		"editAdLabel": "Editar anúncio",
+		"yourAdsLabel": "Seus anúncios",
+		"editLabel": "Editar",
+		"archiveLabel": "Arquivar",
+		"noOwnAds": "Você não tem anúncios",
+		"addPhotosLabel": "Adicionar fotos",
+		"titleLabel": "Título",
+		"titlePlaceholder": "ex. Bicicleta KTM",
+		"photosLabel": "Fotos",
+		"addMoreLabel": "Adicionar mais",
+		"photosDescription1": "A primeira imagem será a principal no seu anúncio.",
+		"photosDescription2": "Você pode alterar a ordem arrastando.",
+		"chooseCategory": "Escolher categoria",
+		"catRealEstate": "Imóveis",
+		"catVehicles": "Veículos",
+		"catElectronics": "Eletrônicos",
+		"catServices": "Serviços",
+		"catOther": "Outros",
+		"priceLabel": "Preço",
+		"pricePlaceholder": "ex. 1000",
+		"contactNameLabel": "Nome de contato",
+		"contactNamePlaceholder": "ex. Mike Smith",
+		"contactPhoneLabel": "Telefone de contato",
+		"contactPhonePlaceholder": "ex. 555-555-555",
+		"allowCalls": "Permitir ligações",
+		"allowMessages": "Permitir mensagens",
+		"createLabel": "Criar"
 	}
 }

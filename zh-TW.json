@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.2"
+		"VERSION": "1.0.4"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -200,7 +200,9 @@
 		"lockedLabel": "鎖定",
 		"giveKeyLabel": "給鑰匙",
 		"manageLabel": "管理",
-		"keyholdersLabel": "鑰匙扣"
+		"keyholdersLabel": "鑰匙扣",
+		"holderNotReachable": "持有人無法聯絡",
+		"targetIdPlaceholder": "目標ID"
 	},
 	"clock": {
 		"stopwatchLabel": "秒錶",
@@ -345,5 +347,49 @@
 		"connectedLabel": "已連線",
 		"disconnectedLabel": "未連線",
 		"maxChannelAllowed": "已達到最大頻道頻率"
+	},
+	"ybuy": {
+		"exploreTabTitle": "探索",
+		"favoritesTabTitle": "收藏",
+		"profileTabTitle": "個人資料",
+		"noRecentAdsLabel": "無最近的廣告",
+		"cannotCallYourselfLabel": "您不能打給自己",
+		"cannotMessageYourselfLabel": "您不能發送訊息給自己",
+		"callLabel": "撥打電話",
+		"messageLabel": "發送訊息",
+		"freeLabel": "免費",
+		"descriptionLabel": "描述",
+		"descriptionPlaceholder": "例如 KTM 250 EXC-F",
+		"confirmRemoveFavorite": "您確定要從收藏中刪除此廣告嗎？",
+		"noFavoriteAds": "無收藏廣告",
+		"confirmArchiveAd": "您確定要將此廣告存檔嗎？",
+		"createAdLabel": "建立廣告",
+		"editAdLabel": "編輯廣告",
+		"yourAdsLabel": "您的廣告",
+		"editLabel": "編輯",
+		"archiveLabel": "存檔",
+		"noOwnAds": "您沒有任何廣告",
+		"addPhotosLabel": "新增照片",
+		"titleLabel": "標題",
+		"titlePlaceholder": "例如 KTM 自行車",
+		"photosLabel": "照片",
+		"addMoreLabel": "新增更多",
+		"photosDescription1": "第一張圖片將成為您的廣告主圖片。",
+		"photosDescription2": "您可以透過拖曳方式改變順序。",
+		"chooseCategory": "選擇類別",
+		"catRealEstate": "房地產",
+		"catVehicles": "汽車",
+		"catElectronics": "電子產品",
+		"catServices": "服務",
+		"catOther": "其他",
+		"priceLabel": "價格",
+		"pricePlaceholder": "例如 1000",
+		"contactNameLabel": "聯絡人姓名",
+		"contactNamePlaceholder": "例如 Mike Smith",
+		"contactPhoneLabel": "聯絡電話",
+		"contactPhonePlaceholder": "例如 555-555-555",
+		"allowCalls": "允許通話",
+		"allowMessages": "允許訊息",
+		"createLabel": "建立"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.2"
+		"VERSION": "1.0.3"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -200,7 +200,9 @@
 		"lockedLabel": "Locked",
 		"giveKeyLabel": "Give key",
 		"manageLabel": "Manage",
-		"keyholdersLabel": "Keyholders"
+		"keyholdersLabel": "Keyholders",
+		"holderNotReachable": "The holder is not reachable",
+		"targetIdPlaceholder": "Target Id"
 	},
 	"clock": {
 		"stopwatchLabel": "Stopwatch",
@@ -345,5 +347,49 @@
 		"connectedLabel": "Connected",
 		"disconnectedLabel": "Disconnected",
 		"maxChannelAllowed": "Reached maximum channel frequency"
+	},
+	"ybuy": {
+		"exploreTabTitle": "Explore",
+		"favoritesTabTitle": "Favorites",
+		"profileTabTitle": "Profile",
+		"noRecentAdsLabel": "No recent ads",
+		"cannotCallYourselfLabel": "You cannot call yourself",
+		"cannotMessageYourselfLabel": "You cannot message yourself",
+		"callLabel": "Call",
+		"messageLabel": "Message",
+		"freeLabel": "Free",
+		"descriptionLabel": "Description",
+		"descriptionPlaceholder": "e.g. KTM 250 EXC-F",
+		"confirmRemoveFavorite": "Are you sure you want to remove this ad from your favorites?",
+		"noFavoriteAds": "No favorite ads",
+		"confirmArchiveAd": "Are you sure you want to archive this ad?",
+		"createAdLabel": "Create ad",
+		"editAdLabel": "Edit ad",
+		"yourAdsLabel": "Your ads",
+		"editLabel": "Edit",
+		"archiveLabel": "Archive",
+		"noOwnAds": "You don't have any ads",
+		"addPhotosLabel": "Add photos",
+		"titleLabel": "Title",
+		"titlePlaceholder": "e.g. KTM Bike",
+		"photosLabel": "Photos",
+		"addMoreLabel": "Add more",
+		"photosDescription1": "The first picture will be the main one in your ad.",
+		"photosDescription2": "You can change the order by dragging.",
+		"chooseCategory": "Choose category",
+		"catRealEstate": "Real estate",
+		"catVehicles": "Vehicles",
+		"catElectronics": "Electronics",
+		"catServices": "Services",
+		"catOther": "Other",
+		"priceLabel": "Price",
+		"pricePlaceholder": "e.g. 1000",
+		"contactNameLabel": "Contact name",
+		"contactNamePlaceholder": "e.g. Mike Smith",
+		"contactPhoneLabel": "Contact phone",
+		"contactPhonePlaceholder": "e.g. 555-555-555",
+		"allowCalls": "Allow calls",
+		"allowMessages": "Allow messages",
+		"createLabel": "Create"
 	}
 }
