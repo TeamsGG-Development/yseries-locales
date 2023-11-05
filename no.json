@@ -1,14 +1,14 @@
 {
 	"metadata": {
 		"INFO": "Dette brukes ikke på telefonen.",
-		"VERSION": "1.0.5"
+		"VERSION": "1.0.6"
 	},
 	"general": {
 		"saveLabel": "Lagre",
 		"cancelLabel": "Avbryt",
 		"confirmLabel": "Bekreft",
 		"okLabel": "OK",
-		"locationSetLabel": "Plassering satt",
+		"locationSetLabel": "Market på kart",
 		"yesLabel": "Ja",
 		"noLabel": "Nei",
 		"doneLabel": "Ferdig",
@@ -162,9 +162,9 @@
 		"jobActionsTitle": "Jobbhandlinger",
 		"detailsLabel": "Detaljer",
 		"jobLabel": "Jobb",
-		"gradeLabel": "Karakter",
+		"gradeLabel": "Stilling",
 		"salaryLabel": "Lønn",
-		"toggleDutyLabel": "Bytt plikt",
+		"toggleDutyLabel": "Av/på vakt",
 		"enableLabel": "Aktiver",
 		"disableLabel": "Deaktiver",
 		"callsLabel": "Anrop",
@@ -188,7 +188,7 @@
 		"callFailed": "Anrop mislyktes"
 	},
 	"home": {
-		"homeAppTitle": "Eide eiendommer",
+		"homeAppTitle": "Dine eiendommer",
 		"noPropertiesLabel": "Du eier ingen eiendommer",
 		"removeKeyholderConfrimLabel": "Er du sikker på at du vil fjerne denne nøkkelinnehaveren?",
 		"keyHolderRemoved": "Nøkkelinnehaver fjernet",
@@ -198,7 +198,7 @@
 		"hasGarageLabel": "Har garasje",
 		"actionsLabel": "Handlinger",
 		"locateLabel": "Finn",
-		"setWaypointLabel": "Angi veipunkt",
+		"setWaypointLabel": "Marker på kart",
 		"doorLabel": "Dør",
 		"lockedLabel": "Låst",
 		"giveKeyLabel": "Gi nøkkel",
@@ -269,7 +269,7 @@
 	},
 	"garage": {
 		"garageTitle": "Garasje",
-		"locationSetLabel": "Plassering satt",
+		"locationSetLabel": "Markert på kart",
 		"vehicleNotFoundLabel": "Kjøretøy ikke funnet",
 		"noVehiclesLabel": "Ingen kjøretøy i garasjen",
 		"plateLabel": "Skilt",
