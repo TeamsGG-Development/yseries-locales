@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.4"
+		"VERSION": "1.0.5"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -73,7 +73,9 @@
 		"removeLabel": "移除",
 		"addContactLabel": "增加聯繫人",
 		"nameLabel": "姓名",
-		"phoneLabel": "手機"
+		"phoneLabel": "手機",
+		"companyCallLabel": "公司电话",
+		"incomingCallLabel": "呼入电话"
 	},
 	"messages": {
 		"messagesTabTitle": "訊息",
@@ -182,7 +184,8 @@
 		"companyMessagesTabTitle": "公司訊息",
 		"yourMessagesTabTitle": "您的訊息",
 		"enterMessagePlaceholder": "輸入訊息",
-		"emptyConversationLabel": "沒有訊息"
+		"emptyConversationLabel": "沒有訊息",
+		"callFailed": "通話失敗"
 	},
 	"home": {
 		"homeAppTitle": "擁有的房產",
@@ -272,7 +275,10 @@
 		"plateLabel": "車牌",
 		"engineLabel": "引擎",
 		"bodyLabel": "外觀",
-		"fuelLabel": "油量"
+		"fuelLabel": "油量",
+		"impoundedLabel": "被扣押",
+		"garageLabel": "車庫",
+		"outOfGarageLabel": "不在車庫"
 	},
 	"maps": {
 		"changeMapStyleLabel": "更改地圖樣式",

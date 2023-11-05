@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Esto no se usa en el teléfono.",
-		"VERSION": "1.0.4"
+		"VERSION": "1.0.5"
 	},
 	"general": {
 		"saveLabel": "Guardar",
@@ -73,7 +73,9 @@
 		"removeLabel": "Eliminar",
 		"addContactLabel": "Agregar contacto",
 		"nameLabel": "Nombre",
-		"phoneLabel": "Teléfono"
+		"phoneLabel": "Teléfono",
+		"companyCallLabel": "Llamada de la empresa",
+		"incomingCallLabel": "Llamada entrante"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensajes",
@@ -182,7 +184,8 @@
 		"companyMessagesTabTitle": "Mensajes de la empresa",
 		"yourMessagesTabTitle": "Tus mensajes",
 		"enterMessagePlaceholder": "Escribe un mensaje",
-		"emptyConversationLabel": "No hay mensajes"
+		"emptyConversationLabel": "No hay mensajes",
+		"callFailed": "Llamada fallida"
 	},
 	"home": {
 		"homeAppTitle": "Propiedades en propiedad",
@@ -272,7 +275,10 @@
 		"plateLabel": "Placa",
 		"engineLabel": "Motor",
 		"bodyLabel": "Carrocería",
-		"fuelLabel": "Combustible"
+		"fuelLabel": "Combustible",
+		"impoundedLabel": "Incautado",
+		"garageLabel": "Garaje",
+		"outOfGarageLabel": "Fuera del garaje"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Cambiar estilo de mapa",

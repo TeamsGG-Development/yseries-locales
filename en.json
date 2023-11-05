@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.3"
+		"VERSION": "1.0.5"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -73,7 +73,9 @@
 		"removeLabel": "Remove",
 		"addContactLabel": "Add contact",
 		"nameLabel": "Name",
-		"phoneLabel": "Phone"
+		"phoneLabel": "Phone",
+		"companyCallLabel": "Company call",
+		"incomingCallLabel": "Incoming call"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -182,7 +184,8 @@
 		"companyMessagesTabTitle": "Company messages",
 		"yourMessagesTabTitle": "Your messages",
 		"enterMessagePlaceholder": "Enter message",
-		"emptyConversationLabel": "No messages"
+		"emptyConversationLabel": "No messages",
+		"callFailed": "Call failed"
 	},
 	"home": {
 		"homeAppTitle": "Owned properties",
@@ -272,7 +275,10 @@
 		"plateLabel": "Plate",
 		"engineLabel": "Engine",
 		"bodyLabel": "Body",
-		"fuelLabel": "Fuel"
+		"fuelLabel": "Fuel",
+		"impoundedLabel": "Impounded",
+		"garageLabel": "Garage",
+		"outOfGarageLabel": "Out of the garage"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Change map style",

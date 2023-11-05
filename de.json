@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dies wird nicht im Telefon verwendet.",
-		"VERSION": "1.0.4"
+		"VERSION": "1.0.5"
 	},
 	"general": {
 		"saveLabel": "Speichern",
@@ -73,7 +73,9 @@
 		"removeLabel": "Entfernen",
 		"addContactLabel": "Kontakt hinzufügen",
 		"nameLabel": "Name",
-		"phoneLabel": "Telefon"
+		"phoneLabel": "Telefon",
+		"companyCallLabel": "Unternehmensanruf",
+		"incomingCallLabel": "Eingehender Anruf"
 	},
 	"messages": {
 		"messagesTabTitle": "Nachrichten",
@@ -182,7 +184,8 @@
 		"companyMessagesTabTitle": "Meldungen",
 		"yourMessagesTabTitle": "Deine Nachrichten",
 		"enterMessagePlaceholder": "Nachricht eingeben",
-		"emptyConversationLabel": "Keine Nachrichten"
+		"emptyConversationLabel": "Keine Nachrichten",
+		"callFailed": "Anruf fehlgeschlagen."
 	},
 	"home": {
 		"homeAppTitle": "Eigene Immobilien",
@@ -272,7 +275,10 @@
 		"plateLabel": "Kennzeichen",
 		"engineLabel": "Motor",
 		"bodyLabel": "Karosserie",
-		"fuelLabel": "Kraftstoff"
+		"fuelLabel": "Kraftstoff",
+		"impoundedLabel": "Beschlagnahmt",
+		"garageLabel": "Garage",
+		"outOfGarageLabel": "Außerhalb der Garage"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Kartenstil ändern",
@@ -326,7 +332,7 @@
 		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!"
 	},
 	"mail": {
-		"confirmDeleteMailLabel": "Bist du dir sicher, dass du diese E-Mail löschen möchtest?",
+		"confirmDeleteMailLabel": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
 		"inboxLabel": "Posteingang",
 		"todayLabel": "Heute",
 		"yesterdayLabel": "Gestern",
