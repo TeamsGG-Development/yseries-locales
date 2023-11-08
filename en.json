@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.5"
+		"VERSION": "1.0.6"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -252,7 +252,9 @@
 		"noFeesLabel": "No fees",
 		"referenceLabel": "Reference",
 		"referencePlaceholder": "'e.g. \"Rent",
-		"phoneLabel": "Phone"
+		"phoneLabel": "Phone",
+		"expirationDate": "Expiration date",
+		"transactionsLabel": "TRANSACTIONS"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Are you sure you want to delete this photo?",

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Esto no se usa en el teléfono.",
-		"VERSION": "1.0.5"
+		"VERSION": "1.0.6"
 	},
 	"general": {
 		"saveLabel": "Guardar",
@@ -252,7 +252,9 @@
 		"noFeesLabel": "Sin comisiones",
 		"referenceLabel": "Referencia",
 		"referencePlaceholder": "p. ej. 'Alquiler'",
-		"phoneLabel": "Teléfono"
+		"phoneLabel": "Teléfono",
+		"expirationDate": "Fecha de vencimiento",
+		"transactionsLabel": "TRANSACCIONES"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "¿Seguro que deseas eliminar esta foto?",

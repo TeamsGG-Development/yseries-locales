@@ -252,7 +252,9 @@
 		"noFeesLabel": "Ingen gebyrer",
 		"referenceLabel": "Referanse",
 		"referencePlaceholder": "f.eks. \"Leie\"",
-		"phoneLabel": "Telefon"
+		"phoneLabel": "Telefon",
+		"expirationDate": "Utløpsdato",
+		"transactionsLabel": "TRANSAKSJONER"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Er du sikker på at du vil slette dette bildet?",

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.5"
+		"VERSION": "1.0.6"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -252,7 +252,9 @@
 		"noFeesLabel": "不收取任何費用",
 		"referenceLabel": "參考",
 		"referencePlaceholder": "例如:租",
-		"phoneLabel": "手機"
+		"phoneLabel": "手機",
+		"expirationDate": "到期日",
+		"transactionsLabel": "交易"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "您確定要刪除這張照片嗎?",

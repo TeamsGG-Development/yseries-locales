@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.5"
+		"VERSION": "1.0.6"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -252,7 +252,9 @@
 		"noFeesLabel": "Ingen gebyrer",
 		"referenceLabel": "Reference",
 		"referencePlaceholder": "f.eks. 'Leje",
-		"phoneLabel": "Telefon"
+		"phoneLabel": "Telefon",
+		"expirationDate": "Udløbsdato",
+		"transactionsLabel": "TRANSAKTIONER"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Er du sikker på, at du vil slette dette billede?",

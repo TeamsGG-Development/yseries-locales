@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Isso não é usado no telefone.",
-		"VERSION": "1.0.5"
+		"VERSION": "1.0.6"
 	},
 	"general": {
 		"saveLabel": "Salvar",
@@ -252,7 +252,9 @@
 		"noFeesLabel": "Sem taxas",
 		"referenceLabel": "Referência",
 		"referencePlaceholder": "'por exemplo, \"Aluguel",
-		"phoneLabel": "Telefone"
+		"phoneLabel": "Telefone",
+		"expirationDate": "Data de validade",
+		"transactionsLabel": "TRANSAÇÕES"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Tem certeza de que deseja excluir esta foto?",
