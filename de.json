@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dies wird nicht im Telefon verwendet.",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.7"
 	},
 	"general": {
 		"saveLabel": "Speichern",
@@ -91,7 +91,7 @@
 		"enterMessagePlaceholder": "Nachricht eingeben",
 		"invalidNumber": "Ungültige Nummer",
 		"addMemberLabel": "Mitglied hinzufügen",
-		"confirmRemoveMemberLabel": "Bestätige die Entfernung dieses Mitglieds?"
+		"confirmRemoveMemberLabel": "Bestätigen Sie die Entfernung dieses Mitglieds?"
 	},
 	"settings": {
 		"settingsTabTitle": "Einstellungen",
@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "Bist du dir sicher, dass du dieses Foto löschen möchtest?",
 		"emptyGallery": "Keine Fotos",
-		"galleryTitle": "Galerie"
+		"galleryTitle": "Galerie",
+		"customUrl": "URL"
 	},
 	"notes": {
 		"notesTitle": "Notizen",
@@ -334,7 +335,7 @@
 		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!"
 	},
 	"mail": {
-		"confirmDeleteMailLabel": "Bist du dir sicher, dass du diese E-Mail löschen möchtest?",
+		"confirmDeleteMailLabel": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
 		"inboxLabel": "Posteingang",
 		"todayLabel": "Heute",
 		"yesterdayLabel": "Gestern",
@@ -373,7 +374,7 @@
 		"confirmArchiveAd": "Bist du dir sicher, dass du diese Anzeige archivieren möchtest?",
 		"createAdLabel": "Anzeige erstellen",
 		"editAdLabel": "Anzeige bearbeiten",
-		"yourAdsLabel": "Deine Anzeigen",
+		"yourAdsLabel": "Ihre Anzeigen",
 		"editLabel": "Bearbeiten",
 		"archiveLabel": "Archivieren",
 		"noOwnAds": "Du hast keine Anzeigen",
@@ -399,5 +400,29 @@
 		"allowCalls": "Anrufe erlauben",
 		"allowMessages": "Nachrichten erlauben",
 		"createLabel": "Erstellen"
+	},
+	"groups": {
+		"groupCreated": "Gruppe erstellt",
+		"groupLeft": "Gruppe verlassen",
+		"confirmLeaveGroup": "Sind Sie sicher, dass Sie diese Gruppe verlassen möchten?",
+		"groupsLabel": "Gruppen",
+		"noAvailableGroups": "Keine verfügbaren Gruppen",
+		"groupNamePlaceholder": "Gruppenname",
+		"requestSend": "Anfrage gesendet",
+		"cannotJoinGroup": "Sie können dieser Gruppe nicht beitreten",
+		"memberKicked": "Mitglied rausgeworfen",
+		"confirmKickMember": "Sind Sie sicher, dass Sie dieses Mitglied rausschmeißen möchten?",
+		"currentTaskLabel": "Aktuelle Aufgabe",
+		"membersLabel": "Mitglieder",
+		"noPendingRequests": "Keine ausstehenden Anfragen",
+		"promotedToLeader": "Zum Anführer befördert",
+		"joinRequest": "Beitrittsanfrage",
+		"requestAccepted": "Anfrage akzeptiert",
+		"joinDenied": "Beitritt verweigert",
+		"kicked": "Sie wurden rausgeschmissen"
+	},
+	"playstore": {
+		"gamesLabel": "Spil",
+		"appsLabel": "Apps"
 	}
 }

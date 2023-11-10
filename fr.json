@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.7"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "Êtes-vous sûr de vouloir supprimer cette photo ?",
 		"emptyGallery": "Aucune photo",
-		"galleryTitle": "Galerie"
+		"galleryTitle": "Galerie",
+		"customUrl": "URL personnalisée"
 	},
 	"notes": {
 		"notesTitle": "Notes",
@@ -399,5 +400,29 @@
 		"allowCalls": "Autoriser les appels",
 		"allowMessages": "Autoriser les messages",
 		"createLabel": "Créer"
+	},
+	"groups": {
+		"groupCreated": "Groupe créé",
+		"groupLeft": "Groupe quitté",
+		"confirmLeaveGroup": "Êtes-vous sûr de vouloir quitter ce groupe ?",
+		"groupsLabel": "Groupes",
+		"noAvailableGroups": "Aucun groupe disponible",
+		"groupNamePlaceholder": "Nom du groupe",
+		"requestSend": "Demande envoyée",
+		"cannotJoinGroup": "Vous ne pouvez pas rejoindre ce groupe",
+		"memberKicked": "Membre exclu",
+		"confirmKickMember": "Êtes-vous sûr de vouloir exclure ce membre ?",
+		"currentTaskLabel": "Tâche en cours",
+		"membersLabel": "Membres",
+		"noPendingRequests": "Aucune demande en attente",
+		"promotedToLeader": "Promu leader",
+		"joinRequest": "Demande de rejoindre",
+		"requestAccepted": "Demande acceptée",
+		"joinDenied": "Rejoindre refusé",
+		"kicked": "Vous avez été exclu"
+	},
+	"playstore": {
+		"gamesLabel": "Jeux",
+		"appsLabel": "Applications"
 	}
 }

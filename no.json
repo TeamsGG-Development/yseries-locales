@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette brukes ikke på telefonen.",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.7"
 	},
 	"general": {
 		"saveLabel": "Lagre",
@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "Er du sikker på at du vil slette dette bildet?",
 		"emptyGallery": "Ingen bilder",
-		"galleryTitle": "Galleri"
+		"galleryTitle": "Galleri",
+		"customUrl": "Tilpasset URL"
 	},
 	"notes": {
 		"notesTitle": "Notater",
@@ -399,5 +400,29 @@
 		"allowCalls": "Tillat anrop",
 		"allowMessages": "Tillat meldinger",
 		"createLabel": "Opprett"
+	},
+	"groups": {
+		"groupCreated": "Gruppe opprettet",
+		"groupLeft": "Gruppe forlatt",
+		"confirmLeaveGroup": "Er du sikker på at du vil forlate denne gruppen?",
+		"groupsLabel": "Grupper",
+		"noAvailableGroups": "Ingen tilgjengelige grupper",
+		"groupNamePlaceholder": "Gruppenavn",
+		"requestSend": "Forespørsel sendt",
+		"cannotJoinGroup": "Du kan ikke bli medlem av denne gruppen",
+		"memberKicked": "Medlem sparket",
+		"confirmKickMember": "Er du sikker på at du vil sparke dette medlemmet?",
+		"currentTaskLabel": "Nåværende oppgave",
+		"membersLabel": "Medlemmer",
+		"noPendingRequests": "Ingen ventende forespørsler",
+		"promotedToLeader": "Befremmet til leder",
+		"joinRequest": "Bli medlem forespørsel",
+		"requestAccepted": "Forespørsel akseptert",
+		"joinDenied": "Bli medlem avvist",
+		"kicked": "Du ble sparket ut"
+	},
+	"playstore": {
+		"gamesLabel": "Spill",
+		"appsLabel": "Apper"
 	}
 }

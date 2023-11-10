@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.7"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "Er du sikker på, at du vil slette dette billede?",
 		"emptyGallery": "Ingen fotos",
-		"galleryTitle": "Galleri"
+		"galleryTitle": "Galleri",
+		"customUrl": "Webadresse"
 	},
 	"notes": {
 		"notesTitle": "Noter",
@@ -399,5 +400,29 @@
 		"allowCalls": "Tillad opkald",
 		"allowMessages": "Tillad beskeder",
 		"createLabel": "Opret"
+	},
+	"groups": {
+		"groupCreated": "Gruppe oprettet",
+		"groupLeft": "Gruppe forladt",
+		"confirmLeaveGroup": "Er du sikker på, at du vil forlade denne gruppe?",
+		"groupsLabel": "Grupper",
+		"noAvailableGroups": "Ingen tilgængelige grupper",
+		"groupNamePlaceholder": "Gruppenavn",
+		"requestSend": "Anmodning sendt",
+		"cannotJoinGroup": "Du kan ikke deltage i denne gruppe",
+		"memberKicked": "Medlem smidt ud",
+		"confirmKickMember": "Er du sikker på, at du vil smide dette medlem ud?",
+		"currentTaskLabel": "Aktuel opgave",
+		"membersLabel": "Medlemmer",
+		"noPendingRequests": "Ingen ventende anmodninger",
+		"promotedToLeader": "Forfremmet til leder",
+		"joinRequest": "Anmodning om at deltage",
+		"requestAccepted": "Anmodning accepteret",
+		"joinDenied": "Deltagelse afvist",
+		"kicked": "Du blev smidt ud"
+	},
+	"playstore": {
+		"gamesLabel": "Spil",
+		"appsLabel": "Apps"
 	}
 }

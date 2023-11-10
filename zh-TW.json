@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.7"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "您確定要刪除這張照片嗎?",
 		"emptyGallery": "沒有照片",
-		"galleryTitle": "圖片庫"
+		"galleryTitle": "圖片庫",
+		"customUrl": "自訂網址"
 	},
 	"notes": {
 		"notesTitle": "筆記",
@@ -399,5 +400,29 @@
 		"allowCalls": "允許通話",
 		"allowMessages": "允許訊息",
 		"createLabel": "建立"
+	},
+	"groups": {
+		"groupCreated": "已建立群組",
+		"groupLeft": "已離開群組",
+		"confirmLeaveGroup": "您確定要離開這個群組嗎？",
+		"groupsLabel": "群組",
+		"noAvailableGroups": "無可用群組",
+		"groupNamePlaceholder": "群組名稱",
+		"requestSend": "已發送請求",
+		"cannotJoinGroup": "您無法加入這個群組",
+		"memberKicked": "成員被踢出",
+		"confirmKickMember": "您確定要踢出這位成員嗎？",
+		"currentTaskLabel": "當前任務",
+		"membersLabel": "成員",
+		"noPendingRequests": "無待處理請求",
+		"promotedToLeader": "晉升為領袖",
+		"joinRequest": "加入請求",
+		"requestAccepted": "請求已接受",
+		"joinDenied": "加入被拒絕",
+		"kicked": "您被踢出"
+	},
+	"playstore": {
+		"gamesLabel": "遊戲",
+		"appsLabel": "應用程式"
 	}
 }

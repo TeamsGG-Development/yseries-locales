@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.7"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "Are you sure you want to delete this photo?",
 		"emptyGallery": "No photos",
-		"galleryTitle": "Gallery"
+		"galleryTitle": "Gallery",
+		"customUrl": "Custom URL"
 	},
 	"notes": {
 		"notesTitle": "Notes",
@@ -399,5 +400,29 @@
 		"allowCalls": "Allow calls",
 		"allowMessages": "Allow messages",
 		"createLabel": "Create"
+	},
+	"groups": {
+		"groupCreated": "Group created",
+		"groupLeft": "Group left",
+		"confirmLeaveGroup": "Are you sure you want to leave this group?",
+		"groupsLabel": "Groups",
+		"noAvailableGroups": "No available groups",
+		"groupNamePlaceholder": "Group name",
+		"requestSend": "Request send",
+		"cannotJoinGroup": "You cannot join this group",
+		"memberKicked": "Member kicked",
+		"confirmKickMember": "Are you sure you want to kick this member?",
+		"currentTaskLabel": "Current task",
+		"membersLabel": "Members",
+		"noPendingRequests": "No pending requests",
+		"promotedToLeader": "Promoted to leader",
+		"joinRequest": "Join request",
+		"requestAccepted": "Request accepted",
+		"joinDenied": "Join denied",
+		"kicked": "You were kicked"
+	},
+	"playstore": {
+		"gamesLabel": "Games",
+		"appsLabel": "Apps"
 	}
 }

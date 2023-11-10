@@ -259,7 +259,8 @@
 	"gallery": {
 		"confirmDeletePhoto": "Biztos benne, hogy törölni szeretné ezt a fényképet?",
 		"emptyGallery": "Nincsenek fényképek",
-		"galleryTitle": "Galéria"
+		"galleryTitle": "Galéria",
+		"customUrl": "Egyéni URL"
 	},
 	"notes": {
 		"notesTitle": "Jegyzetek",
@@ -399,5 +400,29 @@
 		"allowCalls": "Hívások engedélyezése",
 		"allowMessages": "Üzenetek engedélyezése",
 		"createLabel": "Létrehozás"
+	},
+	"groups": {
+		"groupCreated": "Csoport létrehozva",
+		"groupLeft": "Csoport elhagyva",
+		"confirmLeaveGroup": "Biztos vagy benne, hogy el akarod hagyni ezt a csoportot?",
+		"groupsLabel": "Csoportok",
+		"noAvailableGroups": "Nincs elérhető csoport",
+		"groupNamePlaceholder": "Csoport neve",
+		"requestSend": "Kérelem elküldve",
+		"cannotJoinGroup": "Nem csatlakozhatsz ehhez a csoporthoz",
+		"memberKicked": "Tag kirúgva",
+		"confirmKickMember": "Biztos vagy benne, hogy ki akarod rúgni ezt a tagot?",
+		"currentTaskLabel": "Jelenlegi feladat",
+		"membersLabel": "Tagok",
+		"noPendingRequests": "Nincsenek függő kérelmek",
+		"promotedToLeader": "Befejlesztve vezetővé",
+		"joinRequest": "Csatlakozási kérelem",
+		"requestAccepted": "Kérelem elfogadva",
+		"joinDenied": "Csatlakozás visszautasítva",
+		"kicked": "Ki lettél rúgva"
+	},
+	"playstore": {
+		"gamesLabel": "Játékok",
+		"appsLabel": "Alkalmazások"
 	}
 }
