@@ -404,14 +404,14 @@
 	"groups": {
 		"groupCreated": "Gruppe erstellt",
 		"groupLeft": "Gruppe verlassen",
-		"confirmLeaveGroup": "Sind Sie sicher, dass Sie diese Gruppe verlassen möchten?",
+		"confirmLeaveGroup": "Bist du dir sicher, dass du diese Gruppe verlassen möchtest?",
 		"groupsLabel": "Gruppen",
 		"noAvailableGroups": "Keine verfügbaren Gruppen",
 		"groupNamePlaceholder": "Gruppenname",
 		"requestSend": "Anfrage gesendet",
-		"cannotJoinGroup": "Sie können dieser Gruppe nicht beitreten",
-		"memberKicked": "Mitglied rausgeworfen",
-		"confirmKickMember": "Sind Sie sicher, dass Sie dieses Mitglied rausschmeißen möchten?",
+		"cannotJoinGroup": "Du kannst dieser Gruppe nicht beitreten",
+		"memberKicked": "Mitglied entfernt",
+		"confirmKickMember": "Bist du dir sicher, dass du dieses Mitglied entfernen möchtest?",
 		"currentTaskLabel": "Aktuelle Aufgabe",
 		"membersLabel": "Mitglieder",
 		"noPendingRequests": "Keine ausstehenden Anfragen",
@@ -419,10 +419,10 @@
 		"joinRequest": "Beitrittsanfrage",
 		"requestAccepted": "Anfrage akzeptiert",
 		"joinDenied": "Beitritt verweigert",
-		"kicked": "Sie wurden rausgeschmissen"
+		"kicked": "Du wurdest entfernt"
 	},
 	"playstore": {
-		"gamesLabel": "Spil",
+		"gamesLabel": "Spiele",
 		"appsLabel": "Apps"
 	}
 }
