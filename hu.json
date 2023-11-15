@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.6"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Mentés",
@@ -18,7 +18,21 @@
 		"startLabel": "Kezdés",
 		"nextLabel": "Következő",
 		"skipLabel": "Átugrás",
-		"sharedLocationLabel": "Pozició megosztva"
+		"sharedLocationLabel": "Pozició megosztva",
+		"fingerprintNotMatch": "Az ujjlenyomat nem egyezik",
+		"fingerprintSetupComplete": "Ujjlenyomat beállítás kész",
+		"fingerprintRemoved": "Ujjlenyomat eltávolítva",
+		"confirmDeleteFingerprint": "Biztosan eltávolítani szeretné az ujjlenyomatát?",
+		"fingerprintSetupHint": "Nyomja meg az ujjlenyomat-érzékelőt, amíg az ujjlenyomat teljesen zöld lesz.",
+		"obstructedFingerprintSensor": "Valami akadályozza az ujjlenyomat-érzékelőt",
+		"removeLabel": "Eltávolítás",
+		"noneLabel": "Nincs",
+		"minutesShoftForm": "perc",
+		"dismissLabel": "Elutasítás",
+		"sendPhotoLabel": "Kép küldése",
+		"voiceMessageLabel": "Hangüzenet",
+		"newTrasferLabel": "Új átutalás",
+		"transferRequestLabel": "Átutalási kérelem"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Üdvözöljük!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Általános kezelés",
 		"generalManagementInfoLabel": "Nyelv",
 		"languageLabel": "Nyelv",
-		"selectPreferedLanguageLabel": "Válassza ki a kívánt nyelvet"
+		"selectPreferedLanguageLabel": "Válassza ki a kívánt nyelvet",
+		"biometricsLabel": "Biometria",
+		"fingerprintLabel": "Ujjlenyomat",
+		"fingerprintRegisteredLabel": "Regisztrált",
+		"autoLockTimeoutLabel": "Automatikus zárolás időtúllépés",
+		"timeoutLabel": "Időtúllépés"
 	},
 	"companies": {
 		"companiesAppTitle": "Vállalatok",

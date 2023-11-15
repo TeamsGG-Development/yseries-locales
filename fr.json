@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -18,7 +18,21 @@
 		"startLabel": "Démarrer",
 		"nextLabel": "Suivant",
 		"skipLabel": "Passer",
-		"sharedLocationLabel": "Emplacement partagé"
+		"sharedLocationLabel": "Emplacement partagé",
+		"fingerprintNotMatch": "L'empreinte digitale ne correspond pas",
+		"fingerprintSetupComplete": "Configuration de l'empreinte digitale terminée",
+		"fingerprintRemoved": "Empreinte digitale supprimée",
+		"confirmDeleteFingerprint": "Êtes-vous sûr de vouloir supprimer votre empreinte digitale ?",
+		"fingerprintSetupHint": "Appuyez sur le capteur d'empreintes digitales jusqu'à ce que l'empreinte devienne entièrement verte.",
+		"obstructedFingerprintSensor": "Quelque chose bloque le capteur d'empreintes digitales",
+		"removeLabel": "Supprimer",
+		"noneLabel": "Aucun",
+		"minutesShoftForm": "min",
+		"dismissLabel": "Rejeter",
+		"sendPhotoLabel": "Envoyer une photo",
+		"voiceMessageLabel": "Message vocal",
+		"newTrasferLabel": "Nouveau transfert",
+		"transferRequestLabel": "Demande de transfert"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bienvenue !",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Gestion générale",
 		"generalManagementInfoLabel": "Langue",
 		"languageLabel": "Langue",
-		"selectPreferedLanguageLabel": "Choisissez votre langue préférée"
+		"selectPreferedLanguageLabel": "Choisissez votre langue préférée",
+		"biometricsLabel": "Biométrie",
+		"fingerprintLabel": "Empreinte digitale",
+		"fingerprintRegisteredLabel": "Enregistré",
+		"autoLockTimeoutLabel": "Délai de verrouillage automatique",
+		"timeoutLabel": "Délai"
 	},
 	"companies": {
 		"companiesAppTitle": "Entreprises",

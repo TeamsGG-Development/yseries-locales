@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -18,7 +18,21 @@
 		"startLabel": "Start",
 		"nextLabel": "Næste",
 		"skipLabel": "Spring over",
-		"sharedLocationLabel": "Delt placering"
+		"sharedLocationLabel": "Delt placering",
+		"fingerprintNotMatch": "Fingeraftryk stemmer ikke overens",
+		"fingerprintSetupComplete": "Fingeraftryksopsætning fuldført",
+		"fingerprintRemoved": "Fingeraftryk fjernet",
+		"confirmDeleteFingerprint": "Er du sikker på, at du vil fjerne dit fingeraftryk?",
+		"fingerprintSetupHint": "Tryk på fingeraftrykssensoren, indtil fingeraftrykket bliver helt grønt.",
+		"obstructedFingerprintSensor": "Noget blokerer din fingeraftrykssensor",
+		"removeLabel": "Fjern",
+		"noneLabel": "Ingen",
+		"minutesShoftForm": "min",
+		"dismissLabel": "Afvis",
+		"sendPhotoLabel": "Send et billede",
+		"voiceMessageLabel": "Lydmeddelelse",
+		"newTrasferLabel": "Ny overførsel",
+		"transferRequestLabel": "Overførselsanmodning"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Generel administration",
 		"generalManagementInfoLabel": "Sprog",
 		"languageLabel": "Sprog",
-		"selectPreferedLanguageLabel": "Vælg dit foretrukne sprog"
+		"selectPreferedLanguageLabel": "Vælg dit foretrukne sprog",
+		"biometricsLabel": "Biometri",
+		"fingerprintLabel": "Fingeraftryk",
+		"fingerprintRegisteredLabel": "Registreret",
+		"autoLockTimeoutLabel": "Automatisk låsetid",
+		"timeoutLabel": "Tidsgrænse"
 	},
 	"companies": {
 		"companiesAppTitle": "Virksomheder",

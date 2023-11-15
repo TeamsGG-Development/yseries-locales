@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -18,7 +18,21 @@
 		"startLabel": "開始",
 		"nextLabel": "下一步",
 		"skipLabel": "跳過",
-		"sharedLocationLabel": "共享位置"
+		"sharedLocationLabel": "共享位置",
+		"fingerprintNotMatch": "指紋不符",
+		"fingerprintSetupComplete": "指紋設置完成",
+		"fingerprintRemoved": "指紋已移除",
+		"confirmDeleteFingerprint": "您確定要刪除指紋嗎？",
+		"fingerprintSetupHint": "按下指紋感應器，直到指紋完全變綠。",
+		"obstructedFingerprintSensor": "有物體阻礙指紋感應器",
+		"removeLabel": "移除",
+		"noneLabel": "無",
+		"minutesShoftForm": "分鐘",
+		"dismissLabel": "關閉",
+		"sendPhotoLabel": "發送照片",
+		"voiceMessageLabel": "語音消息",
+		"newTrasferLabel": "新轉帳",
+		"transferRequestLabel": "轉帳請求"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "歡迎!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "一般管理",
 		"generalManagementInfoLabel": "語言",
 		"languageLabel": "語言",
-		"selectPreferedLanguageLabel": "選擇您的首選語言"
+		"selectPreferedLanguageLabel": "選擇您的首選語言",
+		"biometricsLabel": "生物辨識",
+		"fingerprintLabel": "指紋",
+		"fingerprintRegisteredLabel": "已註冊",
+		"autoLockTimeoutLabel": "自動鎖定逾時",
+		"timeoutLabel": "逾時"
 	},
 	"companies": {
 		"companiesAppTitle": "公司",

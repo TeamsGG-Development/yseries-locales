@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette brukes ikke på telefonen.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Lagre",
@@ -18,7 +18,21 @@
 		"startLabel": "Start",
 		"nextLabel": "Neste",
 		"skipLabel": "Hopp over",
-		"sharedLocationLabel": "Delt plassering"
+		"sharedLocationLabel": "Delt plassering",
+		"fingerprintNotMatch": "Fingeravtrykket stemmer ikke",
+		"fingerprintSetupComplete": "Fingeravtrykkoppsett fullført",
+		"fingerprintRemoved": "Fingeravtrykk fjernet",
+		"confirmDeleteFingerprint": "Er du sikker på at du vil fjerne fingeravtrykket ditt?",
+		"fingerprintSetupHint": "Trykk på fingeravtrykkssensoren til fingeravtrykket blir helt grønt.",
+		"obstructedFingerprintSensor": "Noe blokkerer fingeravtrykkssensoren din",
+		"removeLabel": "Fjern",
+		"noneLabel": "Ingen",
+		"minutesShoftForm": "min",
+		"dismissLabel": "Avvis",
+		"sendPhotoLabel": "Send et bilde",
+		"voiceMessageLabel": "Lyd-melding",
+		"newTrasferLabel": "Ny overføring",
+		"transferRequestLabel": "Overføringsforespørsel"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Generell administrasjon",
 		"generalManagementInfoLabel": "Språk",
 		"languageLabel": "Språk",
-		"selectPreferedLanguageLabel": "Velg ditt foretrukne språk"
+		"selectPreferedLanguageLabel": "Velg ditt foretrukne språk",
+		"biometricsLabel": "Biometri",
+		"fingerprintLabel": "Fingeravtrykk",
+		"fingerprintRegisteredLabel": "Registrert",
+		"autoLockTimeoutLabel": "Automatisk låsetid",
+		"timeoutLabel": "Tidsavbrudd"
 	},
 	"companies": {
 		"companiesAppTitle": "Selskaper",

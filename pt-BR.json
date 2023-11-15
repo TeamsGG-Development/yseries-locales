@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Isso não é usado no telefone.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Salvar",
@@ -18,7 +18,21 @@
 		"startLabel": "Iniciar",
 		"nextLabel": "Próximo",
 		"skipLabel": "Pular",
-		"sharedLocationLabel": "Local compartilhado"
+		"sharedLocationLabel": "Local compartilhado",
+		"fingerprintNotMatch": "Impressão digital não corresponde",
+		"fingerprintSetupComplete": "Configuração da impressão digital concluída",
+		"fingerprintRemoved": "Impressão digital removida",
+		"confirmDeleteFingerprint": "Tem certeza de que deseja remover sua impressão digital?",
+		"fingerprintSetupHint": "Pressione o sensor de impressão digital até a impressão ficar completamente verde.",
+		"obstructedFingerprintSensor": "Algo está obstruindo o sensor de impressão digital",
+		"removeLabel": "Remover",
+		"noneLabel": "Nenhum",
+		"minutesShoftForm": "min",
+		"dismissLabel": "Dispensar",
+		"sendPhotoLabel": "Enviar uma foto",
+		"voiceMessageLabel": "Mensagem de voz",
+		"newTrasferLabel": "Nova transferência",
+		"transferRequestLabel": "Solicitação de transferência"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bem-vindo!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Gerenciamento geral",
 		"generalManagementInfoLabel": "Idioma",
 		"languageLabel": "Idioma",
-		"selectPreferedLanguageLabel": "Escolha seu idioma preferido"
+		"selectPreferedLanguageLabel": "Escolha seu idioma preferido",
+		"biometricsLabel": "Biometria",
+		"fingerprintLabel": "Impressão digital",
+		"fingerprintRegisteredLabel": "Registrado",
+		"autoLockTimeoutLabel": "Tempo de bloqueio automático",
+		"timeoutLabel": "Tempo limite"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",

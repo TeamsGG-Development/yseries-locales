@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dies wird nicht im Telefon verwendet.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Speichern",
@@ -18,7 +18,21 @@
 		"startLabel": "Start",
 		"nextLabel": "Weiter",
 		"skipLabel": "Überspringen",
-		"sharedLocationLabel": "Geteilter Standort"
+		"sharedLocationLabel": "Geteilter Standort",
+		"fingerprintNotMatch": "Fingerabdruck stimmt nicht überein",
+		"fingerprintSetupComplete": "Fingerabdruck-Einrichtung abgeschlossen",
+		"fingerprintRemoved": "Fingerabdruck entfernt",
+		"confirmDeleteFingerprint": "Sind Sie sicher, dass Sie Ihren Fingerabdruck entfernen möchten?",
+		"fingerprintSetupHint": "Drücken Sie den Fingerabdrucksensor, bis der Fingerabdruck vollständig grün wird.",
+		"obstructedFingerprintSensor": "Etwas blockiert Ihren Fingerabdrucksensor",
+		"removeLabel": "Entfernen",
+		"noneLabel": "Keine",
+		"minutesShoftForm": "Min",
+		"dismissLabel": "Verwerfen",
+		"sendPhotoLabel": "Foto senden",
+		"voiceMessageLabel": "Sprachnachricht",
+		"newTrasferLabel": "Neue Überweisung",
+		"transferRequestLabel": "Überweisungsanfrage"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Willkommen!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Allgemeines Management",
 		"generalManagementInfoLabel": "Sprache",
 		"languageLabel": "Sprache",
-		"selectPreferedLanguageLabel": "Wähle Deine bevorzugte Sprache"
+		"selectPreferedLanguageLabel": "Wähle Deine bevorzugte Sprache",
+		"biometricsLabel": "Biometrie",
+		"fingerprintLabel": "Fingerabdruck",
+		"fingerprintRegisteredLabel": "Registriert",
+		"autoLockTimeoutLabel": "Automatische Sperrzeit",
+		"timeoutLabel": "Zeitüberschreitung"
 	},
 	"companies": {
 		"companiesAppTitle": "Unternehmen",

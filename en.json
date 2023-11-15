@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -18,7 +18,21 @@
 		"startLabel": "Start",
 		"nextLabel": "Next",
 		"skipLabel": "Skip",
-		"sharedLocationLabel": "Shared location"
+		"sharedLocationLabel": "Shared location",
+		"fingerprintNotMatch": "Fingerprint does not match",
+		"fingerprintSetupComplete": "Fingerprint setup complete",
+		"fingerprintRemoved": "Fingerprint removed",
+		"confirmDeleteFingerprint": "Are you sure you want to remove your fingerprint?",
+		"fingerprintSetupHint": "Press the fingerprint sensor until the fingerprint turns fully green.",
+		"obstructedFingerprintSensor": "Something is obstructing your fingerprint",
+		"removeLabel": "Remove",
+		"noneLabel": "None",
+		"minutesShoftForm": "min",
+		"dismissLabel": "Dismiss",
+		"sendPhotoLabel": "Send a photo",
+		"voiceMessageLabel": "Voice message",
+		"newTrasferLabel": "New transfer",
+		"transferRequestLabel": "Transfer request"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Welcome!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "General management",
 		"generalManagementInfoLabel": "Language",
 		"languageLabel": "Language",
-		"selectPreferedLanguageLabel": "Choose your preferred language"
+		"selectPreferedLanguageLabel": "Choose your preferred language",
+		"biometricsLabel": "Biometrics",
+		"fingerprintLabel": "Fingerprint",
+		"fingerprintRegisteredLabel": "Registered",
+		"autoLockTimeoutLabel": "Auto lock timeout",
+		"timeoutLabel": "Timeout"
 	},
 	"companies": {
 		"companiesAppTitle": "Companies",

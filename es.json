@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Esto no se usa en el teléfono.",
-		"VERSION": "1.0.7"
+		"VERSION": "1.0.8"
 	},
 	"general": {
 		"saveLabel": "Guardar",
@@ -18,7 +18,21 @@
 		"startLabel": "Comenzar",
 		"nextLabel": "Siguiente",
 		"skipLabel": "Saltar",
-		"sharedLocationLabel": "Ubicación compartida"
+		"sharedLocationLabel": "Ubicación compartida",
+		"fingerprintNotMatch": "La huella dactilar no coincide",
+		"fingerprintSetupComplete": "Configuración de la huella dactilar completa",
+		"fingerprintRemoved": "Huella dactilar eliminada",
+		"confirmDeleteFingerprint": "¿Estás seguro de que quieres eliminar tu huella dactilar?",
+		"fingerprintSetupHint": "Presiona el sensor de huella dactilar hasta que la huella se vuelva completamente verde.",
+		"obstructedFingerprintSensor": "Algo está obstruyendo tu sensor de huella dactilar",
+		"removeLabel": "Eliminar",
+		"noneLabel": "Ninguno",
+		"minutesShoftForm": "min",
+		"dismissLabel": "Descartar",
+		"sendPhotoLabel": "Enviar una foto",
+		"voiceMessageLabel": "Mensaje de voz",
+		"newTrasferLabel": "Nueva transferencia",
+		"transferRequestLabel": "Solicitud de transferencia"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "¡Bienvenido!",
@@ -155,7 +169,12 @@
 		"generalManagementLabel": "Administración general",
 		"generalManagementInfoLabel": "Idioma",
 		"languageLabel": "Idioma",
-		"selectPreferedLanguageLabel": "Elige tu idioma preferido"
+		"selectPreferedLanguageLabel": "Elige tu idioma preferido",
+		"biometricsLabel": "Biometría",
+		"fingerprintLabel": "Huella dactilar",
+		"fingerprintRegisteredLabel": "Registrado",
+		"autoLockTimeoutLabel": "Tiempo de bloqueo automático",
+		"timeoutLabel": "Tiempo de espera"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",
