@@ -207,7 +207,8 @@
 		"yourMessagesTabTitle": "Vos messages",
 		"enterMessagePlaceholder": "Saisissez un message",
 		"emptyConversationLabel": "Aucun message",
-		"callFailed": "Llamada fallida"
+		"callFailed": "Llamada fallida",
+		"setupPinHint": "Activez un code PIN pour configurer la biométrie"
 	},
 	"home": {
 		"homeAppTitle": "Propriétés possédées",

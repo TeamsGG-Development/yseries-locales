@@ -177,7 +177,8 @@
 		"fingerprintLabel": "Impressão digital",
 		"fingerprintRegisteredLabel": "Registrado",
 		"autoLockTimeoutLabel": "Tempo de bloqueio automático",
-		"timeoutLabel": "Tempo limite"
+		"timeoutLabel": "Tempo limite",
+		"setupPinHint": "Ative o PIN para configurar a biometria"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",

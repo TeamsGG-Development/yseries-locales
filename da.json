@@ -177,7 +177,8 @@
 		"fingerprintLabel": "Fingeraftryk",
 		"fingerprintRegisteredLabel": "Registreret",
 		"autoLockTimeoutLabel": "Automatisk låsetid",
-		"timeoutLabel": "Tidsgrænse"
+		"timeoutLabel": "Tidsgrænse",
+		"setupPinHint": "Aktivér PIN-kode for at konfigurere biometri"
 	},
 	"companies": {
 		"companiesAppTitle": "Virksomheder",

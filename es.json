@@ -177,7 +177,8 @@
 		"fingerprintLabel": "Huella dactilar",
 		"fingerprintRegisteredLabel": "Registrado",
 		"autoLockTimeoutLabel": "Tiempo de bloqueo automático",
-		"timeoutLabel": "Tiempo de espera"
+		"timeoutLabel": "Tiempo de espera",
+		"setupPinHint": "Habilitar PIN para configurar la biometría"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",

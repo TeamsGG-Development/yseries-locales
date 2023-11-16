@@ -177,7 +177,8 @@
 		"fingerprintLabel": "指紋",
 		"fingerprintRegisteredLabel": "已註冊",
 		"autoLockTimeoutLabel": "自動鎖定逾時",
-		"timeoutLabel": "逾時"
+		"timeoutLabel": "逾時",
+		"setupPinHint": "啟用PIN碼以設定生物辨識"
 	},
 	"companies": {
 		"companiesAppTitle": "公司",

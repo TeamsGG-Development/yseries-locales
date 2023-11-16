@@ -177,7 +177,8 @@
 		"fingerprintLabel": "Ujjlenyomat",
 		"fingerprintRegisteredLabel": "Regisztrált",
 		"autoLockTimeoutLabel": "Automatikus zárolás időtúllépés",
-		"timeoutLabel": "Időtúllépés"
+		"timeoutLabel": "Időtúllépés",
+		"setupPinHint": "Engedélyezze a PIN-kódot a biometria beállításához"
 	},
 	"companies": {
 		"companiesAppTitle": "Vállalatok",
