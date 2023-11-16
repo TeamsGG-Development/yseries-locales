@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Esto no se usa en el teléfono.",
-		"VERSION": "1.0.8"
+		"VERSION": "1.0.9"
 	},
 	"general": {
 		"saveLabel": "Guardar",
@@ -32,7 +32,8 @@
 		"sendPhotoLabel": "Enviar una foto",
 		"voiceMessageLabel": "Mensaje de voz",
 		"newTrasferLabel": "Nueva transferencia",
-		"transferRequestLabel": "Solicitud de transferencia"
+		"transferRequestLabel": "Solicitud de transferencia",
+		"searchLabel": "Buscar"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "¡Bienvenido!",
@@ -89,7 +90,9 @@
 		"nameLabel": "Nombre",
 		"phoneLabel": "Teléfono",
 		"companyCallLabel": "Llamada de la empresa",
-		"incomingCallLabel": "Llamada entrante"
+		"incomingCallLabel": "Llamada entrante",
+		"searchResultHint": "Los resultados de búsqueda aparecerán aquí",
+		"noResultsFoundLabel": "No se encontraron resultados"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensajes",

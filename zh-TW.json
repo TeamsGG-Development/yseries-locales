@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.8"
+		"VERSION": "1.0.9"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -32,7 +32,8 @@
 		"sendPhotoLabel": "發送照片",
 		"voiceMessageLabel": "語音消息",
 		"newTrasferLabel": "新轉帳",
-		"transferRequestLabel": "轉帳請求"
+		"transferRequestLabel": "轉帳請求",
+		"searchLabel": "搜尋"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "歡迎!",
@@ -89,7 +90,9 @@
 		"nameLabel": "姓名",
 		"phoneLabel": "手機",
 		"companyCallLabel": "公司电话",
-		"incomingCallLabel": "呼入电话"
+		"incomingCallLabel": "呼入电话",
+		"searchResultHint": "搜尋結果將顯示在這裡",
+		"noResultsFoundLabel": "找不到結果"
 	},
 	"messages": {
 		"messagesTabTitle": "訊息",

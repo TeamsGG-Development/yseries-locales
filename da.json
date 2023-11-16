@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.8"
+		"VERSION": "1.0.9"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -32,7 +32,8 @@
 		"sendPhotoLabel": "Send et billede",
 		"voiceMessageLabel": "Lydmeddelelse",
 		"newTrasferLabel": "Ny overførsel",
-		"transferRequestLabel": "Overførselsanmodning"
+		"transferRequestLabel": "Overførselsanmodning",
+		"searchLabel": "Søg"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -89,7 +90,9 @@
 		"nameLabel": "Navn",
 		"phoneLabel": "Telefon",
 		"companyCallLabel": "Firmatelefonopkald",
-		"incomingCallLabel": "Indgående opkald"
+		"incomingCallLabel": "Indgående opkald",
+		"searchResultHint": "Søgeresultater vises her",
+		"noResultsFoundLabel": "Ingen resultater fundet"
 	},
 	"messages": {
 		"messagesTabTitle": "Beskeder",
