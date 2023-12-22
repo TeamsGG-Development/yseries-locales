@@ -22,9 +22,9 @@
 		"fingerprintNotMatch": "Fingerabdruck stimmt nicht überein",
 		"fingerprintSetupComplete": "Fingerabdruck-Einrichtung abgeschlossen",
 		"fingerprintRemoved": "Fingerabdruck entfernt",
-		"confirmDeleteFingerprint": "Sind Sie sicher, dass Sie Ihren Fingerabdruck entfernen möchten?",
-		"fingerprintSetupHint": "Drücken Sie den Fingerabdrucksensor, bis der Fingerabdruck vollständig grün wird.",
-		"obstructedFingerprintSensor": "Etwas blockiert Ihren Fingerabdrucksensor",
+		"confirmDeleteFingerprint": "Bist du dir sicher, dass du Deinen Fingerabdruck entfernen möchtest?",
+		"fingerprintSetupHint": "Drücke den Fingerabdrucksensor, bis der Fingerabdruck vollständig grün wird.",
+		"obstructedFingerprintSensor": "Etwas blockiert Deinen Fingerabdrucksensor",
 		"removeLabel": "Entfernen",
 		"noneLabel": "Keine",
 		"minutesShoftForm": "Min",
@@ -108,7 +108,7 @@
 		"enterMessagePlaceholder": "Nachricht eingeben",
 		"invalidNumber": "Ungültige Nummer",
 		"addMemberLabel": "Mitglied hinzufügen",
-		"confirmRemoveMemberLabel": "Bestätigen Sie die Entfernung dieses Mitglieds?"
+		"confirmRemoveMemberLabel": "Bestätige die Entfernung dieses Mitglieds?"
 	},
 	"settings": {
 		"settingsTabTitle": "Einstellungen",
@@ -178,7 +178,7 @@
 		"fingerprintRegisteredLabel": "Registriert",
 		"autoLockTimeoutLabel": "Automatische Sperrzeit",
 		"timeoutLabel": "Zeitüberschreitung",
-		"setupPinHint": "Aktivieren Sie eine PIN, um die Biometrie einzurichten"
+		"setupPinHint": "Richte einen PIN ein, um die Biometrie einzurichten"
 	},
 	"companies": {
 		"companiesAppTitle": "Unternehmen",
@@ -358,7 +358,7 @@
 		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!"
 	},
 	"mail": {
-		"confirmDeleteMailLabel": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
+		"confirmDeleteMailLabel": "Bist du dir sicher, dass du diese E-Mail löschen möchtest?",
 		"inboxLabel": "Posteingang",
 		"todayLabel": "Heute",
 		"yesterdayLabel": "Gestern",
@@ -397,7 +397,7 @@
 		"confirmArchiveAd": "Bist du dir sicher, dass du diese Anzeige archivieren möchtest?",
 		"createAdLabel": "Anzeige erstellen",
 		"editAdLabel": "Anzeige bearbeiten",
-		"yourAdsLabel": "Ihre Anzeigen",
+		"yourAdsLabel": "Deine Anzeigen",
 		"editLabel": "Bearbeiten",
 		"archiveLabel": "Archivieren",
 		"noOwnAds": "Du hast keine Anzeigen",
@@ -427,14 +427,14 @@
 	"groups": {
 		"groupCreated": "Gruppe erstellt",
 		"groupLeft": "Gruppe verlassen",
-		"confirmLeaveGroup": "Sind Sie sicher, dass Sie diese Gruppe verlassen möchten?",
+		"confirmLeaveGroup": "Bist du dir sicher, dass du diese Gruppe verlassen möchtest?",
 		"groupsLabel": "Gruppen",
 		"noAvailableGroups": "Keine verfügbaren Gruppen",
 		"groupNamePlaceholder": "Gruppenname",
 		"requestSend": "Anfrage gesendet",
-		"cannotJoinGroup": "Sie können dieser Gruppe nicht beitreten",
+		"cannotJoinGroup": "Du kannst dieser Gruppe nicht beitreten",
 		"memberKicked": "Mitglied rausgeworfen",
-		"confirmKickMember": "Sind Sie sicher, dass Sie dieses Mitglied rausschmeißen möchten?",
+		"confirmKickMember": "Bist du dir sicher, dass du dieses Mitglied rausschmeißen möchtest?",
 		"currentTaskLabel": "Aktuelle Aufgabe",
 		"membersLabel": "Mitglieder",
 		"noPendingRequests": "Keine ausstehenden Anfragen",
@@ -442,10 +442,10 @@
 		"joinRequest": "Beitrittsanfrage",
 		"requestAccepted": "Anfrage akzeptiert",
 		"joinDenied": "Beitritt verweigert",
-		"kicked": "Sie wurden rausgeschmissen"
+		"kicked": "Du wurdest rausgeschmissen"
 	},
 	"playstore": {
-		"gamesLabel": "Spil",
+		"gamesLabel": "Spiele",
 		"appsLabel": "Apps"
 	}
 }
