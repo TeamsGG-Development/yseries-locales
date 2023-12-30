@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.9"
+		"VERSION": "1.0.12"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -33,7 +33,8 @@
 		"voiceMessageLabel": "Lydmeddelelse",
 		"newTrasferLabel": "Ny overførsel",
 		"transferRequestLabel": "Overførselsanmodning",
-		"searchLabel": "Søg"
+		"searchLabel": "Søg",
+		"shareLabel": "Del"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -58,7 +59,9 @@
 		"garageLabel": "Garage",
 		"yPayLabel": "YPay",
 		"homesLabel": "Hjem",
-		"companiesLabel": "Virksomheder"
+		"companiesLabel": "Virksomheder",
+		"instashotsLabel": "Instashots",
+		"groupsLabel": "Grupper"
 	},
 	"phone": {
 		"keypad": "Tastatur",
@@ -92,7 +95,9 @@
 		"companyCallLabel": "Firmatelefonopkald",
 		"incomingCallLabel": "Indgående opkald",
 		"searchResultHint": "Søgeresultater vises her",
-		"noResultsFoundLabel": "Ingen resultater fundet"
+		"noResultsFoundLabel": "Ingen resultater fundet",
+		"anonymousLabel": "Privat nummer",
+		"emptyBlockedNumbers": "Ingen blokerede numre"
 	},
 	"messages": {
 		"messagesTabTitle": "Beskeder",
@@ -178,7 +183,19 @@
 		"fingerprintRegisteredLabel": "Registreret",
 		"autoLockTimeoutLabel": "Automatisk låsetid",
 		"timeoutLabel": "Tidsgrænse",
-		"setupPinHint": "Aktivér PIN-kode for at konfigurere biometri"
+		"setupPinHint": "Aktivér PIN-kode for at konfigurere biometri",
+		"customImgUrlLabel": "Brugerdefineret billede-URL",
+		"enterCustomImgUrlLabel": "Indtast billede-URL",
+		"soundModeLabel2": "Lydtilstand",
+		"airplaneModeLabel": "Flytilstand",
+		"quickShareLabel": "Hurtig deling",
+		"doNotDisturbLabel2": "Forstyrr ikke",
+		"screenshotLabel": "Skærmbillede",
+		"flashlightLabel": "Lommelygte",
+		"hideCallerIDLabel": "Skjul opkalds-ID",
+		"blockedNumbersLabel": "Blokerede numre",
+		"confirmRemoveBlockedNumber": "Er du sikker på, at du vil fjerne blokeringen af dette nummer?",
+		"callSettingsLabel": "Opkaldsindstillinger"
 	},
 	"companies": {
 		"companiesAppTitle": "Virksomheder",
@@ -277,7 +294,10 @@
 		"referencePlaceholder": "f.eks. 'Leje",
 		"phoneLabel": "Telefon",
 		"expirationDate": "Udløbsdato",
-		"transactionsLabel": "TRANSAKTIONER"
+		"transactionsLabel": "TRANSAKTIONER",
+		"emptyTransactionsLabel": "Ingen nylige transaktioner",
+		"transferType1": "Til",
+		"transferType2": "Fra"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Er du sikker på, at du vil slette dette billede?",
@@ -304,7 +324,8 @@
 		"fuelLabel": "Brændstof",
 		"impoundedLabel": "Beslaglagt",
 		"garageLabel": "Garasje",
-		"outOfGarageLabel": "Utenfor garasjen"
+		"outOfGarageLabel": "Utenfor garasjen",
+		"valetConfirm": "Er du sikker på, at du vil bestille dette køretøj?"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Skift kortstil",
@@ -355,7 +376,13 @@
 		"signUpLabel": "Tilmeld dig",
 		"orLabel": "eller",
 		"accountAlreadyExistsLabel": "En konto med det brugernavn findes allerede!",
-		"invalidUsernameOrPasswordLabel": "Brugernavn eller adgangskode er forkert!"
+		"invalidUsernameOrPasswordLabel": "Brugernavn eller adgangskode er forkert!",
+		"emptyAudience": "Det er tomt herinde",
+		"emptyConversations": "Ingen samtaler at vise",
+		"notifFollowedYou": "begyndte at følge dig",
+		"notifLikedYourPost": "likede din post",
+		"notifRetweet": "retweetede din post",
+		"notifRepliedToPost": "svarede på din post"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Er du sikker på, at du vil slette denne e-mail?",
@@ -447,5 +474,92 @@
 	"playstore": {
 		"gamesLabel": "Spil",
 		"appsLabel": "Apps"
+	},
+	"quickshare": {
+		"quickShareTitle": "Hurtig deling",
+		"sharedToLabel": "Delt med",
+		"shareToNearbyLabel": "Del til nærliggende enheder",
+		"shareToNearbyDescription": "Sørg for, at modtageren har Quick Share aktiveret i Quick Panel, og deres skærm er tændt.",
+		"noNearbyFoundLabel": "Ingen nærliggende enheder fundet",
+		"copyLinkLabel": "Kopier link",
+		"contactSavedLabel": "Kontakt gemt",
+		"receiveNewContactShare": "vil gerne dele en kontakt med dig",
+		"scanningNearby": "Skanner i nærheden"
+	},
+	"instashots": {
+		"privateAccount": "Dette konto er privat",
+		"privateAccountSub": "Følg denne konto for at se deres billeder og videoer",
+		"usernameLabel": "Brugernavn",
+		"passwordLabel": "Adgangskode",
+		"fullNameLabel": "Fulde navn",
+		"createNewAccountLabel": "Opret ny konto",
+		"loginLabel": "Log ind",
+		"orLabel": "eller",
+		"searchLabel": "Søg",
+		"followersLabel": "Følgere",
+		"followingLabel": "Følger",
+		"followLabel": "Følg",
+		"forYouLabel": "Til dig",
+		"noPostsLabel": "Ingen poster at vise",
+		"areYouSureYouWantToUnfollow": "Er du sikker på, at du ikke længere vil følge denne bruger?",
+		"likedYourPost": "likede dit opslag.",
+		"likedYourComment": "likede din kommentar:",
+		"commentedLabel": "kommenterede:",
+		"startedFollowingLabel": "begyndte at følge dig nu.",
+		"todayLabel": "I dag",
+		"yesterdayLabel": "I går",
+		"last30DaysLabel": "Sidste 30 dage",
+		"olderLabel": "Ældre",
+		"noRecentNotificationsLabel": "Ingen nylige meddelelser",
+		"moreLabel": "... mere",
+		"1likeLabel": "1 like",
+		"likesLabel": "likes",
+		"viewAllCommentsLabel1": "Vis alle",
+		"viewAllCommentsLabel2": "kommentarer",
+		"followersLabel2": "Følgere",
+		"followingLabel2": "Følger",
+		"postsLabel": "Indlæg",
+		"messageLabel": "Besked",
+		"editProfileLabel": "Rediger profil",
+		"logOutLabel": "Log ud",
+		"previewLabel": "Forhåndsvisning",
+		"addNewStoryLabel": "Tilføj ny historie",
+		"yourStoryLabel": "Din historie",
+		"areYouSureYouWantToArchiveStory": "Er du sikker på, at du vil arkivere denne historie?",
+		"viewsLabel": "visninger",
+		"archiveLabel": "Arkiv",
+		"viewersLabel": "Seere",
+		"noViewersLabel": "Ingen seere",
+		"instashotsLabel": "Instashots",
+		"addToStoryLabel": "Tilføj til historie",
+		"shareLabel": "Del",
+		"selectPhotoLabel": "Vælg billede",
+		"commentsLabel": "Kommentarer",
+		"addCommentPlaceholder": "Tilføj en kommentar",
+		"postLabel": "Offentliggør",
+		"noCommentsLabel": "Ingen kommentarer",
+		"messagePlaceholder": "Besked...",
+		"emptyConversations": "Ingen samtaler fundet",
+		"changeProfilePhotoLabel": "Ændre profilbillede",
+		"nameLabel": "Navn",
+		"bioLabel": "Biografi",
+		"privateLabel": "Privat",
+		"newPostLabel": "Nyt indlæg",
+		"nextLabel": "Næste",
+		"filtersLabel": "Filtre",
+		"selectMediaLabel": "Vælg medier",
+		"writeCaptionLabel": "Skriv en billedtekst...",
+		"tagPeopleLabel": "Tag personer",
+		"peopleLabel": "personer",
+		"noAccountsFoundLabel": "Ingen konti fundet",
+		"searchResultHereLabel": "Søgeresultater vises her",
+		"tagsLabel": "Tags",
+		"tapThePhotoToTag": "Tryk på billedet for at tagge personer",
+		"conversationsTitle": "Beskeder",
+		"areYouSureUnfollow": "Er du sikker på, at du ikke længere vil følge denne bruger?",
+		"notifLikedYourPost": "likede dit opslag",
+		"notifCommentedOnYourPost": "kommenterede dit opslag",
+		"notifLikedYourComment": "likede din kommentar",
+		"notifFollowedYou": "begyndte at følge dig"
 	}
 }

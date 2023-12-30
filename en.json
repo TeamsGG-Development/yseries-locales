@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.9"
+		"VERSION": "1.0.12"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -33,7 +33,8 @@
 		"voiceMessageLabel": "Voice message",
 		"newTrasferLabel": "New transfer",
 		"transferRequestLabel": "Transfer request",
-		"searchLabel": "Search"
+		"searchLabel": "Search",
+		"shareLabel": "Share"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Welcome!",
@@ -58,7 +59,9 @@
 		"garageLabel": "Garage",
 		"yPayLabel": "YPay",
 		"homesLabel": "Homes",
-		"companiesLabel": "Companies"
+		"companiesLabel": "Companies",
+		"instashotsLabel": "Instashots",
+		"groupsLabel": "Groups"
 	},
 	"phone": {
 		"keypad": "Keypad",
@@ -92,7 +95,9 @@
 		"companyCallLabel": "Company call",
 		"incomingCallLabel": "Incoming call",
 		"searchResultHint": "Search results will appear here",
-		"noResultsFoundLabel": "No results found"
+		"noResultsFoundLabel": "No results found",
+		"anonymousLabel": "Private number",
+		"emptyBlockedNumbers": "No blocked numbers"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -178,7 +183,19 @@
 		"fingerprintRegisteredLabel": "Registered",
 		"autoLockTimeoutLabel": "Auto lock timeout",
 		"timeoutLabel": "Timeout",
-		"setupPinHint": "Enable PIN to setup biometrics"
+		"setupPinHint": "Enable PIN to setup biometrics",
+		"customImgUrlLabel": "Custom image URL",
+		"enterCustomImgUrlLabel": "Enter Image URL",
+		"soundModeLabel2": "Sound mode",
+		"airplaneModeLabel": "Airplane mode",
+		"quickShareLabel": "Quick Share",
+		"doNotDisturbLabel2": "Do not disturb",
+		"screenshotLabel": "Screenshot",
+		"flashlightLabel": "Flashlight",
+		"hideCallerIDLabel": "Hide caller ID",
+		"blockedNumbersLabel": "Blocked numbers",
+		"confirmRemoveBlockedNumber": "Are you sure you want to unblock this number?",
+		"callSettingsLabel": "Call settings"
 	},
 	"companies": {
 		"companiesAppTitle": "Companies",
@@ -277,7 +294,10 @@
 		"referencePlaceholder": "'e.g. \"Rent",
 		"phoneLabel": "Phone",
 		"expirationDate": "Expiration date",
-		"transactionsLabel": "TRANSACTIONS"
+		"transactionsLabel": "TRANSACTIONS",
+		"emptyTransactionsLabel": "No recent transactions",
+		"transferType1": "To",
+		"transferType2": "From"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Are you sure you want to delete this photo?",
@@ -304,7 +324,8 @@
 		"fuelLabel": "Fuel",
 		"impoundedLabel": "Impounded",
 		"garageLabel": "Garage",
-		"outOfGarageLabel": "Out of the garage"
+		"outOfGarageLabel": "Out of the garage",
+		"valetConfirm": "Are you sure you want to order this vehicle?"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Change map style",
@@ -351,11 +372,17 @@
 		"usernameLabel": "Username",
 		"passwordLabel": "Password",
 		"fullnameLabel": "Full name",
-		"signInLabel": "Sign in",
+		"signInLabel": "Sign In",
 		"signUpLabel": "Sign up",
 		"orLabel": "or",
 		"accountAlreadyExistsLabel": "An account with that username already exists!",
-		"invalidUsernameOrPasswordLabel": "Username or password is incorrect!"
+		"invalidUsernameOrPasswordLabel": "Username or password is incorrect!",
+		"emptyAudience": "It is empty in here",
+		"emptyConversations": "No conversations to show",
+		"notifFollowedYou": "started following you",
+		"notifLikedYourPost": "liked your post",
+		"notifRetweet": "retweeted your post",
+		"notifRepliedToPost": "replied to your post"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Are you sure you want to delete this email?",
@@ -447,5 +474,92 @@
 	"playstore": {
 		"gamesLabel": "Games",
 		"appsLabel": "Apps"
+	},
+	"quickshare": {
+		"quickShareTitle": "Quick Share",
+		"sharedToLabel": "Shared to",
+		"shareToNearbyLabel": "Share to nearby devices",
+		"shareToNearbyDescription": "Make sure the recipient has Quick Share turned on in the quick panel and their screen is on.",
+		"noNearbyFoundLabel": "No nearby devices found",
+		"copyLinkLabel": "Copy link",
+		"contactSavedLabel": "Contact saved",
+		"receiveNewContactShare": "wants to share a contact with you",
+		"scanningNearby": "Scanning nearby"
+	},
+	"instashots": {
+		"privateAccount": "This Account is private",
+		"privateAccountSub": "Follow this account to see their photos and videos",
+		"usernameLabel": "Username",
+		"passwordLabel": "Password",
+		"fullNameLabel": "Full name",
+		"createNewAccountLabel": "Create new account",
+		"loginLabel": "Log In",
+		"orLabel": "or",
+		"searchLabel": "Search",
+		"followersLabel": "followers",
+		"followingLabel": "Following",
+		"followLabel": "Follow",
+		"forYouLabel": "For you",
+		"noPostsLabel": "No posts to show",
+		"areYouSureYouWantToUnfollow": "Are you sure you want to unfollow this user?",
+		"likedYourPost": "liked your post.",
+		"likedYourComment": "liked your comment:",
+		"commentedLabel": "commented:",
+		"startedFollowingLabel": "started following you.",
+		"todayLabel": "Today",
+		"yesterdayLabel": "Yesterday",
+		"last30DaysLabel": "Last 30 days",
+		"olderLabel": "Older",
+		"noRecentNotificationsLabel": "No recent notifications",
+		"moreLabel": "... more",
+		"1likeLabel": "1 like",
+		"likesLabel": "likes",
+		"viewAllCommentsLabel1": "View all",
+		"viewAllCommentsLabel2": "comments",
+		"followersLabel2": "Followers",
+		"followingLabel2": "Following",
+		"postsLabel": "Posts",
+		"messageLabel": "Message",
+		"editProfileLabel": "Edit profile",
+		"logOutLabel": "Log out",
+		"previewLabel": "Preview",
+		"addNewStoryLabel": "Add new story",
+		"yourStoryLabel": "Your story",
+		"areYouSureYouWantToArchiveStory": "Are you sure you want to archive this story?",
+		"viewsLabel": "views",
+		"archiveLabel": "Archive",
+		"viewersLabel": "Viewers",
+		"noViewersLabel": "No viewers",
+		"instashotsLabel": "Instashots",
+		"addToStoryLabel": "Add to story",
+		"shareLabel": "Share",
+		"selectPhotoLabel": "Select photo",
+		"commentsLabel": "Comments",
+		"addCommentPlaceholder": "Add a comment",
+		"postLabel": "Post",
+		"noCommentsLabel": "No comments",
+		"messagePlaceholder": "Message...",
+		"emptyConversations": "No conversations found",
+		"changeProfilePhotoLabel": "Change profile photo",
+		"nameLabel": "Name",
+		"bioLabel": "Bio",
+		"privateLabel": "Private",
+		"newPostLabel": "New post",
+		"nextLabel": "Next",
+		"filtersLabel": "Filters",
+		"selectMediaLabel": "Select media",
+		"writeCaptionLabel": "Write a caption...",
+		"tagPeopleLabel": "Tag people",
+		"peopleLabel": "people",
+		"noAccountsFoundLabel": "No accounts found",
+		"searchResultHereLabel": "Search results will appear here",
+		"tagsLabel": "Tags",
+		"tapThePhotoToTag": "Tap the photo to tag people",
+		"conversationsTitle": "Messages",
+		"areYouSureUnfollow": "Are you sure you want to unfollow this user?",
+		"notifLikedYourPost": "liked your post",
+		"notifCommentedOnYourPost": "commented on your post",
+		"notifLikedYourComment": "liked your comment",
+		"notifFollowedYou": "started following you"
 	}
 }
