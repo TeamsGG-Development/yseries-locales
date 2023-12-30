@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.9"
+		"VERSION": "1.0.12"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -33,7 +33,8 @@
 		"voiceMessageLabel": "Message vocal",
 		"newTrasferLabel": "Nouveau transfert",
 		"transferRequestLabel": "Demande de transfert",
-		"searchLabel": "Recherche"
+		"searchLabel": "Recherche",
+		"shareLabel": "Partager"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bienvenue !",
@@ -58,7 +59,9 @@
 		"garageLabel": "Garage",
 		"yPayLabel": "YPay",
 		"homesLabel": "Propriétés",
-		"companiesLabel": "Entreprises"
+		"companiesLabel": "Entreprises",
+		"instashotsLabel": "Instashots",
+		"groupsLabel": "Groupes"
 	},
 	"phone": {
 		"keypad": "Clavier",
@@ -92,7 +95,9 @@
 		"companyCallLabel": "Appel de l'entreprise",
 		"incomingCallLabel": "Appel entrant",
 		"searchResultHint": "Les résultats de la recherche apparaîtront ici",
-		"noResultsFoundLabel": "Aucun résultat trouvé"
+		"noResultsFoundLabel": "Aucun résultat trouvé",
+		"anonymousLabel": "Numéro privé",
+		"emptyBlockedNumbers": "Aucun numéro bloqué"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -177,7 +182,19 @@
 		"fingerprintLabel": "Empreinte digitale",
 		"fingerprintRegisteredLabel": "Enregistré",
 		"autoLockTimeoutLabel": "Délai de verrouillage automatique",
-		"timeoutLabel": "Délai"
+		"timeoutLabel": "Délai",
+		"customImgUrlLabel": "URL d'image personnalisée",
+		"enterCustomImgUrlLabel": "Entrer l'URL de l'image",
+		"soundModeLabel2": "Mode sonore",
+		"airplaneModeLabel": "Mode avion",
+		"quickShareLabel": "Partage rapide",
+		"doNotDisturbLabel2": "Ne pas déranger",
+		"screenshotLabel": "Capture d'écran",
+		"flashlightLabel": "Lampe de poche",
+		"hideCallerIDLabel": "Masquer l'identifiant de l'appelant",
+		"blockedNumbersLabel": "Numéros bloqués",
+		"confirmRemoveBlockedNumber": "Êtes-vous sûr de vouloir débloquer ce numéro ?",
+		"callSettingsLabel": "Paramètres d'appel"
 	},
 	"companies": {
 		"companiesAppTitle": "Entreprises",
@@ -277,7 +294,10 @@
 		"referencePlaceholder": "p. ex. \"Loyer\"",
 		"phoneLabel": "Téléphone",
 		"expirationDate": "Date d'expiration",
-		"transactionsLabel": "TRANSACTIONS"
+		"transactionsLabel": "TRANSACTIONS",
+		"emptyTransactionsLabel": "Aucune transaction récente",
+		"transferType1": "À",
+		"transferType2": "De"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Êtes-vous sûr de vouloir supprimer cette photo ?",
@@ -304,7 +324,8 @@
 		"fuelLabel": "Carburant",
 		"impoundedLabel": "Immobilisé",
 		"garageLabel": "Garage",
-		"outOfGarageLabel": "Hors du garage"
+		"outOfGarageLabel": "Hors du garage",
+		"valetConfirm": "Êtes-vous sûr de vouloir commander ce véhicule ?"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Changer le style de la carte",
@@ -355,7 +376,13 @@
 		"signUpLabel": "S'inscrire",
 		"orLabel": "ou",
 		"accountAlreadyExistsLabel": "Un compte avec ce nom d'utilisateur existe déjà !",
-		"invalidUsernameOrPasswordLabel": "Nom d'utilisateur ou mot de passe incorrect !"
+		"invalidUsernameOrPasswordLabel": "Nom d'utilisateur ou mot de passe incorrect !",
+		"emptyAudience": "Il est vide ici",
+		"emptyConversations": "Aucune conversation à afficher",
+		"notifFollowedYou": "a commencé à vous suivre",
+		"notifLikedYourPost": "a aimé votre publication",
+		"notifRetweet": "a retweeté votre publication",
+		"notifRepliedToPost": "a répondu à votre publication"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Êtes-vous sûr de vouloir supprimer cet e-mail ?",
@@ -447,5 +474,92 @@
 	"playstore": {
 		"gamesLabel": "Jeux",
 		"appsLabel": "Applications"
+	},
+	"quickshare": {
+		"quickShareTitle": "Partage rapide",
+		"sharedToLabel": "Partagé avec",
+		"shareToNearbyLabel": "Partager avec les appareils à proximité",
+		"shareToNearbyDescription": "Assurez-vous que le destinataire a activé le partage rapide dans le panneau rapide et que son écran est allumé.",
+		"noNearbyFoundLabel": "Aucun appareil à proximité trouvé",
+		"copyLinkLabel": "Copier le lien",
+		"contactSavedLabel": "Contact sauvegardé",
+		"receiveNewContactShare": "veut partager un contact avec vous",
+		"scanningNearby": "Recherche à proximité"
+	},
+	"instashots": {
+		"privateAccount": "Ce compte est privé",
+		"privateAccountSub": "Suivez ce compte pour voir leurs photos et vidéos",
+		"usernameLabel": "Nom d'utilisateur",
+		"passwordLabel": "Mot de passe",
+		"fullNameLabel": "Nom complet",
+		"createNewAccountLabel": "Créer un nouveau compte",
+		"loginLabel": "Connexion",
+		"orLabel": "ou",
+		"searchLabel": "Recherche",
+		"followersLabel": "Abonnés",
+		"followingLabel": "Abonnements",
+		"followLabel": "Suivre",
+		"forYouLabel": "Pour vous",
+		"noPostsLabel": "Aucune publication à afficher",
+		"areYouSureYouWantToUnfollow": "Êtes-vous sûr de vouloir ne plus suivre cet utilisateur ?",
+		"likedYourPost": "a aimé votre publication.",
+		"likedYourComment": "a aimé votre commentaire :",
+		"commentedLabel": "a commenté :",
+		"startedFollowingLabel": "commence à vous suivre maintenant.",
+		"todayLabel": "Aujourd'hui",
+		"yesterdayLabel": "Hier",
+		"last30DaysLabel": "Les 30 derniers jours",
+		"olderLabel": "Plus ancien",
+		"noRecentNotificationsLabel": "Aucune notification récente",
+		"moreLabel": "... plus",
+		"1likeLabel": "1 J'aime",
+		"likesLabel": "J'aime",
+		"viewAllCommentsLabel1": "Tout afficher",
+		"viewAllCommentsLabel2": "commentaires",
+		"followersLabel2": "Abonnés",
+		"followingLabel2": "Abonnements",
+		"postsLabel": "Publications",
+		"messageLabel": "Message",
+		"editProfileLabel": "Modifier le profil",
+		"logOutLabel": "Se déconnecter",
+		"previewLabel": "Aperçu",
+		"addNewStoryLabel": "Ajouter une nouvelle histoire",
+		"yourStoryLabel": "Votre histoire",
+		"areYouSureYouWantToArchiveStory": "Êtes-vous sûr de vouloir archiver cette histoire ?",
+		"viewsLabel": "Vues",
+		"archiveLabel": "Archiver",
+		"viewersLabel": "Spectateurs",
+		"noViewersLabel": "Aucun spectateur",
+		"instashotsLabel": "Instashots",
+		"addToStoryLabel": "Ajouter à l'histoire",
+		"shareLabel": "Partager",
+		"selectPhotoLabel": "Sélectionner une photo",
+		"commentsLabel": "Commentaires",
+		"addCommentPlaceholder": "Ajouter un commentaire",
+		"postLabel": "Publier",
+		"noCommentsLabel": "Aucun commentaire",
+		"messagePlaceholder": "Message...",
+		"emptyConversations": "Aucune conversation trouvée",
+		"changeProfilePhotoLabel": "Changer la photo de profil",
+		"nameLabel": "Nom",
+		"bioLabel": "Biographie",
+		"privateLabel": "Privé",
+		"newPostLabel": "Nouvelle publication",
+		"nextLabel": "Suivant",
+		"filtersLabel": "Filtres",
+		"selectMediaLabel": "Sélectionner des médias",
+		"writeCaptionLabel": "Écrire une légende...",
+		"tagPeopleLabel": "Taguer des personnes",
+		"peopleLabel": "Personnes",
+		"noAccountsFoundLabel": "Aucun compte trouvé",
+		"searchResultHereLabel": "Les résultats de la recherche apparaîtront ici",
+		"tagsLabel": "Tags",
+		"tapThePhotoToTag": "Appuyez sur la photo pour taguer des personnes",
+		"conversationsTitle": "Messages",
+		"areYouSureUnfollow": "Êtes-vous sûr de vouloir ne plus suivre cet utilisateur ?",
+		"notifLikedYourPost": "a aimé votre publication",
+		"notifCommentedOnYourPost": "a commenté votre publication",
+		"notifLikedYourComment": "a aimé votre commentaire",
+		"notifFollowedYou": "commence à vous suivre"
 	}
 }

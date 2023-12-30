@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dies wird nicht im Telefon verwendet.",
-		"VERSION": "1.0.9"
+		"VERSION": "1.0.12"
 	},
 	"general": {
 		"saveLabel": "Speichern",
@@ -33,7 +33,8 @@
 		"voiceMessageLabel": "Sprachnachricht",
 		"newTrasferLabel": "Neue Überweisung",
 		"transferRequestLabel": "Überweisungsanfrage",
-		"searchLabel": "Suche"
+		"searchLabel": "Suche",
+		"shareLabel": "Teilen"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Willkommen!",
@@ -58,7 +59,9 @@
 		"garageLabel": "Garage",
 		"yPayLabel": "YPay",
 		"homesLabel": "Immobilien",
-		"companiesLabel": "Unternehmen"
+		"companiesLabel": "Unternehmen",
+		"instashotsLabel": "Instashots",
+		"groupsLabel": "Gruppen"
 	},
 	"phone": {
 		"keypad": "Tastenfeld",
@@ -92,7 +95,9 @@
 		"companyCallLabel": "Unternehmensanruf",
 		"incomingCallLabel": "Eingehender Anruf",
 		"searchResultHint": "Suchergebnisse werden hier angezeigt",
-		"noResultsFoundLabel": "Keine Ergebnisse gefunden"
+		"noResultsFoundLabel": "Keine Ergebnisse gefunden",
+		"anonymousLabel": "Private Nummer",
+		"emptyBlockedNumbers": "Keine blockierten Nummern"
 	},
 	"messages": {
 		"messagesTabTitle": "Nachrichten",
@@ -178,7 +183,15 @@
 		"fingerprintRegisteredLabel": "Registriert",
 		"autoLockTimeoutLabel": "Automatische Sperrzeit",
 		"timeoutLabel": "Zeitüberschreitung",
-		"setupPinHint": "Richte einen PIN ein, um die Biometrie einzurichten"
+		"setupPinHint": "Richte einen PIN ein, um die Biometrie einzurichten",
+		"customImgUrlLabel": "Benutzerdefinierte Bild-URL",
+		"enterCustomImgUrlLabel": "Bild-URL eingeben",
+		"soundModeLabel2": "Laut",
+		"airplaneModeLabel": "Flugmodus",
+		"quickShareLabel": "Schnell teilen",
+		"doNotDisturbLabel2": "Nicht stören",
+		"screenshotLabel": "Bildschirmfoto",
+		"flashlightLabel": "Taschenlampe"
 	},
 	"companies": {
 		"companiesAppTitle": "Unternehmen",
@@ -277,7 +290,10 @@
 		"referencePlaceholder": "z.B. 'Miete'",
 		"phoneLabel": "Telefon",
 		"expirationDate": "Ablaufdatum",
-		"transactionsLabel": "TRANSAKTIONEN"
+		"transactionsLabel": "TRANSAKTIONEN",
+		"emptyTransactionsLabel": "Keine aktuellen Transaktionen",
+		"transferType1": "An",
+		"transferType2": "Von"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Bist du dir sicher, dass du dieses Foto löschen möchtest?",
@@ -304,7 +320,8 @@
 		"fuelLabel": "Kraftstoff",
 		"impoundedLabel": "Beschlagnahmt",
 		"garageLabel": "Garage",
-		"outOfGarageLabel": "Außerhalb der Garage"
+		"outOfGarageLabel": "Außerhalb der Garage",
+		"valetConfirm": "Sind Sie sicher, dass Sie dieses Fahrzeug bestellen möchten?"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Kartenstil ändern",
@@ -355,7 +372,13 @@
 		"signUpLabel": "Registrieren",
 		"orLabel": "oder",
 		"accountAlreadyExistsLabel": "Ein Konto mit diesem Benutzernamen existiert bereits!",
-		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!"
+		"invalidUsernameOrPasswordLabel": "Benutzername oder Passwort ist falsch!",
+		"emptyAudience": "Es ist leer hier drin",
+		"emptyConversations": "Keine Gespräche anzeigen",
+		"notifFollowedYou": "hat begonnen, Ihnen zu folgen",
+		"notifLikedYourPost": "hat Ihren Beitrag gelikt",
+		"notifRetweet": "hat Ihren Beitrag retweetet",
+		"notifRepliedToPost": "hat auf Ihren Beitrag geantwortet"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Bist du dir sicher, dass du diese E-Mail löschen möchtest?",
@@ -447,5 +470,92 @@
 	"playstore": {
 		"gamesLabel": "Spiele",
 		"appsLabel": "Apps"
+	},
+	"quickshare": {
+		"quickShareTitle": "Schnell teilen",
+		"sharedToLabel": "Geteilt mit",
+		"shareToNearbyLabel": "Auf nahegelegene Geräte teilen",
+		"shareToNearbyDescription": "Stellen Sie sicher, dass der Empfänger Quick Share im Schnellzugriff aktiviert und sein Bildschirm eingeschaltet ist.",
+		"noNearbyFoundLabel": "Keine nahegelegenen Geräte gefunden",
+		"copyLinkLabel": "Link kopieren",
+		"contactSavedLabel": "Kontakt gespeichert",
+		"receiveNewContactShare": "möchte einen Kontakt mit Ihnen teilen",
+		"scanningNearby": "Suche in der Nähe"
+	},
+	"instashots": {
+		"privateAccount": "Dieses Konto ist privat",
+		"privateAccountSub": "Folgen Sie diesem Konto, um deren Fotos und Videos zu sehen",
+		"usernameLabel": "Benutzername",
+		"passwordLabel": "Passwort",
+		"fullNameLabel": "Vollständiger Name",
+		"createNewAccountLabel": "Neues Konto erstellen",
+		"loginLabel": "Anmelden",
+		"orLabel": "oder",
+		"searchLabel": "Suche",
+		"followersLabel": "Follower",
+		"followingLabel": "Folgt",
+		"followLabel": "Folgen",
+		"forYouLabel": "Für dich",
+		"noPostsLabel": "Keine Beiträge anzeigen",
+		"areYouSureYouWantToUnfollow": "Sind Sie sicher, dass Sie diesem Benutzer nicht mehr folgen möchten?",
+		"likedYourPost": "hat deinen Beitrag geliked.",
+		"likedYourComment": "hat deinen Kommentar geliked:",
+		"commentedLabel": "hat kommentiert:",
+		"startedFollowingLabel": "folgt dir jetzt.",
+		"todayLabel": "Heute",
+		"yesterdayLabel": "Gestern",
+		"last30DaysLabel": "Letzte 30 Tage",
+		"olderLabel": "Älter",
+		"noRecentNotificationsLabel": "Keine aktuellen Benachrichtigungen",
+		"moreLabel": "... mehr",
+		"1likeLabel": "1 Like",
+		"likesLabel": "Likes",
+		"viewAllCommentsLabel1": "Alle anzeigen",
+		"viewAllCommentsLabel2": "Kommentare",
+		"followersLabel2": "Follower",
+		"followingLabel2": "Folgt",
+		"postsLabel": "Beiträge",
+		"messageLabel": "Nachricht",
+		"editProfileLabel": "Profil bearbeiten",
+		"logOutLabel": "Abmelden",
+		"previewLabel": "Vorschau",
+		"addNewStoryLabel": "Neue Story hinzufügen",
+		"yourStoryLabel": "Deine Story",
+		"areYouSureYouWantToArchiveStory": "Möchten Sie diese Story wirklich archivieren?",
+		"viewsLabel": "Aufrufe",
+		"archiveLabel": "Archiv",
+		"viewersLabel": "Zuschauer",
+		"noViewersLabel": "Keine Zuschauer",
+		"instashotsLabel": "Instashots",
+		"addToStoryLabel": "Zur Story hinzufügen",
+		"shareLabel": "Teilen",
+		"selectPhotoLabel": "Foto auswählen",
+		"commentsLabel": "Kommentare",
+		"addCommentPlaceholder": "Einen Kommentar hinzufügen",
+		"postLabel": "Veröffentlichen",
+		"noCommentsLabel": "Keine Kommentare",
+		"messagePlaceholder": "Nachricht...",
+		"emptyConversations": "Keine Gespräche gefunden",
+		"changeProfilePhotoLabel": "Profilbild ändern",
+		"nameLabel": "Name",
+		"bioLabel": "Biografie",
+		"privateLabel": "Privat",
+		"newPostLabel": "Neuer Beitrag",
+		"nextLabel": "Weiter",
+		"filtersLabel": "Filter",
+		"selectMediaLabel": "Medien auswählen",
+		"writeCaptionLabel": "Eine Bildunterschrift schreiben...",
+		"tagPeopleLabel": "Personen markieren",
+		"peopleLabel": "Personen",
+		"noAccountsFoundLabel": "Keine Konten gefunden",
+		"searchResultHereLabel": "Suchergebnisse werden hier angezeigt",
+		"tagsLabel": "Tags",
+		"tapThePhotoToTag": "Tippen Sie auf das Foto, um Personen zu markieren",
+		"conversationsTitle": "Nachrichten",
+		"areYouSureUnfollow": "Sind Sie sicher, dass Sie diesem Benutzer nicht mehr folgen möchten?",
+		"notifLikedYourPost": "hat deinen Beitrag geliked",
+		"notifCommentedOnYourPost": "hat auf deinen Beitrag kommentiert",
+		"notifLikedYourComment": "hat deinen Kommentar geliked",
+		"notifFollowedYou": "folgt dir jetzt"
 	}
 }

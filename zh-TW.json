@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.9"
+		"VERSION": "1.0.12"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -33,7 +33,8 @@
 		"voiceMessageLabel": "語音消息",
 		"newTrasferLabel": "新轉帳",
 		"transferRequestLabel": "轉帳請求",
-		"searchLabel": "搜尋"
+		"searchLabel": "搜尋",
+		"shareLabel": "分享"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "歡迎!",
@@ -58,7 +59,9 @@
 		"garageLabel": "車庫",
 		"yPayLabel": "YPay",
 		"homesLabel": "房產",
-		"companiesLabel": "公司"
+		"companiesLabel": "公司",
+		"instashotsLabel": "Instashots",
+		"groupsLabel": "群組"
 	},
 	"phone": {
 		"keypad": "號碼",
@@ -92,7 +95,9 @@
 		"companyCallLabel": "公司电话",
 		"incomingCallLabel": "呼入电话",
 		"searchResultHint": "搜尋結果將顯示在這裡",
-		"noResultsFoundLabel": "找不到結果"
+		"noResultsFoundLabel": "找不到結果",
+		"anonymousLabel": "私人號碼",
+		"emptyBlockedNumbers": "無封鎖的號碼"
 	},
 	"messages": {
 		"messagesTabTitle": "訊息",
@@ -178,7 +183,19 @@
 		"fingerprintRegisteredLabel": "已註冊",
 		"autoLockTimeoutLabel": "自動鎖定逾時",
 		"timeoutLabel": "逾時",
-		"setupPinHint": "啟用PIN碼以設定生物辨識"
+		"setupPinHint": "啟用PIN碼以設定生物辨識",
+		"customImgUrlLabel": "自訂圖片 URL",
+		"enterCustomImgUrlLabel": "輸入圖片 URL",
+		"soundModeLabel2": "音訊模式",
+		"airplaneModeLabel": "飛航模式",
+		"quickShareLabel": "快速分享",
+		"doNotDisturbLabel2": "勿擾模式",
+		"screenshotLabel": "螢幕截圖",
+		"flashlightLabel": "手電筒",
+		"hideCallerIDLabel": "隱藏來電者 ID",
+		"blockedNumbersLabel": "封鎖的號碼",
+		"confirmRemoveBlockedNumber": "您確定要解除封鎖此號碼嗎？",
+		"callSettingsLabel": "通話設定"
 	},
 	"companies": {
 		"companiesAppTitle": "公司",
@@ -277,7 +294,10 @@
 		"referencePlaceholder": "例如:租",
 		"phoneLabel": "手機",
 		"expirationDate": "到期日",
-		"transactionsLabel": "交易"
+		"transactionsLabel": "交易",
+		"emptyTransactionsLabel": "沒有最近的交易",
+		"transferType1": "至",
+		"transferType2": "來自"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "您確定要刪除這張照片嗎?",
@@ -304,7 +324,8 @@
 		"fuelLabel": "油量",
 		"impoundedLabel": "被扣押",
 		"garageLabel": "車庫",
-		"outOfGarageLabel": "不在車庫"
+		"outOfGarageLabel": "不在車庫",
+		"valetConfirm": "您確定要訂購這輛車嗎？"
 	},
 	"maps": {
 		"changeMapStyleLabel": "更改地圖樣式",
@@ -355,7 +376,13 @@
 		"signUpLabel": "註冊",
 		"orLabel": "或",
 		"accountAlreadyExistsLabel": "該使用者名稱的帳戶已存在!",
-		"invalidUsernameOrPasswordLabel": "使用者名稱或密碼不正確!"
+		"invalidUsernameOrPasswordLabel": "使用者名稱或密碼不正確!",
+		"emptyAudience": "這裡是空的",
+		"emptyConversations": "無對話可顯示",
+		"notifFollowedYou": "開始追蹤您",
+		"notifLikedYourPost": "喜歡您的貼文",
+		"notifRetweet": "轉推了您的貼文",
+		"notifRepliedToPost": "回覆了您的貼文"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "您确定要删除这封电子邮件吗？",
@@ -447,5 +474,92 @@
 	"playstore": {
 		"gamesLabel": "遊戲",
 		"appsLabel": "應用程式"
+	},
+	"quickshare": {
+		"quickShareTitle": "快速分享",
+		"sharedToLabel": "分享至",
+		"shareToNearbyLabel": "分享至附近的裝置",
+		"shareToNearbyDescription": "請確保接收者已在快速功能列中啟用「快速分享」，並且其螢幕已開啟。",
+		"noNearbyFoundLabel": "找不到附近的裝置",
+		"copyLinkLabel": "複製連結",
+		"contactSavedLabel": "聯絡人已儲存",
+		"receiveNewContactShare": "想要與您分享聯絡人",
+		"scanningNearby": "掃描附近"
+	},
+	"instashots": {
+		"privateAccount": "此帳戶為私人帳戶",
+		"privateAccountSub": "追蹤此帳戶以查看其照片和影片",
+		"usernameLabel": "使用者名稱",
+		"passwordLabel": "密碼",
+		"fullNameLabel": "全名",
+		"createNewAccountLabel": "建立新帳戶",
+		"loginLabel": "登入",
+		"orLabel": "或",
+		"searchLabel": "搜尋",
+		"followersLabel": "粉絲",
+		"followingLabel": "追蹤中",
+		"followLabel": "追蹤",
+		"forYouLabel": "為您",
+		"noPostsLabel": "沒有貼文可顯示",
+		"areYouSureYouWantToUnfollow": "您確定不再追蹤此使用者嗎？",
+		"likedYourPost": "喜歡了您的貼文。",
+		"likedYourComment": "喜歡了您的留言：",
+		"commentedLabel": "留言：",
+		"startedFollowingLabel": "現在追蹤您。",
+		"todayLabel": "今天",
+		"yesterdayLabel": "昨天",
+		"last30DaysLabel": "過去 30 天",
+		"olderLabel": "較早",
+		"noRecentNotificationsLabel": "沒有最新通知",
+		"moreLabel": "更多...",
+		"1likeLabel": "1 個讚",
+		"likesLabel": "個讚",
+		"viewAllCommentsLabel1": "查看全部",
+		"viewAllCommentsLabel2": "則留言",
+		"followersLabel2": "粉絲",
+		"followingLabel2": "追蹤中",
+		"postsLabel": "貼文",
+		"messageLabel": "訊息",
+		"editProfileLabel": "編輯個人資料",
+		"logOutLabel": "登出",
+		"previewLabel": "預覽",
+		"addNewStoryLabel": "新增故事",
+		"yourStoryLabel": "您的故事",
+		"areYouSureYouWantToArchiveStory": "您確定要將此故事存檔嗎？",
+		"viewsLabel": "次瀏覽",
+		"archiveLabel": "存檔",
+		"viewersLabel": "觀看者",
+		"noViewersLabel": "無觀看者",
+		"instashotsLabel": "Instashots",
+		"addToStoryLabel": "新增至故事",
+		"shareLabel": "分享",
+		"selectPhotoLabel": "選擇照片",
+		"commentsLabel": "留言",
+		"addCommentPlaceholder": "新增留言",
+		"postLabel": "發佈",
+		"noCommentsLabel": "沒有留言",
+		"messagePlaceholder": "訊息...",
+		"emptyConversations": "找不到對話",
+		"changeProfilePhotoLabel": "變更個人照片",
+		"nameLabel": "名稱",
+		"bioLabel": "個人簡介",
+		"privateLabel": "私人",
+		"newPostLabel": "新增貼文",
+		"nextLabel": "下一步",
+		"filtersLabel": "篩選條件",
+		"selectMediaLabel": "選擇媒體",
+		"writeCaptionLabel": "撰寫標題...",
+		"tagPeopleLabel": "標記人物",
+		"peopleLabel": "人物",
+		"noAccountsFoundLabel": "找不到帳戶",
+		"searchResultHereLabel": "搜尋結果將顯示在此處",
+		"tagsLabel": "標籤",
+		"tapThePhotoToTag": "輕觸照片以標記人物",
+		"conversationsTitle": "訊息",
+		"areYouSureUnfollow": "您確定要不再追蹤此使用者嗎？",
+		"notifLikedYourPost": "喜歡了您的貼文",
+		"notifCommentedOnYourPost": "留言了您的貼文",
+		"notifLikedYourComment": "喜歡了您的留言",
+		"notifFollowedYou": "現在追蹤您"
 	}
 }
