@@ -476,15 +476,15 @@
 		"appsLabel": "Apper"
 	},
 	"quickshare": {
-		"quickShareTitle": "Schnell teilen",
-		"sharedToLabel": "Geteilt mit",
-		"shareToNearbyLabel": "Auf nahegelegene Geräte teilen",
-		"shareToNearbyDescription": "Stellen Sie sicher, dass der Empfänger Quick Share im Schnellzugriff aktiviert und sein Bildschirm eingeschaltet ist.",
-		"noNearbyFoundLabel": "Keine nahegelegenen Geräte gefunden",
-		"copyLinkLabel": "Link kopieren",
-		"contactSavedLabel": "Kontakt gespeichert",
-		"receiveNewContactShare": "möchte einen Kontakt mit Ihnen teilen",
-		"scanningNearby": "Suche in der Nähe"
+		"quickShareTitle": "Del raskt",
+		"sharedToLabel": "Delt med",
+		"shareToNearbyLabel": "Del med enheter i nærheten",
+		"shareToNearbyDescription": "Sørg for at mottakeren har Quick Share aktivert i Quick Access og at skjermen er på.",
+		"noNearbyFoundLabel": "Finner ingen enheter i nærheten",
+		"copyLinkLabel": "Kopier link",
+		"contactSavedLabel": "Kontakten er lagret",
+		"receiveNewContactShare": "ønsker å dele en telefon kontakt med deg",
+		"scanningNearby": "Søker i nærheten"
 	},
 	"instashots": {
 		"privateAccount": "Dette kontoen er privat",
