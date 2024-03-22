@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dit wordt niet gebruikt in de telefoon.",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "Opslaan",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "Nieuwe overschrijving",
 		"transferRequestLabel": "Overplaatsingsverzoek",
 		"searchLabel": "Zoeken",
-		"shareLabel": "Delen"
+		"shareLabel": "Delen",
+		"nowLabel": "Nu",
+		"editLabel": "Bewerken",
+		"discardLabel": "Verwijderen",
+		"videoUploaFailed": "Video uploaden mislukt",
+		"photoMode": "Foto",
+		"videoMode": "Video",
+		"selectPhoneExperienceLabel": "Selecteer uw telefoonervaring",
+		"noService": "Geen service",
+		"loadNewPosts": "Nieuwe berichten laden"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Welkom!",
@@ -61,7 +70,8 @@
 		"homesLabel": "Huizen",
 		"companiesLabel": "Bedrijven",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "Groepen"
+		"groupsLabel": "Groepen",
+		"systemLabel": "Systeem"
 	},
 	"phone": {
 		"keypad": "Toetsenbord",
@@ -97,7 +107,26 @@
 		"searchResultHint": "zoekresultaten verschijnen hier",
 		"noResultsFoundLabel": "geen resultaten gevonden",
 		"anonymousLabel": "Privénummer",
-		"emptyBlockedNumbers": "Geen geblokkeerde nummers"
+		"emptyBlockedNumbers": "Geen geblokkeerde nummers",
+		"contactRemovedLabel": "Contact verwijderd",
+		"addedToFavLabel": "Toegevoegd aan favorieten",
+		"removedFromFavLabel": "Verwijderd uit favorieten",
+		"addNumberLabel": "Nummer toevoegen",
+		"callingLabel": "Bellen",
+		"alreadyInCallLabel": "Je bent al in een gesprek",
+		"createNewContactLabel": "Nieuw contact maken",
+		"sendMessageLabel": "Bericht versturen",
+		"shareContactLabel": "Contact delen",
+		"removeContactLabel": "Contact verwijderen",
+		"removeFavoriteLabel": "Verwijderen uit favorieten",
+		"addToFavoritesLabel": "Toevoegen aan favorieten",
+		"blockCallerLabel": "Beller blokkeren",
+		"unblockCallerLabel": "Beller deblokkeren",
+		"mobileLabel2": "mobiel",
+		"emptyFavoritesLabel": "Geen favorieten",
+		"emptyContactsLabel": "Geen contacten",
+		"confirmDeleteContact": "Weet je zeker dat je dit contact wilt verwijderen?",
+		"noService": "Geen service"
 	},
 	"messages": {
 		"messagesTabTitle": "Berichten",
@@ -192,10 +221,53 @@
 		"doNotDisturbLabel2": "Niet storen",
 		"screenshotLabel": "Schermopname",
 		"flashlightLabel": "Zaklamp",
-		"hideCallerIDLabel": "Verberg beller-ID",
+		"hideCallerIDLabel": "Nummerherkenning verbergen",
 		"blockedNumbersLabel": "Geblokkeerde nummers",
 		"confirmRemoveBlockedNumber": "Weet u zeker dat u dit nummer wilt deblokkeren?",
-		"callSettingsLabel": "Oproepinstellingen"
+		"callSettingsLabel": "Oproepinstellingen",
+		"faceIdResetLabel": "Face ID resetten",
+		"faceIdSetupComplete": "Face ID instellen voltooid",
+		"faceIdFaceNotRecognized": "Gezicht niet herkend",
+		"faceIdSetupPincode": "Stel een toegangscode in om Face ID in te schakelen",
+		"faceIdConfirmReset": "Weet u zeker dat u Face ID wilt resetten?",
+		"resetFaceIdLabel": "Face ID resetten",
+		"enableFaceIdLabel": "Face ID inschakelen",
+		"enablePasscodeLabel": "Toegangscode instellen",
+		"disablePasscodeLabel": "Toegangscode uitschakelen",
+		"changePasscodeLabel": "Toegangscode wijzigen",
+		"faceIdPasscodeTitle": "Face ID & Toegangscode",
+		"passcodeDisabled": "Toegangscode uitgeschakeld",
+		"passcodeEnabled": "Toegangscode ingeschakeld",
+		"passcodeChanged": "Toegangscode gewijzigd",
+		"enterPasscodeLabel": "Voer toegangscode in",
+		"confirmPasscodeLabel": "Bevestig toegangscode",
+		"enterNewPasscodeLabel": "Voer nieuwe toegangscode in",
+		"notPlayingLabel": "Niet aan het afspelen",
+		"yosAccountInfoLabel": "Telefoon-ID, yCloud",
+		"generalLabel": "Algemeen",
+		"displayAndBrightnessLabel": "Weergave & Helderheid",
+		"faceIdandPasscodeLabel": "Face ID & Toegangscode",
+		"phoneLabel": "Telefoon",
+		"appearanceLabel": "Uiterlijk",
+		"aboutLabel2": "Over",
+		"windShareLabel": "Wind Delen",
+		"soundsLabel": "Geluiden",
+		"rintoneAndAlertsLabel": "Beltoon en waarschuwingen",
+		"setAsPairLabel": "Instellen als paar",
+		"confirmSelectionLabel": "Selectie bevestigen",
+		"currentLabel": "Huidig",
+		"setAsCurrentLabel": "Instellen als huidig",
+		"addNewWallpaperLabel": "Nieuwe achtergrond toevoegen",
+		"notificationLabel": "Melding",
+		"updateAvailable": "update beschikbaar",
+		"upToDate": "up-to-date",
+		"aboutYLabel": "Over",
+		"nameLabel": "Naam",
+		"phoneNumberLabel": "Telefoonnummer",
+		"productModelLabel": "Productmodel",
+		"phoneImeiLabel": "Telefoon IMEI",
+		"softwareVersionLabel": "Versie",
+		"publisherLabel": "Uitgever"
 	},
 	"companies": {
 		"companiesAppTitle": "Bedrijven",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "In beslag genomen",
 		"garageLabel": "Garage",
 		"outOfGarageLabel": "Uit de garage",
-		"valetConfirm": "Weet u zeker dat u dit voertuig wilt bestellen??"
+		"valetConfirm": "Weet u zeker dat u dit voertuig wilt bestellen??",
+		"valetLabel": "De bestuurder is onderweg"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Wijzig de kaartstijl",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "begon je te volgen",
 		"notifLikedYourPost": "vond je bericht leuk",
 		"notifRetweet": "heb je bericht geretwat",
-		"notifRepliedToPost": "heb op je bericht gereageerd"
+		"notifRepliedToPost": "heb op je bericht gereageerd",
+		"replyingToLabel": "Antwoord op",
+		"deletePostConfirm": "Weet u zeker dat u deze post wilt verwijderen?",
+		"postDeleted": "Bericht verwijderd",
+		"usernameTooLong": "Gebruikersnaam is te lang",
+		"displayNameTooLong": "Volledige naam is te lang",
+		"passwordTooShort": "Wachtwoord is te kort. Min. 6 tekens",
+		"editProfileLabel": "Profiel bewerken",
+		"newReplyLabel": "Nieuwe reactie van {{username}} aan {{ownerUsername}}",
+		"newPostLabel": "Nieuw bericht van {{username}}"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Weet u zeker dat u deze e-mail wilt verwijderen?",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "Kanaal",
 		"connectedLabel": "Verbonden",
 		"disconnectedLabel": "Losgekoppeld",
-		"maxChannelAllowed": "Maximale kanaalfrequentie bereikt"
+		"maxChannelAllowed": "Maximale kanaalfrequentie bereikt",
+		"alreadyOnChannel": "Je bent al in het kanaal",
+		"restrictedChannel": "Dit kanaal is beperkt"
 	},
 	"ybuy": {
 		"exploreTabTitle": "Ontdekken",
@@ -473,7 +557,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "Spellen",
-		"appsLabel": "Apps"
+		"appsLabel": "Apps",
+		"getLabel": "Krijgen",
+		"removeLabel": "Verwijderen"
 	},
 	"quickshare": {
 		"quickShareTitle": "Snel delen",
@@ -484,7 +570,8 @@
 		"copyLinkLabel": "Kopieer link",
 		"contactSavedLabel": "Kopieer link",
 		"receiveNewContactShare": "wil een contact met u delen",
-		"scanningNearby": "Scannen in de buurt"
+		"scanningNearby": "Scannen in de buurt",
+		"shareToNearbyYOSDescription": "Zorg ervoor dat de ontvanger Wind Share heeft ingeschakeld in het snelmenu en dat hun scherm aan staat."
 	},
 	"instashots": {
 		"privateAccount": "Dit account is privé",
@@ -560,6 +647,19 @@
 		"notifLikedYourPost": "vond je bericht leuk",
 		"notifCommentedOnYourPost": "heeft gereageerd op je bericht",
 		"notifLikedYourComment": "vond je reactie leuk",
-		"notifFollowedYou": "begon je te volgen"
+		"notifFollowedYou": "begon je te volgen",
+		"postDeleted": "Bericht verwijderd",
+		"deletePostConfirm": "Weet u zeker dat u dit bericht wilt verwijderen?",
+		"accountAlreadyExistsLabel": "Er bestaat al een account met die gebruikersnaam!",
+		"invalidUsernameOrPasswordLabel": "Gebruikersnaam of wachtwoord is incorrect!",
+		"usernameTooLong": "Gebruikersnaam is te lang",
+		"displayNameTooLong": "Volledige naam is te lang",
+		"passwordTooShort": "Wachtwoord is te kort. Min. 6 tekens",
+		"newPostLabelNotify": "Nieuw bericht van {{username}}"
+	},
+	"youtoo": {
+		"searchLabel": "Zoek op YouToo",
+		"pasteVideoUrl": "Plak video URL",
+		"invalidVideoUrl": "Ongeldige video URL"
 	}
 }

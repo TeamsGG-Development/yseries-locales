@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "New transfer",
 		"transferRequestLabel": "Transfer request",
 		"searchLabel": "Search",
-		"shareLabel": "Share"
+		"shareLabel": "Share",
+		"nowLabel": "Now",
+		"editLabel": "Edit",
+		"discardLabel": "Discard",
+		"videoUploaFailed": "Video upload failed",
+		"photoMode": "Photo",
+		"videoMode": "Video",
+		"selectPhoneExperienceLabel": "Select your phone experience",
+		"noService": "No service",
+		"loadNewPosts": "Load new posts"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Welcome!",
@@ -61,7 +70,8 @@
 		"homesLabel": "Homes",
 		"companiesLabel": "Companies",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "Groups"
+		"groupsLabel": "Groups",
+		"systemLabel": "System"
 	},
 	"phone": {
 		"keypad": "Keypad",
@@ -97,7 +107,26 @@
 		"searchResultHint": "Search results will appear here",
 		"noResultsFoundLabel": "No results found",
 		"anonymousLabel": "Private number",
-		"emptyBlockedNumbers": "No blocked numbers"
+		"emptyBlockedNumbers": "No blocked numbers",
+		"contactRemovedLabel": "Contact removed",
+		"addedToFavLabel": "Added to favorites",
+		"removedFromFavLabel": "Removed from favorites",
+		"addNumberLabel": "Add Number",
+		"callingLabel": "Calling",
+		"alreadyInCallLabel": "You are already in a call",
+		"createNewContactLabel": "Create New Contact",
+		"sendMessageLabel": "Send Message",
+		"shareContactLabel": "Share Contact",
+		"removeContactLabel": "Remove Contact",
+		"removeFavoriteLabel": "Remove from Favorites",
+		"addToFavoritesLabel": "Add to Favorites",
+		"blockCallerLabel": "Block Caller",
+		"unblockCallerLabel": "Unblock Caller",
+		"mobileLabel2": "mobile",
+		"emptyFavoritesLabel": "No favorites",
+		"emptyContactsLabel": "No contacts",
+		"confirmDeleteContact": "Are you sure you want to delete this contact?",
+		"noService": "No service"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -121,7 +150,7 @@
 		"accountLabel": "Account",
 		"accountInfoLabel": "Profile • Apps and features",
 		"myNumberLabel": "My number",
-		"streamerModeLabel": "Streamer mode",
+		"streamerModeLabel": "Streamer Mode",
 		"streamerModeInfoLabel": "Hide sensitive data",
 		"notificationsLabel": "Notifications",
 		"notificationsInfoLabel": "Status bar • Do not disturb",
@@ -187,7 +216,7 @@
 		"customImgUrlLabel": "Custom image URL",
 		"enterCustomImgUrlLabel": "Enter Image URL",
 		"soundModeLabel2": "Sound mode",
-		"airplaneModeLabel": "Airplane mode",
+		"airplaneModeLabel": "Airplane Mode",
 		"quickShareLabel": "Quick Share",
 		"doNotDisturbLabel2": "Do not disturb",
 		"screenshotLabel": "Screenshot",
@@ -195,7 +224,50 @@
 		"hideCallerIDLabel": "Hide caller ID",
 		"blockedNumbersLabel": "Blocked numbers",
 		"confirmRemoveBlockedNumber": "Are you sure you want to unblock this number?",
-		"callSettingsLabel": "Call settings"
+		"callSettingsLabel": "Call settings",
+		"faceIdResetLabel": "Face Id reset",
+		"faceIdSetupComplete": "Face Id setup complete",
+		"faceIdFaceNotRecognized": "Face not recognized",
+		"faceIdSetupPincode": "Setup Passcode to enable Face Id",
+		"faceIdConfirmReset": "Are you sure you want to reset Face Id?",
+		"resetFaceIdLabel": "Reset Face Id",
+		"enableFaceIdLabel": "Enable Face Id",
+		"enablePasscodeLabel": "Setup Passcode",
+		"disablePasscodeLabel": "Turn Passcode Off",
+		"changePasscodeLabel": "Change Passcode",
+		"faceIdPasscodeTitle": "Face Id & Passcode",
+		"passcodeDisabled": "Passcode disabled",
+		"passcodeEnabled": "Passcode enabled",
+		"passcodeChanged": "Passcode changed",
+		"enterPasscodeLabel": "Enter Passcode",
+		"confirmPasscodeLabel": "Confirm Passcode",
+		"enterNewPasscodeLabel": "Enter new Passcode",
+		"notPlayingLabel": "Not Playing",
+		"yosAccountInfoLabel": "Phone Id, yCloud",
+		"generalLabel": "General",
+		"displayAndBrightnessLabel": "Display & Brightness",
+		"faceIdandPasscodeLabel": "Face Id & Passcode",
+		"phoneLabel": "Phone",
+		"appearanceLabel": "Appearance",
+		"aboutLabel2": "About",
+		"windShareLabel": "Wind Share",
+		"soundsLabel": "Sounds",
+		"rintoneAndAlertsLabel": "Ringtone and Alerts",
+		"setAsPairLabel": "Set as pair",
+		"confirmSelectionLabel": "Confirm Selection",
+		"currentLabel": "Current",
+		"setAsCurrentLabel": "Set as Current",
+		"addNewWallpaperLabel": "Add New Wallpaper",
+		"notificationLabel": "Notification",
+		"updateAvailable": "update available",
+		"upToDate": "up to date",
+		"aboutYLabel": "About",
+		"nameLabel": "Name",
+		"phoneNumberLabel": "Phone number",
+		"productModelLabel": "Product model",
+		"phoneImeiLabel": "Phone imei",
+		"softwareVersionLabel": "Version",
+		"publisherLabel": "Publisher"
 	},
 	"companies": {
 		"companiesAppTitle": "Companies",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "Impounded",
 		"garageLabel": "Garage",
 		"outOfGarageLabel": "Out of the garage",
-		"valetConfirm": "Are you sure you want to order this vehicle?"
+		"valetConfirm": "Are you sure you want to order this vehicle?",
+		"valetLabel": "Driver is on the way"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Change map style",
@@ -342,16 +415,16 @@
 		"followingLabel": "Following",
 		"emptyPostsLabel": "No posts",
 		"noNewNotificationsLabel": "No new notifications",
-		"tweetsLabel": "Tweets",
+		"tweetsLabel": "Posts",
 		"noHashtagsFoundLabel": "No hashtags found",
 		"noAccountsFoundLabel": "No accounts found",
 		"trySearchingForLabel": "Try searching for @people or #hashtags",
 		"trendsForYouLabel": "Trends for you",
 		"noTrendingHastagsLabel": "No trending hashtags past week",
 		"repliesLabel": "Replies",
-		"retweetsLabel": "Retweets",
+		"retweetsLabel": "Reposts",
 		"likesLabel": "Likes",
-		"tweetYourReplyLabel": "Tweet your reply",
+		"tweetYourReplyLabel": "Post your reply",
 		"replyLabel": "Reply",
 		"postBntLabel": "Post",
 		"postTweetPlaceholder": "What's happening?",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "started following you",
 		"notifLikedYourPost": "liked your post",
 		"notifRetweet": "retweeted your post",
-		"notifRepliedToPost": "replied to your post"
+		"notifRepliedToPost": "replied to your post",
+		"replyingToLabel": "Replying to",
+		"deletePostConfirm": "Are you sure you want to delete this post?",
+		"postDeleted": "Post deleted",
+		"usernameTooLong": "Username is too long",
+		"displayNameTooLong": "Full name is too long",
+		"passwordTooShort": "Password is too short. Min. 6 characters",
+		"editProfileLabel": "Edit profile",
+		"newReplyLabel": "New reply from {{username}} to {{ownerUsername}}",
+		"newPostLabel": "New post from {{username}}"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Are you sure you want to delete this email?",
@@ -395,8 +477,8 @@
 	"radio": {
 		"invalidChannel": "Invalid channel",
 		"channelOutOfRange": "Channel is out of range",
-		"channelJoined": "Channel joined",
-		"channelLeft": "Channel left",
+		"channelJoined": "Channel joined: ",
+		"channelLeft": "Channel left: ",
 		"maxVolumeReached": "You have reached the maximum volume",
 		"minVolumeReached": "You have reached the minimum volume",
 		"radioMuted": "Radio muted",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "Channel",
 		"connectedLabel": "Connected",
 		"disconnectedLabel": "Disconnected",
-		"maxChannelAllowed": "Reached maximum channel frequency"
+		"maxChannelAllowed": "Reached maximum channel frequency",
+		"alreadyOnChannel": "You are already in channel",
+		"restrictedChannel": "This channel is restricted"
 	},
 	"ybuy": {
 		"exploreTabTitle": "Explore",
@@ -449,7 +533,8 @@
 		"contactPhonePlaceholder": "e.g. 555-555-555",
 		"allowCalls": "Allow calls",
 		"allowMessages": "Allow messages",
-		"createLabel": "Create"
+		"createLabel": "Create",
+		"newAdLabel": "New ad created"
 	},
 	"groups": {
 		"groupCreated": "Group created",
@@ -473,7 +558,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "Games",
-		"appsLabel": "Apps"
+		"appsLabel": "Apps",
+		"getLabel": "Get",
+		"removeLabel": "Remove"
 	},
 	"quickshare": {
 		"quickShareTitle": "Quick Share",
@@ -484,7 +571,8 @@
 		"copyLinkLabel": "Copy link",
 		"contactSavedLabel": "Contact saved",
 		"receiveNewContactShare": "wants to share a contact with you",
-		"scanningNearby": "Scanning nearby"
+		"scanningNearby": "Scanning nearby",
+		"shareToNearbyYOSDescription": "Make sure the recipient has Wind Share turned on in the quick panel and their screen is on."
 	},
 	"instashots": {
 		"privateAccount": "This Account is private",
@@ -560,6 +648,19 @@
 		"notifLikedYourPost": "liked your post",
 		"notifCommentedOnYourPost": "commented on your post",
 		"notifLikedYourComment": "liked your comment",
-		"notifFollowedYou": "started following you"
+		"notifFollowedYou": "started following you",
+		"postDeleted": "Post deleted",
+		"deletePostConfirm": "Are you sure you want to delete this post?",
+		"accountAlreadyExistsLabel": "An account with that username already exists!",
+		"invalidUsernameOrPasswordLabel": "Username or password is incorrect!",
+		"usernameTooLong": "Username is too long",
+		"displayNameTooLong": "Full name is too long",
+		"passwordTooShort": "Password is too short. Min. 6 characters",
+		"newPostLabelNotify": "New post from {{username}}"
+	},
+	"youtoo": {
+		"searchLabel": "Search YouToo",
+		"pasteVideoUrl": "Paste video URL",
+		"invalidVideoUrl": "Invalid video URL"
 	}
 }

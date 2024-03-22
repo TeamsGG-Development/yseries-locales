@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "Nouveau transfert",
 		"transferRequestLabel": "Demande de transfert",
 		"searchLabel": "Recherche",
-		"shareLabel": "Partager"
+		"shareLabel": "Partager",
+		"nowLabel": "Maintenant",
+		"editLabel": "Modifier",
+		"discardLabel": "Jeter",
+		"videoUploaFailed": "Échec du téléchargement de la vidéo",
+		"photoMode": "Photo",
+		"videoMode": "Vidéo",
+		"selectPhoneExperienceLabel": "Sélectionnez votre expérience téléphonique",
+		"noService": "Pas de service",
+		"loadNewPosts": "Charger de nouveaux posts"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bienvenue !",
@@ -61,7 +70,8 @@
 		"homesLabel": "Propriétés",
 		"companiesLabel": "Entreprises",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "Groupes"
+		"groupsLabel": "Groupes",
+		"systemLabel": "Système"
 	},
 	"phone": {
 		"keypad": "Clavier",
@@ -97,7 +107,26 @@
 		"searchResultHint": "Les résultats de la recherche apparaîtront ici",
 		"noResultsFoundLabel": "Aucun résultat trouvé",
 		"anonymousLabel": "Numéro privé",
-		"emptyBlockedNumbers": "Aucun numéro bloqué"
+		"emptyBlockedNumbers": "Aucun numéro bloqué",
+		"contactRemovedLabel": "Contact supprimé",
+		"addedToFavLabel": "Ajouté aux favoris",
+		"removedFromFavLabel": "Retiré des favoris",
+		"addNumberLabel": "Ajouter numéro",
+		"callingLabel": "Appel en cours",
+		"alreadyInCallLabel": "Vous êtes déjà en appel",
+		"createNewContactLabel": "Créer un nouveau contact",
+		"sendMessageLabel": "Envoyer message",
+		"shareContactLabel": "Partager contact",
+		"removeContactLabel": "Supprimer contact",
+		"removeFavoriteLabel": "Retirer des favoris",
+		"addToFavoritesLabel": "Ajouter aux favoris",
+		"blockCallerLabel": "Bloquer l'appelant",
+		"unblockCallerLabel": "Débloquer l'appelant",
+		"mobileLabel2": "mobile",
+		"emptyFavoritesLabel": "Aucun favori",
+		"emptyContactsLabel": "Aucun contact",
+		"confirmDeleteContact": "Êtes-vous sûr de vouloir supprimer ce contact ?",
+		"noService": "Pas de service"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -191,10 +220,53 @@
 		"doNotDisturbLabel2": "Ne pas déranger",
 		"screenshotLabel": "Capture d'écran",
 		"flashlightLabel": "Lampe de poche",
-		"hideCallerIDLabel": "Masquer l'identifiant de l'appelant",
+		"hideCallerIDLabel": "Masquer l'ID de l'appelant",
 		"blockedNumbersLabel": "Numéros bloqués",
 		"confirmRemoveBlockedNumber": "Êtes-vous sûr de vouloir débloquer ce numéro ?",
-		"callSettingsLabel": "Paramètres d'appel"
+		"callSettingsLabel": "Paramètres d'appel",
+		"faceIdResetLabel": "Réinitialiser Face ID",
+		"faceIdSetupComplete": "Configuration de Face ID terminée",
+		"faceIdFaceNotRecognized": "Visage non reconnu",
+		"faceIdSetupPincode": "Configurer un code d'accès pour activer Face ID",
+		"faceIdConfirmReset": "Êtes-vous sûr de vouloir réinitialiser Face ID ?",
+		"resetFaceIdLabel": "Réinitialiser Face ID",
+		"enableFaceIdLabel": "Activer Face ID",
+		"enablePasscodeLabel": "Configurer un code d'accès",
+		"disablePasscodeLabel": "Désactiver le code d'accès",
+		"changePasscodeLabel": "Changer le code d'accès",
+		"faceIdPasscodeTitle": "Face ID & Code d'accès",
+		"passcodeDisabled": "Code d'accès désactivé",
+		"passcodeEnabled": "Code d'accès activé",
+		"passcodeChanged": "Code d'accès modifié",
+		"enterPasscodeLabel": "Entrer le code d'accès",
+		"confirmPasscodeLabel": "Confirmer le code d'accès",
+		"enterNewPasscodeLabel": "Entrer un nouveau code d'accès",
+		"notPlayingLabel": "Pas en lecture",
+		"yosAccountInfoLabel": "ID de téléphone, yCloud",
+		"generalLabel": "Général",
+		"displayAndBrightnessLabel": "Affichage et luminosité",
+		"faceIdandPasscodeLabel": "Face ID & Code d'accès",
+		"phoneLabel": "Téléphone",
+		"appearanceLabel": "Apparence",
+		"aboutLabel2": "À propos",
+		"windShareLabel": "Partage Wind",
+		"soundsLabel": "Sons",
+		"rintoneAndAlertsLabel": "Sonnerie et alertes",
+		"setAsPairLabel": "Définir comme paire",
+		"confirmSelectionLabel": "Confirmer la sélection",
+		"currentLabel": "Actuel",
+		"setAsCurrentLabel": "Définir comme actuel",
+		"addNewWallpaperLabel": "Ajouter un nouveau fond d'écran",
+		"notificationLabel": "Notification",
+		"updateAvailable": "mise à jour disponible",
+		"upToDate": "à jour",
+		"aboutYLabel": "À propos de",
+		"nameLabel": "Nom",
+		"phoneNumberLabel": "Numéro de téléphone",
+		"productModelLabel": "Modèle de produit",
+		"phoneImeiLabel": "IMEI du téléphone",
+		"softwareVersionLabel": "Version",
+		"publisherLabel": "Éditeur"
 	},
 	"companies": {
 		"companiesAppTitle": "Entreprises",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "Immobilisé",
 		"garageLabel": "Garage",
 		"outOfGarageLabel": "Hors du garage",
-		"valetConfirm": "Êtes-vous sûr de vouloir commander ce véhicule ?"
+		"valetConfirm": "Êtes-vous sûr de vouloir commander ce véhicule ?",
+		"valetLabel": "Le chauffeur est en route"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Changer le style de la carte",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "a commencé à vous suivre",
 		"notifLikedYourPost": "a aimé votre publication",
 		"notifRetweet": "a retweeté votre publication",
-		"notifRepliedToPost": "a répondu à votre publication"
+		"notifRepliedToPost": "a répondu à votre publication",
+		"replyingToLabel": "En réponse à",
+		"deletePostConfirm": "Êtes-vous sûr de vouloir supprimer cette publication ?",
+		"postDeleted": "Publication supprimée",
+		"usernameTooLong": "Le nom d'utilisateur est trop long",
+		"displayNameTooLong": "Le nom complet est trop long",
+		"passwordTooShort": "Le mot de passe est trop court. Min. 6 caractères",
+		"editProfileLabel": "Modifier le profil",
+		"newReplyLabel": "Nouvelle réponse de {{username}} à {{ownerUsername}}",
+		"newPostLabel": "Nouveau post de {{username}}"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Êtes-vous sûr de vouloir supprimer cet e-mail ?",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "Canal",
 		"connectedLabel": "Connecté",
 		"disconnectedLabel": "Déconnecté",
-		"maxChannelAllowed": "Fréquence maximale du canal atteinte"
+		"maxChannelAllowed": "Fréquence maximale du canal atteinte",
+		"alreadyOnChannel": "Már a csatornán van",
+		"restrictedChannel": "Ez a csatorna korlátozott"
 	},
 	"ybuy": {
 		"exploreTabTitle": "Explorer",
@@ -473,7 +557,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "Jeux",
-		"appsLabel": "Applications"
+		"appsLabel": "Applications",
+		"getLabel": "Obtenir",
+		"removeLabel": "Supprimer"
 	},
 	"quickshare": {
 		"quickShareTitle": "Partage rapide",
@@ -484,7 +570,8 @@
 		"copyLinkLabel": "Copier le lien",
 		"contactSavedLabel": "Contact sauvegardé",
 		"receiveNewContactShare": "veut partager un contact avec vous",
-		"scanningNearby": "Recherche à proximité"
+		"scanningNearby": "Recherche à proximité",
+		"shareToNearbyYOSDescription": "Assurez-vous que le destinataire a activé Wind Share dans le panneau rapide et que son écran est allumé."
 	},
 	"instashots": {
 		"privateAccount": "Ce compte est privé",
@@ -560,6 +647,19 @@
 		"notifLikedYourPost": "a aimé votre publication",
 		"notifCommentedOnYourPost": "a commenté votre publication",
 		"notifLikedYourComment": "a aimé votre commentaire",
-		"notifFollowedYou": "commence à vous suivre"
+		"notifFollowedYou": "commence à vous suivre",
+		"postDeleted": "Publication supprimée",
+		"deletePostConfirm": "Êtes-vous sûr de vouloir supprimer cette publication ?",
+		"accountAlreadyExistsLabel": "Un compte avec ce nom d'utilisateur existe déjà !",
+		"invalidUsernameOrPasswordLabel": "Le nom d'utilisateur ou le mot de passe est incorrect !",
+		"usernameTooLong": "Le nom d'utilisateur est trop long",
+		"displayNameTooLong": "Le nom complet est trop long",
+		"passwordTooShort": "Le mot de passe est trop court. Min. 6 caractères",
+		"newPostLabelNotify": "Nouveau post de {{username}}"
+	},
+	"youtoo": {
+		"searchLabel": "Buscar en YouToo",
+		"pasteVideoUrl": "Pegar URL del video",
+		"invalidVideoUrl": "URL del video inválida"
 	}
 }

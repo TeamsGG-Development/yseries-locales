@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "Mentés",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "Új átutalás",
 		"transferRequestLabel": "Átutalási kérelem",
 		"searchLabel": "Keresés",
-		"shareLabel": "Megosztás"
+		"shareLabel": "Megosztás",
+		"nowLabel": "Most",
+		"editLabel": "Szerkeszt",
+		"discardLabel": "Elvet",
+		"videoUploaFailed": "A videó feltöltése sikertelen",
+		"photoMode": "Fotó",
+		"videoMode": "Videó",
+		"selectPhoneExperienceLabel": "Válassza ki a telefonos élményét",
+		"noService": "Nincs szolgáltatás",
+		"loadNewPosts": "Új bejegyzések betöltése"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Üdvözöljük!",
@@ -61,7 +70,8 @@
 		"homesLabel": "Ingatlanok",
 		"companiesLabel": "Vállalatok",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "Csoportok"
+		"groupsLabel": "Csoportok",
+		"systemLabel": "Rendszer"
 	},
 	"phone": {
 		"keypad": "Billentyűzet",
@@ -97,7 +107,26 @@
 		"searchResultHint": "A keresési eredmények itt jelennek meg",
 		"noResultsFoundLabel": "Nincs találat",
 		"anonymousLabel": "Privát szám",
-		"emptyBlockedNumbers": "Nincsenek blokkolt számok"
+		"emptyBlockedNumbers": "Nincsenek blokkolt számok",
+		"contactRemovedLabel": "Kapcsolat eltávolítva",
+		"addedToFavLabel": "Hozzáadva a kedvencekhez",
+		"removedFromFavLabel": "Eltávolítva a kedvencek közül",
+		"addNumberLabel": "Szám hozzáadása",
+		"callingLabel": "Hívás",
+		"alreadyInCallLabel": "Már egy hívásban van",
+		"createNewContactLabel": "Új kapcsolat létrehozása",
+		"sendMessageLabel": "Üzenet küldése",
+		"shareContactLabel": "Kapcsolat megosztása",
+		"removeContactLabel": "Kapcsolat eltávolítása",
+		"removeFavoriteLabel": "Eltávolítás a kedvencek közül",
+		"addToFavoritesLabel": "Hozzáadás a kedvencekhez",
+		"blockCallerLabel": "Hívó blokkolása",
+		"unblockCallerLabel": "Hívó blokkolásának megszüntetése",
+		"mobileLabel2": "mobil",
+		"emptyFavoritesLabel": "Nincsenek kedvencek",
+		"emptyContactsLabel": "Nincsenek kapcsolatok",
+		"confirmDeleteContact": "Biztosan törölni szeretné ezt a kapcsolatot?",
+		"noService": "Nincs szolgáltatás"
 	},
 	"messages": {
 		"messagesTabTitle": "Üzenetek",
@@ -194,8 +223,51 @@
 		"flashlightLabel": "Zseblámpa",
 		"hideCallerIDLabel": "Hívóazonosító elrejtése",
 		"blockedNumbersLabel": "Letiltott számok",
-		"confirmRemoveBlockedNumber": "Biztosan fel szeretnéd oldani ezt a számot?",
-		"callSettingsLabel": "Hívásbeállítások"
+		"confirmRemoveBlockedNumber": "Biztos benne, hogy feloldja a szám letiltását?",
+		"callSettingsLabel": "Hívásbeállítások",
+		"faceIdResetLabel": "Face ID visszaállítása",
+		"faceIdSetupComplete": "Face ID beállítása kész",
+		"faceIdFaceNotRecognized": "Arc nem felismerhető",
+		"faceIdSetupPincode": "Állítsa be a jelkódot a Face ID engedélyezéséhez",
+		"faceIdConfirmReset": "Biztosan vissza akarja állítani a Face ID-t?",
+		"resetFaceIdLabel": "Face ID visszaállítása",
+		"enableFaceIdLabel": "Face ID engedélyezése",
+		"enablePasscodeLabel": "Jelkód beállítása",
+		"disablePasscodeLabel": "Jelkód kikapcsolása",
+		"changePasscodeLabel": "Jelkód megváltoztatása",
+		"faceIdPasscodeTitle": "Face ID & Jelkód",
+		"passcodeDisabled": "Jelkód letiltva",
+		"passcodeEnabled": "Jelkód engedélyezve",
+		"passcodeChanged": "Jelkód megváltoztatva",
+		"enterPasscodeLabel": "Adja meg a jelkódot",
+		"confirmPasscodeLabel": "Jelkód megerősítése",
+		"enterNewPasscodeLabel": "Új jelkód megadása",
+		"notPlayingLabel": "Nem játszik",
+		"yosAccountInfoLabel": "Telefonazonosító, yCloud",
+		"generalLabel": "Általános",
+		"displayAndBrightnessLabel": "Kijelző és fényerő",
+		"faceIdandPasscodeLabel": "Face ID & Jelkód",
+		"phoneLabel": "Telefon",
+		"appearanceLabel": "Megjelenés",
+		"aboutLabel2": "Névjegy",
+		"windShareLabel": "Wind Share",
+		"soundsLabel": "Hangok",
+		"rintoneAndAlertsLabel": "Csengőhang és riasztások",
+		"setAsPairLabel": "Beállítás párosításként",
+		"confirmSelectionLabel": "Kiválasztás megerősítése",
+		"currentLabel": "Jelenlegi",
+		"setAsCurrentLabel": "Beállítás jelenlegiként",
+		"addNewWallpaperLabel": "Új háttérkép hozzáadása",
+		"notificationLabel": "Értesítés",
+		"updateAvailable": "frissítés elérhető",
+		"upToDate": "naprakész",
+		"aboutYLabel": "Névjegy",
+		"nameLabel": "Név",
+		"phoneNumberLabel": "Telefonszám",
+		"productModelLabel": "Termékmodell",
+		"phoneImeiLabel": "Telefon IMEI",
+		"softwareVersionLabel": "Verzió",
+		"publisherLabel": "Kiadó"
 	},
 	"companies": {
 		"companiesAppTitle": "Vállalatok",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "Lefoglalva",
 		"garageLabel": "Garázs",
 		"outOfGarageLabel": "Kint a garázsból",
-		"valetConfirm": "Biztos benne, hogy megrendeli ezt a járművet?"
+		"valetConfirm": "Biztos benne, hogy megrendeli ezt a járművet?",
+		"valetLabel": "A sofőr úton van"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Térképstílus megváltoztatása",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "elkezdett követni",
 		"notifLikedYourPost": "kedvelte a bejegyzésedet",
 		"notifRetweet": "retweetelte a bejegyzésedet",
-		"notifRepliedToPost": "válaszolt a bejegyzésedre"
+		"notifRepliedToPost": "válaszolt a bejegyzésedre",
+		"replyingToLabel": "Válaszolás",
+		"deletePostConfirm": "Biztos benne, hogy törölni szeretné ezt a bejegyzést?",
+		"postDeleted": "Bejegyzés törölve",
+		"usernameTooLong": "A felhasználónév túl hosszú",
+		"displayNameTooLong": "A teljes név túl hosszú",
+		"passwordTooShort": "A jelszó túl rövid. Min. 6 karakter",
+		"editProfileLabel": "Profil szerkesztése",
+		"newReplyLabel": "Új válasz {{username}}-től {{ownerUsername}}-nek",
+		"newPostLabel": "Új bejegyzés {{username}}-tól"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Biztos benne, hogy törölni szeretné ezt az e-mailt?",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "Csatorna",
 		"connectedLabel": "Kapcsolódva",
 		"disconnectedLabel": "Kapcsolat bontva",
-		"maxChannelAllowed": "Elérte a maximális csatorna frekvenciát"
+		"maxChannelAllowed": "Elérte a maximális csatorna frekvenciát",
+		"alreadyOnChannel": "Már a csatornán van",
+		"restrictedChannel": "Ez a csatorna korlátozott"
 	},
 	"ybuy": {
 		"exploreTabTitle": "Felfedezés",
@@ -473,7 +557,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "Játékok",
-		"appsLabel": "Alkalmazások"
+		"appsLabel": "Alkalmazások",
+		"getLabel": "Megszerez",
+		"removeLabel": "Eltávolít"
 	},
 	"quickshare": {
 		"quickShareTitle": "Gyors megosztás",
@@ -484,7 +570,8 @@
 		"copyLinkLabel": "Link másolása",
 		"contactSavedLabel": "Kapcsolat mentve",
 		"receiveNewContactShare": "szeretne egy kapcsolatot megosztani Önnel",
-		"scanningNearby": "Keresés a közeli eszközök között"
+		"scanningNearby": "Keresés a közeli eszközök között",
+		"shareToNearbyYOSDescription": "Győződjön meg róla, hogy a címzett aktiválta a Wind Share-t a gyorspanelen, és hogy a képernyője be van kapcsolva."
 	},
 	"instashots": {
 		"privateAccount": "Ez a fiók privát",
@@ -560,6 +647,19 @@
 		"notifLikedYourPost": "kedvelte a bejegyzésedet",
 		"notifCommentedOnYourPost": "hozzászólt a bejegyzésedre",
 		"notifLikedYourComment": "kedvelte a hozzászólásodat",
-		"notifFollowedYou": "most már követ téged"
+		"notifFollowedYou": "most már követ téged",
+		"postDeleted": "Bejegyzés törölve",
+		"deletePostConfirm": "Biztos benne, hogy törölni szeretné ezt a bejegyzést?",
+		"accountAlreadyExistsLabel": "Ezzel a felhasználónévvel már létezik egy fiók!",
+		"invalidUsernameOrPasswordLabel": "A felhasználónév vagy jelszó helytelen!",
+		"usernameTooLong": "A felhasználónév túl hosszú",
+		"displayNameTooLong": "A teljes név túl hosszú",
+		"passwordTooShort": "A jelszó túl rövid. Min. 6 karakter",
+		"newPostLabelNotify": "Új bejegyzés {{username}}-tól"
+	},
+	"youtoo": {
+		"searchLabel": "Keresés a YouToo-on",
+		"pasteVideoUrl": "Videó URL beillesztése",
+		"invalidVideoUrl": "Érvénytelen videó URL"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "Ny overførsel",
 		"transferRequestLabel": "Overførselsanmodning",
 		"searchLabel": "Søg",
-		"shareLabel": "Del"
+		"shareLabel": "Del",
+		"nowLabel": "Nu",
+		"editLabel": "Rediger",
+		"discardLabel": "Kassér",
+		"videoUploaFailed": "Video upload fejlede",
+		"photoMode": "Foto",
+		"videoMode": "Video",
+		"selectPhoneExperienceLabel": "Vælg din telefonoplevelse",
+		"noService": "Ingen tjeneste",
+		"loadNewPosts": "Indlæs nye opslag"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -61,7 +70,8 @@
 		"homesLabel": "Hjem",
 		"companiesLabel": "Virksomheder",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "Grupper"
+		"groupsLabel": "Grupper",
+		"systemLabel": "System"
 	},
 	"phone": {
 		"keypad": "Tastatur",
@@ -97,7 +107,26 @@
 		"searchResultHint": "Søgeresultater vises her",
 		"noResultsFoundLabel": "Ingen resultater fundet",
 		"anonymousLabel": "Privat nummer",
-		"emptyBlockedNumbers": "Ingen blokerede numre"
+		"emptyBlockedNumbers": "Ingen blokerede numre",
+		"contactRemovedLabel": "Kontakt fjernet",
+		"addedToFavLabel": "Tilføjet til favoritter",
+		"removedFromFavLabel": "Fjernet fra favoritter",
+		"addNumberLabel": "Tilføj nummer",
+		"callingLabel": "Ringer",
+		"alreadyInCallLabel": "Du er allerede i et opkald",
+		"createNewContactLabel": "Opret ny kontakt",
+		"sendMessageLabel": "Send besked",
+		"shareContactLabel": "Del kontakt",
+		"removeContactLabel": "Fjern kontakt",
+		"removeFavoriteLabel": "Fjern fra favoritter",
+		"addToFavoritesLabel": "Tilføj til favoritter",
+		"blockCallerLabel": "Blokér opkalder",
+		"unblockCallerLabel": "Fjern blokering af opkalder",
+		"mobileLabel2": "mobil",
+		"emptyFavoritesLabel": "Ingen favoritter",
+		"emptyContactsLabel": "Ingen kontakter",
+		"confirmDeleteContact": "Er du sikker på, at du vil slette denne kontakt?",
+		"noService": "Ingen tjeneste"
 	},
 	"messages": {
 		"messagesTabTitle": "Beskeder",
@@ -195,7 +224,50 @@
 		"hideCallerIDLabel": "Skjul opkalds-ID",
 		"blockedNumbersLabel": "Blokerede numre",
 		"confirmRemoveBlockedNumber": "Er du sikker på, at du vil fjerne blokeringen af dette nummer?",
-		"callSettingsLabel": "Opkaldsindstillinger"
+		"callSettingsLabel": "Opkaldsindstillinger",
+		"faceIdResetLabel": "Nulstil Face Id",
+		"faceIdSetupComplete": "Opsætning af Face Id fuldført",
+		"faceIdFaceNotRecognized": "Ansigt ikke genkendt",
+		"faceIdSetupPincode": "Opsæt pinkode for at aktivere Face Id",
+		"faceIdConfirmReset": "Er du sikker på, at du vil nulstille Face Id?",
+		"resetFaceIdLabel": "Nulstil Face Id",
+		"enableFaceIdLabel": "Aktivér Face Id",
+		"enablePasscodeLabel": "Opsæt pinkode",
+		"disablePasscodeLabel": "Slå pinkode fra",
+		"changePasscodeLabel": "Skift pinkode",
+		"faceIdPasscodeTitle": "Face Id & Pinkode",
+		"passcodeDisabled": "Pinkode deaktiveret",
+		"passcodeEnabled": "Pinkode aktiveret",
+		"passcodeChanged": "Pinkode ændret",
+		"enterPasscodeLabel": "Indtast pinkode",
+		"confirmPasscodeLabel": "Bekræft pinkode",
+		"enterNewPasscodeLabel": "Indtast ny pinkode",
+		"notPlayingLabel": "Spiller ikke",
+		"yosAccountInfoLabel": "Telefon-id, yCloud",
+		"generalLabel": "Generelt",
+		"displayAndBrightnessLabel": "Skærm & Lysstyrke",
+		"faceIdandPasscodeLabel": "Face Id & Pinkode",
+		"phoneLabel": "Telefon",
+		"appearanceLabel": "Udseende",
+		"aboutLabel2": "Om",
+		"windShareLabel": "Wind Share",
+		"soundsLabel": "Lyde",
+		"rintoneAndAlertsLabel": "Ringetone og alarmer",
+		"setAsPairLabel": "Sæt som par",
+		"confirmSelectionLabel": "Bekræft valg",
+		"currentLabel": "Nuværende",
+		"setAsCurrentLabel": "Sæt som nuværende",
+		"addNewWallpaperLabel": "Tilføj nyt tapet",
+		"notificationLabel": "Notifikation",
+		"updateAvailable": "opdatering tilgængelig",
+		"upToDate": "opdateret",
+		"aboutYLabel": "Om",
+		"nameLabel": "Navn",
+		"phoneNumberLabel": "Telefonnummer",
+		"productModelLabel": "Produktmodel",
+		"phoneImeiLabel": "Telefon imei",
+		"softwareVersionLabel": "Version",
+		"publisherLabel": "Udgiver"
 	},
 	"companies": {
 		"companiesAppTitle": "Virksomheder",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "Beslaglagt",
 		"garageLabel": "Garasje",
 		"outOfGarageLabel": "Utenfor garasjen",
-		"valetConfirm": "Er du sikker på, at du vil bestille dette køretøj?"
+		"valetConfirm": "Er du sikker på, at du vil bestille dette køretøj?",
+		"valetLabel": "Chaufføren er på vej"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Skift kortstil",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "begyndte at følge dig",
 		"notifLikedYourPost": "likede din post",
 		"notifRetweet": "retweetede din post",
-		"notifRepliedToPost": "svarede på din post"
+		"notifRepliedToPost": "svarede på din post",
+		"replyingToLabel": "Svarer til",
+		"deletePostConfirm": "Er du sikker på, at du vil slette dette opslag?",
+		"postDeleted": "Opslag slettet",
+		"usernameTooLong": "Brugernavnet er for langt",
+		"displayNameTooLong": "Fulde navn er for langt",
+		"passwordTooShort": "Adgangskoden er for kort. Min. 6 tegn",
+		"editProfileLabel": "Rediger profil",
+		"newReplyLabel": "Nyt svar fra {{username}} til {{ownerUsername}}",
+		"newPostLabel": "Nyt opslag fra {{username}}"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Er du sikker på, at du vil slette denne e-mail?",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "Kanal",
 		"connectedLabel": "Forbundet",
 		"disconnectedLabel": "Frakoblet",
-		"maxChannelAllowed": "Nåede maksimal kanalfrekvens"
+		"maxChannelAllowed": "Nåede maksimal kanalfrekvens",
+		"alreadyOnChannel": "Du er allerede i kanalen",
+		"restrictedChannel": "Denne kanal er begrænset"
 	},
 	"ybuy": {
 		"exploreTabTitle": "Udforsk",
@@ -473,7 +557,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "Spil",
-		"appsLabel": "Apps"
+		"appsLabel": "Apps",
+		"getLabel": "Hent",
+		"removeLabel": "Fjern"
 	},
 	"quickshare": {
 		"quickShareTitle": "Hurtig deling",
@@ -484,7 +570,8 @@
 		"copyLinkLabel": "Kopier link",
 		"contactSavedLabel": "Kontakt gemt",
 		"receiveNewContactShare": "vil gerne dele en kontakt med dig",
-		"scanningNearby": "Skanner i nærheden"
+		"scanningNearby": "Skanner i nærheden",
+		"shareToNearbyYOSDescription": "Sørg for at modtageren har Wind Share aktiveret i hurtigpanelet, og at deres skærm er tændt."
 	},
 	"instashots": {
 		"privateAccount": "Dette konto er privat",
@@ -560,6 +647,19 @@
 		"notifLikedYourPost": "likede dit opslag",
 		"notifCommentedOnYourPost": "kommenterede dit opslag",
 		"notifLikedYourComment": "likede din kommentar",
-		"notifFollowedYou": "begyndte at følge dig"
+		"notifFollowedYou": "begyndte at følge dig",
+		"postDeleted": "Opslag slettet",
+		"deletePostConfirm": "Er du sikker på, at du vil slette dette opslag?",
+		"accountAlreadyExistsLabel": "En konto med det brugernavn eksisterer allerede!",
+		"invalidUsernameOrPasswordLabel": "Brugernavn eller adgangskode er forkert!",
+		"usernameTooLong": "Brugernavnet er for langt",
+		"displayNameTooLong": "Fulde navn er for langt",
+		"passwordTooShort": "Adgangskoden er for kort. Min. 6 tegn",
+		"newPostLabelNotify": "Nyt opslag fra {{username}}"
+	},
+	"youtoo": {
+		"searchLabel": "Søg YouToo",
+		"pasteVideoUrl": "Indsæt video URL",
+		"invalidVideoUrl": "Ugyldig video URL"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Isso não é usado no telefone.",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "Salvar",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "Nova transferência",
 		"transferRequestLabel": "Solicitação de transferência",
 		"searchLabel": "Pesquisar",
-		"shareLabel": "Compartilhar"
+		"shareLabel": "Compartilhar",
+		"nowLabel": "Agora",
+		"editLabel": "Editar",
+		"discardLabel": "Descartar",
+		"videoUploaFailed": "Falha no upload do vídeo",
+		"photoMode": "Foto",
+		"videoMode": "Vídeo",
+		"selectPhoneExperienceLabel": "Selecione sua experiência com o telefone",
+		"noService": "Sem serviço",
+		"loadNewPosts": "Carregar novas postagens"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bem-vindo!",
@@ -61,7 +70,8 @@
 		"homesLabel": "Casas",
 		"companiesLabel": "Empresas",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "Grupos"
+		"groupsLabel": "Grupos",
+		"systemLabel": "Sistema"
 	},
 	"phone": {
 		"keypad": "Teclado",
@@ -98,7 +108,26 @@
 		"searchResultHint": "Os resultados da pesquisa aparecerão aqui",
 		"noResultsFoundLabel": "Nenhum resultado encontrado",
 		"anonymousLabel": "Número privado",
-		"emptyBlockedNumbers": "Nenhum número bloqueado"
+		"emptyBlockedNumbers": "Nenhum número bloqueado",
+		"contactRemovedLabel": "Contato removido",
+		"addedToFavLabel": "Adicionado aos favoritos",
+		"removedFromFavLabel": "Removido dos favoritos",
+		"addNumberLabel": "Adicionar número",
+		"callingLabel": "Chamando",
+		"alreadyInCallLabel": "Você já está em uma chamada",
+		"createNewContactLabel": "Criar novo contato",
+		"sendMessageLabel": "Enviar mensagem",
+		"shareContactLabel": "Compartilhar contato",
+		"removeContactLabel": "Remover contato",
+		"removeFavoriteLabel": "Remover dos favoritos",
+		"addToFavoritesLabel": "Adicionar aos favoritos",
+		"blockCallerLabel": "Bloquear chamador",
+		"unblockCallerLabel": "Desbloquear chamador",
+		"mobileLabel2": "móvel",
+		"emptyFavoritesLabel": "Sem favoritos",
+		"emptyContactsLabel": "Sem contatos",
+		"confirmDeleteContact": "Você tem certeza que deseja deletar este contato?",
+		"noService": "Sem serviço"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensagens",
@@ -195,7 +224,50 @@
 		"hideCallerIDLabel": "Ocultar ID do chamador",
 		"blockedNumbersLabel": "Números bloqueados",
 		"confirmRemoveBlockedNumber": "Tem certeza de que deseja desbloquear este número?",
-		"callSettingsLabel": "Configurações de chamadas"
+		"callSettingsLabel": "Configurações de chamada",
+		"faceIdResetLabel": "Redefinir Face ID",
+		"faceIdSetupComplete": "Configuração do Face ID completa",
+		"faceIdFaceNotRecognized": "Rosto não reconhecido",
+		"faceIdSetupPincode": "Configure uma senha para habilitar o Face ID",
+		"faceIdConfirmReset": "Tem certeza de que deseja redefinir o Face ID?",
+		"resetFaceIdLabel": "Redefinir Face ID",
+		"enableFaceIdLabel": "Ativar Face ID",
+		"enablePasscodeLabel": "Configurar senha",
+		"disablePasscodeLabel": "Desativar senha",
+		"changePasscodeLabel": "Alterar senha",
+		"faceIdPasscodeTitle": "Face ID & Senha",
+		"passcodeDisabled": "Senha desativada",
+		"passcodeEnabled": "Senha ativada",
+		"passcodeChanged": "Senha alterada",
+		"enterPasscodeLabel": "Digite a senha",
+		"confirmPasscodeLabel": "Confirme a senha",
+		"enterNewPasscodeLabel": "Digite a nova senha",
+		"notPlayingLabel": "Não está tocando",
+		"yosAccountInfoLabel": "ID do telefone, yCloud",
+		"generalLabel": "Geral",
+		"displayAndBrightnessLabel": "Tela e Brilho",
+		"faceIdandPasscodeLabel": "Face ID & Senha",
+		"phoneLabel": "Telefone",
+		"appearanceLabel": "Aparência",
+		"aboutLabel2": "Sobre",
+		"windShareLabel": "Compartilhar Wind",
+		"soundsLabel": "Sons",
+		"rintoneAndAlertsLabel": "Toque e Alertas",
+		"setAsPairLabel": "Definir como par",
+		"confirmSelectionLabel": "Confirmar seleção",
+		"currentLabel": "Atual",
+		"setAsCurrentLabel": "Definir como atual",
+		"addNewWallpaperLabel": "Adicionar novo papel de parede",
+		"notificationLabel": "Notificação",
+		"updateAvailable": "atualização disponível",
+		"upToDate": "atualizado",
+		"aboutYLabel": "Sobre",
+		"nameLabel": "Nome",
+		"phoneNumberLabel": "Número de telefone",
+		"productModelLabel": "Modelo do produto",
+		"phoneImeiLabel": "IMEI do telefone",
+		"softwareVersionLabel": "Versão",
+		"publisherLabel": "Publicador"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "Apreendido",
 		"garageLabel": "Garagem",
 		"outOfGarageLabel": "Fora da garagem",
-		"valetConfirm": "Tem certeza de que deseja solicitar este veículo?"
+		"valetConfirm": "Tem certeza de que deseja solicitar este veículo?",
+		"valetLabel": "O motorista está a caminho"
 	},
 	"maps": {
 		"changeMapStyleLabel": "Mudar estilo do mapa",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "começou a seguir você",
 		"notifLikedYourPost": "curtiu sua postagem",
 		"notifRetweet": "retweetou sua postagem",
-		"notifRepliedToPost": "respondeu à sua postagem"
+		"notifRepliedToPost": "respondeu à sua postagem",
+		"replyingToLabel": "Respondendo a",
+		"deletePostConfirm": "Você tem certeza que quer deletar este post?",
+		"postDeleted": "Post deletado",
+		"usernameTooLong": "Nome de usuário é muito longo",
+		"displayNameTooLong": "Nome completo é muito longo",
+		"passwordTooShort": "Senha muito curta. Mín. 6 caracteres",
+		"editProfileLabel": "Editar perfil",
+		"newReplyLabel": "Nova resposta de {{username}} para {{ownerUsername}}",
+		"newPostLabel": "Nova postagem de {{username}}"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "Você tem certeza de que deseja excluir este e-mail?",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "Canal",
 		"connectedLabel": "Conectado",
 		"disconnectedLabel": "Desconectado",
-		"maxChannelAllowed": "Frequência máxima do canal atingida"
+		"maxChannelAllowed": "Frequência máxima do canal atingida",
+		"alreadyOnChannel": "Você já está no canal",
+		"restrictedChannel": "Este canal é restrito"
 	},
 	"ybuy": {
 		"exploreTabTitle": "Explorar",
@@ -473,7 +557,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "Jogos",
-		"appsLabel": "Aplicativos"
+		"appsLabel": "Aplicativos",
+		"getLabel": "Al",
+		"removeLabel": "Kaldır"
 	},
 	"quickshare": {
 		"quickShareTitle": "Compartilhamento Rápido",
@@ -484,7 +570,8 @@
 		"copyLinkLabel": "Copiar link",
 		"contactSavedLabel": "Contato salvo",
 		"receiveNewContactShare": "quer compartilhar um contato com você",
-		"scanningNearby": "Procurando dispositivos próximos"
+		"scanningNearby": "Procurando dispositivos próximos",
+		"shareToNearbyYOSDescription": "Certifique-se de que o destinatário ativou o Wind Share no painel rápido e que a tela dele está ligada."
 	},
 	"instashots": {
 		"privateAccount": "Esta conta é privada",
@@ -560,6 +647,19 @@
 		"notifLikedYourPost": "curtiu sua postagem",
 		"notifCommentedOnYourPost": "comentou em sua postagem",
 		"notifLikedYourComment": "curtiu seu comentário",
-		"notifFollowedYou": "começou a seguir você"
+		"notifFollowedYou": "começou a seguir você",
+		"postDeleted": "Postagem deletada",
+		"deletePostConfirm": "Você tem certeza que deseja deletar esta postagem?",
+		"accountAlreadyExistsLabel": "Uma conta com esse nome de usuário já existe!",
+		"invalidUsernameOrPasswordLabel": "Nome de usuário ou senha incorretos!",
+		"usernameTooLong": "Nome de usuário é muito longo",
+		"displayNameTooLong": "Nome completo é muito longo",
+		"passwordTooShort": "Senha muito curta. Mín. 6 caracteres",
+		"newPostLabelNotify": "Nova postagem de {{username}}"
+	},
+	"youtoo": {
+		"searchLabel": "Pesquisar YouToo",
+		"pasteVideoUrl": "Colar URL do vídeo",
+		"invalidVideoUrl": "URL do vídeo inválido"
 	}
 }

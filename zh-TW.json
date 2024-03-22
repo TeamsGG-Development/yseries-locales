@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.12"
+		"VERSION": "1.0.14"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -34,7 +34,16 @@
 		"newTrasferLabel": "新轉帳",
 		"transferRequestLabel": "轉帳請求",
 		"searchLabel": "搜尋",
-		"shareLabel": "分享"
+		"shareLabel": "分享",
+		"nowLabel": "現在",
+		"editLabel": "編輯",
+		"discardLabel": "丟棄",
+		"videoUploaFailed": "影片上傳失敗",
+		"photoMode": "照片",
+		"videoMode": "影片",
+		"selectPhoneExperienceLabel": "選擇您的手機體驗",
+		"noService": "無服務",
+		"loadNewPosts": "加載新帖子"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "歡迎!",
@@ -61,7 +70,8 @@
 		"homesLabel": "房產",
 		"companiesLabel": "公司",
 		"instashotsLabel": "Instashots",
-		"groupsLabel": "群組"
+		"groupsLabel": "群組",
+		"systemLabel": "系統"
 	},
 	"phone": {
 		"keypad": "號碼",
@@ -97,7 +107,26 @@
 		"searchResultHint": "搜尋結果將顯示在這裡",
 		"noResultsFoundLabel": "找不到結果",
 		"anonymousLabel": "私人號碼",
-		"emptyBlockedNumbers": "無封鎖的號碼"
+		"emptyBlockedNumbers": "無封鎖的號碼",
+		"contactRemovedLabel": "已移除聯絡人",
+		"addedToFavLabel": "已加入至收藏",
+		"removedFromFavLabel": "已從收藏中移除",
+		"addNumberLabel": "新增號碼",
+		"callingLabel": "正在呼叫",
+		"alreadyInCallLabel": "您已在通話中",
+		"createNewContactLabel": "建立新聯絡人",
+		"sendMessageLabel": "發送訊息",
+		"shareContactLabel": "分享聯絡人",
+		"removeContactLabel": "移除聯絡人",
+		"removeFavoriteLabel": "從收藏中移除",
+		"addToFavoritesLabel": "加入至收藏",
+		"blockCallerLabel": "封鎖來電者",
+		"unblockCallerLabel": "解除封鎖來電者",
+		"mobileLabel2": "手機",
+		"emptyFavoritesLabel": "無收藏",
+		"emptyContactsLabel": "無聯絡人",
+		"confirmDeleteContact": "您確定要刪除此聯絡人嗎？",
+		"noService": "無服務"
 	},
 	"messages": {
 		"messagesTabTitle": "訊息",
@@ -192,10 +221,53 @@
 		"doNotDisturbLabel2": "勿擾模式",
 		"screenshotLabel": "螢幕截圖",
 		"flashlightLabel": "手電筒",
-		"hideCallerIDLabel": "隱藏來電者 ID",
-		"blockedNumbersLabel": "封鎖的號碼",
-		"confirmRemoveBlockedNumber": "您確定要解除封鎖此號碼嗎？",
-		"callSettingsLabel": "通話設定"
+		"hideCallerIDLabel": "隱藏來電者ID",
+		"blockedNumbersLabel": "已封鎖的號碼",
+		"confirmRemoveBlockedNumber": "您確定要解除封鎖這個號碼嗎？",
+		"callSettingsLabel": "通話設置",
+		"faceIdResetLabel": "重設臉部ID",
+		"faceIdSetupComplete": "臉部ID設置完成",
+		"faceIdFaceNotRecognized": "無法識別臉部",
+		"faceIdSetupPincode": "設置密碼以啟用臉部ID",
+		"faceIdConfirmReset": "您確定要重設臉部ID嗎？",
+		"resetFaceIdLabel": "重設臉部ID",
+		"enableFaceIdLabel": "啟用臉部ID",
+		"enablePasscodeLabel": "設置密碼",
+		"disablePasscodeLabel": "關閉密碼",
+		"changePasscodeLabel": "更改密碼",
+		"faceIdPasscodeTitle": "臉部ID與密碼",
+		"passcodeDisabled": "密碼已禁用",
+		"passcodeEnabled": "密碼已啟用",
+		"passcodeChanged": "密碼已更改",
+		"enterPasscodeLabel": "輸入密碼",
+		"confirmPasscodeLabel": "確認密碼",
+		"enterNewPasscodeLabel": "輸入新密碼",
+		"notPlayingLabel": "未播放",
+		"yosAccountInfoLabel": "電話ID，yCloud",
+		"generalLabel": "一般",
+		"displayAndBrightnessLabel": "顯示與亮度",
+		"faceIdandPasscodeLabel": "臉部ID與密碼",
+		"phoneLabel": "電話",
+		"appearanceLabel": "外觀",
+		"aboutLabel2": "關於",
+		"windShareLabel": "風共享",
+		"soundsLabel": "聲音",
+		"rintoneAndAlertsLabel": "鈴聲與警報",
+		"setAsPairLabel": "設為配對",
+		"confirmSelectionLabel": "確認選擇",
+		"currentLabel": "當前",
+		"setAsCurrentLabel": "設為當前",
+		"addNewWallpaperLabel": "添加新壁紙",
+		"notificationLabel": "通知",
+		"updateAvailable": "有更新可用",
+		"upToDate": "最新",
+		"aboutYLabel": "關於",
+		"nameLabel": "名稱",
+		"phoneNumberLabel": "電話號碼",
+		"productModelLabel": "產品型號",
+		"phoneImeiLabel": "手機IMEI",
+		"softwareVersionLabel": "版本",
+		"publisherLabel": "發行者"
 	},
 	"companies": {
 		"companiesAppTitle": "公司",
@@ -325,7 +397,8 @@
 		"impoundedLabel": "被扣押",
 		"garageLabel": "車庫",
 		"outOfGarageLabel": "不在車庫",
-		"valetConfirm": "您確定要訂購這輛車嗎？"
+		"valetConfirm": "您確定要訂購這輛車嗎？",
+		"valetLabel": "司機正在前往"
 	},
 	"maps": {
 		"changeMapStyleLabel": "更改地圖樣式",
@@ -382,7 +455,16 @@
 		"notifFollowedYou": "開始追蹤您",
 		"notifLikedYourPost": "喜歡您的貼文",
 		"notifRetweet": "轉推了您的貼文",
-		"notifRepliedToPost": "回覆了您的貼文"
+		"notifRepliedToPost": "回覆了您的貼文",
+		"replyingToLabel": "回覆給",
+		"deletePostConfirm": "您確定要刪除這篇文章嗎？",
+		"postDeleted": "文章已刪除",
+		"usernameTooLong": "使用者名稱太長",
+		"displayNameTooLong": "全名太長",
+		"passwordTooShort": "密碼太短。最少6個字符",
+		"editProfileLabel": "編輯個人資料",
+		"newReplyLabel": "{{username}} 對 {{ownerUsername}} 的新回覆",
+		"newPostLabel": "{{username}} 的新帖子"
 	},
 	"mail": {
 		"confirmDeleteMailLabel": "您确定要删除这封电子邮件吗？",
@@ -405,7 +487,9 @@
 		"channelPlaceholder": "頻道",
 		"connectedLabel": "已連線",
 		"disconnectedLabel": "未連線",
-		"maxChannelAllowed": "已達到最大頻道頻率"
+		"maxChannelAllowed": "已達到最大頻道頻率",
+		"alreadyOnChannel": "您已經在頻道中",
+		"restrictedChannel": "此頻道受到限制"
 	},
 	"ybuy": {
 		"exploreTabTitle": "探索",
@@ -473,7 +557,9 @@
 	},
 	"playstore": {
 		"gamesLabel": "遊戲",
-		"appsLabel": "應用程式"
+		"appsLabel": "應用程式",
+		"getLabel": "獲取",
+		"removeLabel": "移除"
 	},
 	"quickshare": {
 		"quickShareTitle": "快速分享",
@@ -484,7 +570,8 @@
 		"copyLinkLabel": "複製連結",
 		"contactSavedLabel": "聯絡人已儲存",
 		"receiveNewContactShare": "想要與您分享聯絡人",
-		"scanningNearby": "掃描附近"
+		"scanningNearby": "掃描附近",
+		"shareToNearbyYOSDescription": "確保接收者在快速面板中開啟了 Wind Share 且他們的螢幕處於開啟狀態。"
 	},
 	"instashots": {
 		"privateAccount": "此帳戶為私人帳戶",
@@ -560,6 +647,19 @@
 		"notifLikedYourPost": "喜歡了您的貼文",
 		"notifCommentedOnYourPost": "留言了您的貼文",
 		"notifLikedYourComment": "喜歡了您的留言",
-		"notifFollowedYou": "現在追蹤您"
+		"notifFollowedYou": "現在追蹤您",
+		"postDeleted": "帖子已刪除",
+		"deletePostConfirm": "您確定要刪除這篇帖子嗎？",
+		"accountAlreadyExistsLabel": "該用戶名的賬戶已經存在！",
+		"invalidUsernameOrPasswordLabel": "用戶名或密碼不正確！",
+		"usernameTooLong": "用戶名太長",
+		"displayNameTooLong": "全名太長",
+		"passwordTooShort": "密碼太短。最少6個字符",
+		"newPostLabelNotify": "{{username}} 的新帖子"
+	},
+	"youtoo": {
+		"searchLabel": "搜索 YouToo",
+		"pasteVideoUrl": "粘貼視頻網址",
+		"invalidVideoUrl": "無效的視頻網址"
 	}
 }
