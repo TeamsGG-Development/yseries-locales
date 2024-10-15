@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette brukes ikke på telefonen.",
-		"VERSION": "1.0.14"
+		"VERSION": "1.0.19"
 	},
 	"general": {
 		"saveLabel": "Lagre",
@@ -43,7 +43,16 @@
 		"videoMode": "Video",
 		"selectPhoneExperienceLabel": "Velg din telefonopplevelse",
 		"noService": "Ingen tjeneste",
-		"loadNewPosts": "Last inn nye innlegg"
+		"loadNewPosts": "Last inn nye innlegg",
+		"cameraInUse": "Kamera allerede i bruk",
+		"enterPasscode": "Angi passord",
+		"back": "Tilbake",
+		"selfieNotAvailable": "Selfiekamera ikke tilgjengelig",
+		"minuteLabel": "minutt",
+		"minutesLabel": "minutter",
+		"deviceUnavailable": "Enheten er utilgjengelig",
+		"tryAgainIn": "prøv igjen om ",
+		"close": "Lukk"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -59,7 +68,10 @@
 		"lightLabel": "Lyst",
 		"darkLabel": "Mørkt",
 		"setupReadyLabel": "Du er nå ferdig!",
-		"finishBtnlabel": "Fullfør"
+		"finishBtnlabel": "Fullfør",
+		"focusTitle": "Mister aldri fokuset på enheten din",
+		"focusInfo1": "Å trykke på <strong>{{keybind}}</strong> kan få deg til å miste fokuset på telefonen (markøren forsvinner).",
+		"focusInfo2": "Du kan trykke på <strong>{{keybind}}</strong> for å gjenvinne fokuset på telefonen."
 	},
 	"apps": {
 		"messagesLabel": "Meldinger",
@@ -71,7 +83,10 @@
 		"companiesLabel": "Selskaper",
 		"instashotsLabel": "Instashots",
 		"groupsLabel": "Grupper",
-		"systemLabel": "System"
+		"systemLabel": "System",
+		"ybuyLabel": "YBuy",
+		"darkchatLabel": "Dark Chat",
+		"promoHubLabel": "Promo Hub"
 	},
 	"phone": {
 		"keypad": "Tastatur",
@@ -126,7 +141,21 @@
 		"emptyFavoritesLabel": "Ingen favoritter",
 		"emptyContactsLabel": "Ingen kontakter",
 		"confirmDeleteContact": "Er du sikker på at du vil slette denne kontakten?",
-		"noService": "Ingen tjeneste"
+		"noService": "Ingen tjeneste",
+		"empty": "Det er tomt her inne",
+		"videoCallCooldown": "Vent et øyeblikk før du ringer igjen.",
+		"videoCallContactNotAvailable": "Kontakt ikke tilgjengelig. Prøv igjen senere!",
+		"videoCallLabel": "Videosamtale",
+		"missed": "Savnet",
+		"incoming": "Innkommende",
+		"outgoing": "Utgående",
+		"canceled": "Avbrutt",
+		"missed_video": "Savnet video",
+		"incoming_video": "Innkommende video",
+		"outgoing_video": "Utgående video",
+		"canceled_video": "Avbrutt video",
+		"videoCallsTitle": "Videoanrop",
+		"endCall": "Avslutt"
 	},
 	"messages": {
 		"messagesTabTitle": "Meldinger",
@@ -142,7 +171,11 @@
 		"enterMessagePlaceholder": "Skriv inn melding",
 		"invalidNumber": "Ugyldig nummer",
 		"addMemberLabel": "Legg til medlem",
-		"confirmRemoveMemberLabel": "Er du sikker på at du vil fjerne dette medlemmet?"
+		"confirmRemoveMemberLabel": "Er du sikker på at du vil fjerne dette medlemmet?",
+		"leftGroupLabel": "Du har forlatt gruppen",
+		"leaveGroup": "Forlat gruppe",
+		"confirmLeaveGroup": "Er du sikker på at du vil forlate denne gruppen?",
+		"numberAlreadyExist": "Dette nummeret eksisterer allerede i gruppen"
 	},
 	"settings": {
 		"settingsTabTitle": "Innstillinger",
@@ -297,7 +330,10 @@
 		"yourMessagesTabTitle": "Dine meldinger",
 		"enterMessagePlaceholder": "Skriv melding",
 		"emptyConversationLabel": "Ingen meldinger",
-		"callFailed": "Anrop mislyktes"
+		"callFailed": "Anrop mislyktes",
+		"dispatch": "Utsendelse",
+		"emptyConversations": "Ingen samtaler å vise",
+		"companyActionsTitle": "Selskapshandlinger"
 	},
 	"home": {
 		"homeAppTitle": "Dine eiendommer",
@@ -369,7 +405,10 @@
 		"transactionsLabel": "TRANSAKSJONER",
 		"emptyTransactionsLabel": "Ingen nylige transaksjoner",
 		"transferType1": "Til",
-		"transferType2": "Fra"
+		"transferType2": "Fra",
+		"directToNumber": "Direkte til nummer",
+		"enterPhoneNumber": "Skriv inn telefonnummer",
+		"unknownRecipient": "Ukjent kontakt"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Er du sikker på at du vil slette dette bildet?",
@@ -533,7 +572,8 @@
 		"contactPhonePlaceholder": "f.eks. 555-555-555",
 		"allowCalls": "Tillat anrop",
 		"allowMessages": "Tillat meldinger",
-		"createLabel": "Opprett"
+		"createLabel": "Opprett",
+		"newAdLabel": "Ny annonse opprettet"
 	},
 	"groups": {
 		"groupCreated": "Gruppe opprettet",
@@ -655,11 +695,138 @@
 		"usernameTooLong": "Brukernavnet er for langt",
 		"displayNameTooLong": "Fullt navn er for langt",
 		"passwordTooShort": "Passordet er for kort. Min. 6 tegn",
-		"newPostLabelNotify": "Nytt innlegg fra {{username}}"
+		"newPostLabelNotify": "Nytt innlegg fra {{username}}",
+		"goLiveLabel": "Gå live",
+		"confirmGoingLive": "Er du sikker på at du vil gå live?",
+		"confirmCloseLive": "Er du sikker på at du vil avslutte live?",
+		"watchLive": "Se live",
+		"openProfile": "Åpne profil",
+		"liveEnded": "LIVE avsluttet",
+		"liveLabel": "LIVE",
+		"commentPlaceholder": "Kommentar",
+		"notificationsTitle": "Varsler",
+		"errors": {
+			"LiveEnded": "Livesendingen er avsluttet"
+		}
 	},
 	"youtoo": {
 		"searchLabel": "Søk YouToo",
 		"pasteVideoUrl": "Lim inn video-URL",
 		"invalidVideoUrl": "Ugyldig video-URL"
+	},
+	"ycloud": {
+		"title": "YCloud",
+		"restoreSuccess": "Data gjenopprettet. Starter på nytt!",
+		"restoreFail": "Kunne ikke gjenopprette data. Vennligst prøv igjen senere!",
+		"phoneSynced": "Telefonen din er synkronisert",
+		"sync": "Synkroniser",
+		"restore": "Gjenopprett",
+		"syncedData": "Synkroniserte data",
+		"syncedContacts": "Kontakter",
+		"syncedNotes": "Notater",
+		"syncedGallery": "Galleri",
+		"syncedLocations": "Steder",
+		"syncedMails": "E-poster",
+		"signOut": "Logg ut",
+		"setupYCloud": "Konfigurer YCloud for å sikkerhetskopiere dataene dine",
+		"invalidPhoneName": "Vennligst skriv inn et gyldig telefonnavn",
+		"signInHint": "Logg inn på din YCloud",
+		"ycloudIdLabel": "YCloud-ID",
+		"ycloudLoginSubTitle": "Logg inn på YCloud for å sikkerhetskopiere dataene dine"
+	},
+	"darkchat": {
+		"username": "Brukernavn",
+		"displayName": "Visningsnavn",
+		"channelName": "Kanalnavn",
+		"password": "Passord",
+		"createNewAccount": "Opprett ny konto",
+		"login": "Logg inn",
+		"newChannel": "Ny kanal",
+		"confirmRemoveChannel": "Denne handlingen er irreversibel. Er du sikker på at du vil fjerne denne kanalen?",
+		"channelRemoved": "Kanal fjernet",
+		"channelRemoveFaild": "Fjerning av kanal mislyktes",
+		"channelMuted": "Kanal dempet",
+		"channelUnmuted": "Kanal opphevet demping",
+		"createNewChannel": "Opprett kanal",
+		"channelExists": "Kanal eksisterer allerede",
+		"channelCreationFailed": "Oppretting av kanal mislyktes",
+		"myChannels": "Bli med",
+		"browseChannels": "Bla gjennom",
+		"channelJoined": "Kanal blitt med",
+		"empty": "Ingen kanaler å vise",
+		"oldPassword": "Gammelt passord",
+		"newPassword": "Nytt passord",
+		"verifyPassword": "Bekreft",
+		"passwordMismatch": "Passordene stemmer ikke overens",
+		"passwordChanged": "Passord endret",
+		"passwordChangeFailed": "Endring av passord mislyktes",
+		"changePassword": "Endre passord",
+		"verifyPasswordTitle": "Bekreft passord",
+		"passwordVerified": "Passord bekreftet",
+		"changeDisplayNameTitle": "Endre visningsnavn",
+		"changePasswordBtn": "Endre",
+		"displayNameChanged": "Visningsnavn endret",
+		"displayNameChangeFailed": "Endring av visningsnavn mislyktes",
+		"profileImageChanged": "Profilbilde endret",
+		"logout": "Logg ut",
+		"anonymousChannel": "Anonym kanal",
+		"channelIdentifier": "Invitasjonskode eller Kanalnavn",
+		"join": "Bli med",
+		"channelNotFound": "Kanal ikke funnet",
+		"channelPasswordRequired": "Kanalpassord kreves",
+		"channelPasswordIncorrect": "Feil kanalpassord",
+		"channelJoinFailed": "Bli med i kanal mislyktes",
+		"confirmRemoveMessage": "Er du sikker på at du vil fjerne denne meldingen?",
+		"messageRemoved": "Melding fjernet",
+		"joinByHint": "Bli med via Invitasjonskode eller Kanalnavn",
+		"channelPasswordRequiredHint": "Et passord kreves for å bli med i denne kanalen",
+		"confirmLeaveChannel": "Er du sikker på at du vil forlate denne kanalen?",
+		"channelLeft": "Kanal forlatt",
+		"channelLelfFailed": "Forlatelse av kanal mislyktes",
+		"invite": "Inviter",
+		"manage": "Administrer",
+		"remove": "Fjern",
+		"leave": "Forlat",
+		"inviteCodeCopied": "Invitasjonskode kopiert",
+		"failedToCopyInviteCode": "Kopiering av invitasjonskode mislyktes",
+		"someoneJoined": "{{username}} ble med i #{{channelName}}",
+		"someoneLeft": "{{username}} forlot #{{channelName}}",
+		"someoneJoinedChannel": "Noen",
+		"someoneJoinedChannel2": "ble med i kanalen",
+		"someoneLeftChannel2": "forlot kanalen",
+		"selectPhoto": "Velg foto",
+		"shareLocation": "Del plassering",
+		"typeMessage": "Skriv en melding",
+		"location": "Plassering",
+		"sharedLocation": "Delt plassering",
+		"sendPhoto": "Send et bilde",
+		"confirmRemoveMember": "Er du sikker på at du vil fjerne dette medlemmet?",
+		"kickLabel": "Spark",
+		"removeMemberSuccess": "Medlem fjernet",
+		"emptyChannelMembers": "Ingen medlemmer i denne kanalen",
+		"youAreKicked": "Du har blitt sparket ut"
+	},
+	"promoHub": {
+		"advertisements": "Annonser",
+		"createAdTitle": "Lag annonse",
+		"addPhoto": "Legg til et bilde",
+		"addMore": "Legg til mer",
+		"addMoreDesc": "Det første bildet vil være hovedbildet i annonsen din.",
+		"addMoreDesc2": "Du kan endre rekkefølgen ved å dra.",
+		"title": "Tittel",
+		"titlePlaceholder": "f.eks. KTM sykkel",
+		"description": "Beskrivelse",
+		"contactNumber": "Kontakt nummer",
+		"contactNumberPlaceholder": "Fyll ut med høyre knapp eller manuelt",
+		"contactName": "Kontakt navn",
+		"contactNamePlaceholder": "f.eks. Mike Smith eller Burgershot",
+		"descriptionPlaceholder": "f.eks. KTM 250 EXC-F",
+		"price": "Pris",
+		"tags": "Tags",
+		"tagsPlaceholder": "Skriv for å filtrere tags",
+		"createPost": "Opprett innlegg",
+		"freeTag": "Gratis",
+		"confirmMessage": "Er du sikker på at du vil sende melding til denne brukeren?",
+		"confirmCall": "Er du sikker på at du vil ringe denne brukeren?"
 	}
 }

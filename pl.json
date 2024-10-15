@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.14"
+		"VERSION": "1.0.19"
 	},
 	"general": {
 		"saveLabel": "Zapisz",
@@ -43,7 +43,16 @@
 		"videoMode": "Wideo",
 		"selectPhoneExperienceLabel": "Wybierz swoje doświadczenie z telefonem",
 		"noService": "Brak usługi",
-		"loadNewPosts": "Załaduj nowe posty"
+		"loadNewPosts": "Załaduj nowe posty",
+		"cameraInUse": "Kamera już w użyciu",
+		"enterPasscode": "Wprowadź hasło",
+		"back": "Wstecz",
+		"selfieNotAvailable": "Aparat do selfie niedostępny",
+		"minuteLabel": "minuta",
+		"minutesLabel": "minuty",
+		"deviceUnavailable": "Urządzenie niedostępne",
+		"tryAgainIn": "spróbuj ponownie za ",
+		"close": "Zamknij"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Dzień dobry!",
@@ -59,7 +68,10 @@
 		"lightLabel": "Jasny",
 		"darkLabel": "Ciemny",
 		"setupReadyLabel": "Gotowe!",
-		"finishBtnlabel": "Zakończ"
+		"finishBtnlabel": "Zakończ",
+		"focusTitle": "Nigdy nie trać koncentracji na urządzeniu",
+		"focusInfo1": "Naciśnięcie <strong>{{keybind}}</strong> może spowodować utratę koncentracji na telefonie (kursor zniknie).",
+		"focusInfo2": "Możesz nacisnąć przycisk <strong>{{keybind}}</strong>, aby odzyskać koncentrację na telefonie."
 	},
 	"apps": {
 		"messagesLabel": "Wiadomości",
@@ -71,7 +83,10 @@
 		"companiesLabel": "Frakcje",
 		"instashotsLabel": "Instashots",
 		"groupsLabel": "Grupy",
-		"systemLabel": "System"
+		"systemLabel": "System",
+		"ybuyLabel": "YBuy",
+		"darkchatLabel": "Dark Chat",
+		"promoHubLabel": "Promo Hub"
 	},
 	"phone": {
 		"keypad": "Klawiatura",
@@ -126,7 +141,21 @@
 		"emptyFavoritesLabel": "Brak ulubionych",
 		"emptyContactsLabel": "Brak kontaktów",
 		"confirmDeleteContact": "Czy na pewno chcesz usunąć ten kontakt?",
-		"noService": "Brak usługi"
+		"noService": "Brak usługi",
+		"empty": "Tutaj jest pusto",
+		"videoCallCooldown": "Proszę poczekać chwilę przed ponownym wykonaniem połączenia.",
+		"videoCallContactNotAvailable": "Kontakt niedostępny. Spróbuj później!",
+		"videoCallLabel": "Połączenie wideo",
+		"missed": "Nieodebrane",
+		"incoming": "Przychodzące",
+		"outgoing": "Wychodzące",
+		"canceled": "Anulowane",
+		"missed_video": "Nieodebrane wideo",
+		"incoming_video": "Przychodzące wideo",
+		"outgoing_video": "Wychodzące wideo",
+		"canceled_video": "Anulowane wideo",
+		"videoCallsTitle": "Połączenia wideo",
+		"endCall": "Zakończ"
 	},
 	"messages": {
 		"messagesTabTitle": "Wiadomości",
@@ -142,7 +171,11 @@
 		"enterMessagePlaceholder": "Wpisz wiadomość",
 		"invalidNumber": "Niepoprawny numer!",
 		"addMemberLabel": "Dodaj do konwersacji",
-		"confirmRemoveMemberLabel": "Czy na pewno chcesz usunąć osobę z konwersacji?"
+		"confirmRemoveMemberLabel": "Czy na pewno chcesz usunąć osobę z konwersacji?",
+		"leftGroupLabel": "Opuszczono grupę",
+		"leaveGroup": "Opuść grupę",
+		"confirmLeaveGroup": "Czy na pewno chcesz opuścić tę grupę?",
+		"numberAlreadyExist": "Ten numer już istnieje w grupie"
 	},
 	"settings": {
 		"settingsTabTitle": "Ustawienia",
@@ -297,7 +330,10 @@
 		"yourMessagesTabTitle": "Twoje wiadomości",
 		"enterMessagePlaceholder": "Wprowadź wiadomość",
 		"emptyConversationLabel": "Brak wiadomości",
-		"callFailed": "Połączenie nieudane"
+		"callFailed": "Połączenie nieudane",
+		"dispatch": "Wysłanie",
+		"emptyConversations": "Brak rozmów do wyświetlenia",
+		"companyActionsTitle": "Działania firmy"
 	},
 	"home": {
 		"homeAppTitle": "Posiadłości",
@@ -369,7 +405,10 @@
 		"transactionsLabel": "TRANSAKCJE",
 		"emptyTransactionsLabel": "Brak ostatnich transakcji",
 		"transferType1": "Do",
-		"transferType2": "Od"
+		"transferType2": "Od",
+		"directToNumber": "Bezpośrednio na numer",
+		"enterPhoneNumber": "Wpisz numer telefonu",
+		"unknownRecipient": "Nieznany kontakt"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Czy na pewno chcesz usunąć to zdjęcie?",
@@ -533,7 +572,8 @@
 		"contactPhonePlaceholder": "np. 0881502",
 		"allowCalls": "Pozwól na połączenia",
 		"allowMessages": "Pozwół na wiadomości",
-		"createLabel": "Wystaw"
+		"createLabel": "Wystaw",
+		"newAdLabel": "Nowe ogłoszenie utworzone"
 	},
 	"groups": {
 		"groupCreated": "Grupa utworzona.",
@@ -655,11 +695,138 @@
 		"usernameTooLong": "Nazwa użytkownika jest za długa",
 		"displayNameTooLong": "Pełna nazwa jest za długa",
 		"passwordTooShort": "Hasło jest za krótkie. Min. 6 znaków",
-		"newPostLabelNotify": "Nowy post od {{username}}"
+		"newPostLabelNotify": "Nowy post od {{username}}",
+		"goLiveLabel": "Idź na żywo",
+		"confirmGoingLive": "Czy na pewno chcesz przejść na żywo?",
+		"confirmCloseLive": "Czy na pewno chcesz zakończyć transmisję na żywo?",
+		"watchLive": "Oglądaj na żywo",
+		"openProfile": "Otwórz profil",
+		"liveEnded": "LIVE zakończony",
+		"liveLabel": "LIVE",
+		"commentPlaceholder": "Komentarz",
+		"notificationsTitle": "Powiadomienia",
+		"errors": {
+			"LiveEnded": "Transmisja na żywo zakończyła się"
+		}
 	},
 	"youtoo": {
 		"searchLabel": "Szukaj w YouToo",
 		"pasteVideoUrl": "Wklej URL wideo",
 		"invalidVideoUrl": "Nieprawidłowy URL wideo"
+	},
+	"ycloud": {
+		"title": "YCloud",
+		"restoreSuccess": "Dane przywrócone pomyślnie. Ponowne uruchomienie!",
+		"restoreFail": "Nie udało się przywrócić danych. Proszę spróbować ponownie później!",
+		"phoneSynced": "Twój telefon jest zsynchronizowany",
+		"sync": "Synchronizuj",
+		"restore": "Przywróć",
+		"syncedData": "Zsynchronizowane dane",
+		"syncedContacts": "Kontakty",
+		"syncedNotes": "Notatki",
+		"syncedGallery": "Galeria",
+		"syncedLocations": "Lokalizacje",
+		"syncedMails": "Maile",
+		"signOut": "Wyloguj się",
+		"setupYCloud": "Skonfiguruj YCloud, aby wykonać kopię zapasową danych",
+		"invalidPhoneName": "Wprowadź prawidłową nazwę telefonu",
+		"signInHint": "Zaloguj się do YCloud",
+		"ycloudIdLabel": "ID YCloud",
+		"ycloudLoginSubTitle": "Zaloguj się do YCloud, aby wykonać kopię zapasową danych"
+	},
+	"darkchat": {
+		"username": "Nazwa użytkownika",
+		"displayName": "Wyświetlana nazwa",
+		"channelName": "Nazwa kanału",
+		"password": "Hasło",
+		"createNewAccount": "Utwórz nowe konto",
+		"login": "Zaloguj się",
+		"newChannel": "Nowy kanał",
+		"confirmRemoveChannel": "Ta akcja jest nieodwracalna. Czy na pewno chcesz usunąć ten kanał?",
+		"channelRemoved": "Kanał usunięty",
+		"channelRemoveFaild": "Nie udało się usunąć kanału",
+		"channelMuted": "Kanał wyciszony",
+		"channelUnmuted": "Kanał odciszony",
+		"createNewChannel": "Utwórz kanał",
+		"channelExists": "Kanał już istnieje",
+		"channelCreationFailed": "Nie udało się utworzyć kanału",
+		"myChannels": "Dołączył",
+		"browseChannels": "Przeglądaj",
+		"channelJoined": "Dołączono do kanału",
+		"empty": "Brak kanałów do wyświetlenia",
+		"oldPassword": "Stare hasło",
+		"newPassword": "Nowe hasło",
+		"verifyPassword": "Zweryfikuj",
+		"passwordMismatch": "Hasła nie pasują do siebie",
+		"passwordChanged": "Hasło zmienione",
+		"passwordChangeFailed": "Zmiana hasła nie powiodła się",
+		"changePassword": "Zmień hasło",
+		"verifyPasswordTitle": "Zweryfikuj hasło",
+		"passwordVerified": "Hasło zweryfikowane",
+		"changeDisplayNameTitle": "Zmień wyświetlaną nazwę",
+		"changePasswordBtn": "Zmień",
+		"displayNameChanged": "Wyświetlana nazwa zmieniona",
+		"displayNameChangeFailed": "Zmiana wyświetlanej nazwy nie powiodła się",
+		"profileImageChanged": "Zdjęcie profilowe zmienione",
+		"logout": "Wyloguj się",
+		"anonymousChannel": "Anonimowy kanał",
+		"channelIdentifier": "Kod zaproszenia lub Nazwa kanału",
+		"join": "Dołącz",
+		"channelNotFound": "Kanał nie znaleziony",
+		"channelPasswordRequired": "Wymagane hasło kanału",
+		"channelPasswordIncorrect": "Nieprawidłowe hasło kanału",
+		"channelJoinFailed": "Nie udało się dołączyć do kanału",
+		"confirmRemoveMessage": "Czy na pewno chcesz usunąć tę wiadomość?",
+		"messageRemoved": "Wiadomość usunięta",
+		"joinByHint": "Dołącz przy użyciu Kodu zaproszenia lub Nazwy kanału",
+		"channelPasswordRequiredHint": "Aby dołączyć do tego kanału, wymagane jest hasło",
+		"confirmLeaveChannel": "Czy na pewno chcesz opuścić ten kanał?",
+		"channelLeft": "Kanał opuszczony",
+		"channelLelfFailed": "Nie udało się opuścić kanału",
+		"invite": "Zaproś",
+		"manage": "Zarządzaj",
+		"remove": "Usuń",
+		"leave": "Opuść",
+		"inviteCodeCopied": "Kod zaproszenia skopiowany",
+		"failedToCopyInviteCode": "Nie udało się skopiować kodu zaproszenia",
+		"someoneJoined": "{{username}} dołączył do #{{channelName}}",
+		"someoneLeft": "{{username}} opuścił #{{channelName}}",
+		"someoneJoinedChannel": "Ktoś",
+		"someoneJoinedChannel2": "dołączył do kanału",
+		"someoneLeftChannel2": "opuścił kanał",
+		"selectPhoto": "Wybierz zdjęcie",
+		"shareLocation": "Udostępnij lokalizację",
+		"typeMessage": "Napisz wiadomość",
+		"location": "Lokalizacja",
+		"sharedLocation": "Udostępniona lokalizacja",
+		"sendPhoto": "Wyślij zdjęcie",
+		"confirmRemoveMember": "Czy na pewno chcesz usunąć tego członka?",
+		"kickLabel": "Wyrzuć",
+		"removeMemberSuccess": "Członek usunięty",
+		"emptyChannelMembers": "Brak członków na tym kanale",
+		"youAreKicked": "Zostałeś wyrzucony"
+	},
+	"promoHub": {
+		"advertisements": "Reklamy",
+		"createAdTitle": "Utwórz ogłoszenie",
+		"addPhoto": "Dodaj zdjęcie",
+		"addMore": "Dodaj więcej",
+		"addMoreDesc": "Pierwsze zdjęcie będzie głównym zdjęciem w Twoim ogłoszeniu.",
+		"addMoreDesc2": "Możesz zmienić kolejność, przeciągając.",
+		"title": "Tytuł",
+		"titlePlaceholder": "np. Rower KTM",
+		"description": "Opis",
+		"contactNumber": "Numer kontaktowy",
+		"contactNumberPlaceholder": "Wypełnij prawym przyciskiem lub ręcznie",
+		"contactName": "Imię kontaktowe",
+		"contactNamePlaceholder": "np. Mike Smith lub Burgershot",
+		"descriptionPlaceholder": "np. KTM 250 EXC-F",
+		"price": "Cena",
+		"tags": "Tagi",
+		"tagsPlaceholder": "Wpisz, aby filtrować tagi",
+		"createPost": "Utwórz post",
+		"freeTag": "Darmowe",
+		"confirmMessage": "Czy na pewno chcesz wysłać wiadomość do tego użytkownika?",
+		"confirmCall": "Czy na pewno chcesz zadzwonić do tego użytkownika?"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Bu telefonda kullanılmaz.",
-		"VERSION": "1.0.14"
+		"VERSION": "1.0.19"
 	},
 	"general": {
 		"saveLabel": "Kaydet",
@@ -43,7 +43,16 @@
 		"videoMode": "Video",
 		"selectPhoneExperienceLabel": "Telefon deneyiminizi seçin",
 		"noService": "Servis yok",
-		"loadNewPosts": "Yeni gönderileri yükle"
+		"loadNewPosts": "Yeni gönderileri yükle",
+		"cameraInUse": "Kamera zaten kullanımda",
+		"enterPasscode": "Şifreyi Girin",
+		"back": "Geri",
+		"selfieNotAvailable": "Selfie kamerası kullanılamıyor",
+		"minuteLabel": "dakika",
+		"minutesLabel": "dakikalar",
+		"deviceUnavailable": "Cihaz kullanılamıyor",
+		"tryAgainIn": "tekrar deneyin ",
+		"close": "Kapat"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Hoşgeldin!",
@@ -59,7 +68,10 @@
 		"lightLabel": "Aydınlık",
 		"darkLabel": "Karanlık",
 		"setupReadyLabel": "Her şey hazır.!",
-		"finishBtnlabel": "Bitir"
+		"finishBtnlabel": "Bitir",
+		"focusTitle": "Cihazınızın odağını asla kaybetmeyin",
+		"focusInfo1": "<strong>{{keybind}}</strong> tuşuna basmak, telefonun odağını kaybetmenize neden olabilir (imleç kaybolacaktır).",
+		"focusInfo2": "Telefonun odağını yeniden kazanmak için <strong>{{keybind}}</strong> tuşuna basabilirsiniz."
 	},
 	"apps": {
 		"messagesLabel": "Mesajlar",
@@ -71,7 +83,10 @@
 		"companiesLabel": "İşletmeler",
 		"instashotsLabel": "Instashots",
 		"groupsLabel": "Gruplar",
-		"systemLabel": "Sistem"
+		"systemLabel": "Sistem",
+		"ybuyLabel": "YBuy",
+		"darkchatLabel": "Dark Chat",
+		"promoHubLabel": "Promo Hub"
 	},
 	"phone": {
 		"keypad": "Tuş takımı",
@@ -126,7 +141,21 @@
 		"emptyFavoritesLabel": "Favori yok",
 		"emptyContactsLabel": "Kişi yok",
 		"confirmDeleteContact": "Bu kişiyi silmek istediğinizden emin misiniz?",
-		"noService": "Servis yok"
+		"noService": "Servis yok",
+		"empty": "Burada boş",
+		"videoCallCooldown": "Tekrar aramadan önce lütfen bir süre bekleyin.",
+		"videoCallContactNotAvailable": "Kişi müsait değil. Daha sonra tekrar deneyin!",
+		"videoCallLabel": "Görüntülü arama",
+		"missed": "Cevapsız",
+		"incoming": "Gelen",
+		"outgoing": "Giden",
+		"canceled": "İptal edildi",
+		"missed_video": "Cevapsız video",
+		"incoming_video": "Gelen video",
+		"outgoing_video": "Giden video",
+		"canceled_video": "İptal edilen video",
+		"videoCallsTitle": "Görüntülü Aramalar",
+		"endCall": "Sonlandır"
 	},
 	"messages": {
 		"messagesTabTitle": "Mesajlar",
@@ -142,7 +171,11 @@
 		"enterMessagePlaceholder": "Mesaj Yaz",
 		"invalidNumber": "Geçersiz Numara",
 		"addMemberLabel": "Üye Ekle",
-		"confirmRemoveMemberLabel": "Bu üyeyi çıkarmak istediğine emin misin ?"
+		"confirmRemoveMemberLabel": "Bu üyeyi çıkarmak istediğine emin misin ?",
+		"leftGroupLabel": "Gruptan ayrıldınız",
+		"leaveGroup": "Gruptan ayrıl",
+		"confirmLeaveGroup": "Bu gruptan ayrılmak istediğinizden emin misiniz?",
+		"numberAlreadyExist": "Bu numara grupta zaten var"
 	},
 	"settings": {
 		"settingsTabTitle": "Ayarlar",
@@ -297,7 +330,10 @@
 		"yourMessagesTabTitle": "Mesajların",
 		"enterMessagePlaceholder": "Mesaj Yaz",
 		"emptyConversationLabel": "Mesaj Yok",
-		"callFailed": "Arama Başarısız Oldu"
+		"callFailed": "Arama Başarısız Oldu",
+		"dispatch": "Gönderim",
+		"emptyConversations": "Gösterilecek sohbet yok",
+		"companyActionsTitle": "Şirket eylemleri"
 	},
 	"home": {
 		"homeAppTitle": "Sahip Olduğun Evler",
@@ -369,7 +405,10 @@
 		"transactionsLabel": "İşlemler",
 		"emptyTransactionsLabel": "Geçmiş İşlem Yok",
 		"transferType1": "Bu Hesaba",
-		"transferType2": "Tarafından"
+		"transferType2": "Tarafından",
+		"directToNumber": "Numaraya yönlendir",
+		"enterPhoneNumber": "Telefon numarasını girin",
+		"unknownRecipient": "Bilinmeyen kişi"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Bu fotoğrafı silmek istediğine emin misin ?",
@@ -533,7 +572,8 @@
 		"contactPhonePlaceholder": "e.g. 555-555-555",
 		"allowCalls": "Aramalara izin ver",
 		"allowMessages": "Mesajlara izin ver",
-		"createLabel": "Oluştur"
+		"createLabel": "Oluştur",
+		"newAdLabel": "Yeni reklam oluşturuldu"
 	},
 	"groups": {
 		"groupCreated": "Grup Oluşturuldu",
@@ -655,11 +695,138 @@
 		"usernameTooLong": "Kullanıcı adı çok uzun",
 		"displayNameTooLong": "Tam ad çok uzun",
 		"passwordTooShort": "Şifre çok kısa. Min. 6 karakter",
-		"newPostLabelNotify": "{{username}} tarafından yeni gönderi"
+		"newPostLabelNotify": "{{username}} tarafından yeni gönderi",
+		"goLiveLabel": "Canlı Yayına Geç",
+		"confirmGoingLive": "Canlı yayına geçmek istediğinizden emin misiniz?",
+		"confirmCloseLive": "Canlı yayını sonlandırmak istediğinizden emin misiniz?",
+		"watchLive": "Canlı izle",
+		"openProfile": "Profili aç",
+		"liveEnded": "CANLI yayın sona erdi",
+		"liveLabel": "CANLI",
+		"commentPlaceholder": "Yorum",
+		"notificationsTitle": "Bildirimler",
+		"errors": {
+			"LiveEnded": "Canlı yayın sona erdi"
+		}
 	},
 	"youtoo": {
 		"searchLabel": "YouToo'da Ara",
 		"pasteVideoUrl": "Video URL'si yapıştır",
 		"invalidVideoUrl": "Geçersiz video URL'si"
+	},
+	"ycloud": {
+		"title": "YCloud",
+		"restoreSuccess": "Veriler başarıyla geri yüklendi. Yeniden başlatılıyor!",
+		"restoreFail": "Veriler geri yüklenemedi. Lütfen daha sonra tekrar deneyin!",
+		"phoneSynced": "Telefonunuz senkronize edildi",
+		"sync": "Senkronize et",
+		"restore": "Geri yükle",
+		"syncedData": "Senkronize edilen veriler",
+		"syncedContacts": "Kişiler",
+		"syncedNotes": "Notlar",
+		"syncedGallery": "Galeri",
+		"syncedLocations": "Konumlar",
+		"syncedMails": "Mailler",
+		"signOut": "Oturumu kapat",
+		"setupYCloud": "Verilerinizi yedeklemek için YCloud'u kurun",
+		"invalidPhoneName": "Lütfen geçerli bir telefon adı girin",
+		"signInHint": "YCloud'a giriş yapın",
+		"ycloudIdLabel": "YCloud Kimliği",
+		"ycloudLoginSubTitle": "Verilerinizi yedeklemek için YCloud'a giriş yapın"
+	},
+	"darkchat": {
+		"username": "Kullanıcı adı",
+		"displayName": "Görünen ad",
+		"channelName": "Kanal adı",
+		"password": "Şifre",
+		"createNewAccount": "Yeni hesap oluştur",
+		"login": "Giriş yap",
+		"newChannel": "Yeni kanal",
+		"confirmRemoveChannel": "Bu işlem geri alınamaz. Bu kanalı silmek istediğinizden emin misiniz?",
+		"channelRemoved": "Kanal silindi",
+		"channelRemoveFaild": "Kanal silinemedi",
+		"channelMuted": "Kanal sessize alındı",
+		"channelUnmuted": "Kanalın sesi açıldı",
+		"createNewChannel": "Kanal oluştur",
+		"channelExists": "Kanal zaten var",
+		"channelCreationFailed": "Kanal oluşturma başarısız",
+		"myChannels": "Katıldı",
+		"browseChannels": "Göz at",
+		"channelJoined": "Kanala katıldı",
+		"empty": "Gösterilecek kanal yok",
+		"oldPassword": "Eski şifre",
+		"newPassword": "Yeni şifre",
+		"verifyPassword": "Doğrula",
+		"passwordMismatch": "Şifreler uyuşmuyor",
+		"passwordChanged": "Şifre değiştirildi",
+		"passwordChangeFailed": "Şifre değişikliği başarısız",
+		"changePassword": "Şifre değiştir",
+		"verifyPasswordTitle": "Şifreyi doğrula",
+		"passwordVerified": "Şifre doğrulandı",
+		"changeDisplayNameTitle": "Görünen adı değiştir",
+		"changePasswordBtn": "Değiştir",
+		"displayNameChanged": "Görünen ad değiştirildi",
+		"displayNameChangeFailed": "Görünen ad değişikliği başarısız",
+		"profileImageChanged": "Profil resmi değiştirildi",
+		"logout": "Çıkış yap",
+		"anonymousChannel": "Anonim kanal",
+		"channelIdentifier": "Davet kodu veya Kanal adı",
+		"join": "Katıl",
+		"channelNotFound": "Kanal bulunamadı",
+		"channelPasswordRequired": "Kanal şifresi gerekli",
+		"channelPasswordIncorrect": "Yanlış kanal şifresi",
+		"channelJoinFailed": "Kanala katılma başarısız",
+		"confirmRemoveMessage": "Bu mesajı silmek istediğinizden emin misiniz?",
+		"messageRemoved": "Mesaj silindi",
+		"joinByHint": "Davet Kodu veya Kanal Adı ile Katıl",
+		"channelPasswordRequiredHint": "Bu kanala katılmak için şifre gereklidir",
+		"confirmLeaveChannel": "Bu kanaldan ayrılmak istediğinizden emin misiniz?",
+		"channelLeft": "Kanaldan ayrıldı",
+		"channelLelfFailed": "Kanaldan ayrılma başarısız",
+		"invite": "Davet et",
+		"manage": "Yönet",
+		"remove": "Kaldır",
+		"leave": "Ayrıl",
+		"inviteCodeCopied": "Davet kodu kopyalandı",
+		"failedToCopyInviteCode": "Davet kodu kopyalanamadı",
+		"someoneJoined": "{{username}} #{{channelName}} kanalına katıldı",
+		"someoneLeft": "{{username}} #{{channelName}} kanalından ayrıldı",
+		"someoneJoinedChannel": "Birisi",
+		"someoneJoinedChannel2": "kanala katıldı",
+		"someoneLeftChannel2": "kanaldan ayrıldı",
+		"selectPhoto": "Fotoğraf seç",
+		"shareLocation": "Konum paylaş",
+		"typeMessage": "Bir mesaj yazın",
+		"location": "Konum",
+		"sharedLocation": "Paylaşılan konum",
+		"sendPhoto": "Bir fotoğraf gönder",
+		"confirmRemoveMember": "Bu üyeyi kaldırmak istediğinizden emin misiniz?",
+		"kickLabel": "At",
+		"removeMemberSuccess": "Üye kaldırıldı",
+		"emptyChannelMembers": "Bu kanalda üye yok",
+		"youAreKicked": "Atıldınız"
+	},
+	"promoHub": {
+		"advertisements": "Reklamlar",
+		"createAdTitle": "İlan oluştur",
+		"addPhoto": "Fotoğraf ekle",
+		"addMore": "Daha fazla ekle",
+		"addMoreDesc": "İlk resim, ilanınızdaki ana resim olacaktır.",
+		"addMoreDesc2": "Sıralamayı sürükleyerek değiştirebilirsiniz.",
+		"title": "Başlık",
+		"titlePlaceholder": "örneğin KTM Bisiklet",
+		"description": "Açıklama",
+		"contactNumber": "İletişim numarası",
+		"contactNumberPlaceholder": "Sağ tuşla veya manuel olarak doldur",
+		"contactName": "İletişim ismi",
+		"contactNamePlaceholder": "örneğin Mike Smith veya Burgershot",
+		"descriptionPlaceholder": "örneğin KTM 250 EXC-F",
+		"price": "Fiyat",
+		"tags": "Etiketler",
+		"tagsPlaceholder": "Etiketleri filtrelemek için yazın",
+		"createPost": "Gönderi oluştur",
+		"freeTag": "Ücretsiz",
+		"confirmMessage": "Bu kullanıcıya mesaj göndermek istediğinizden emin misiniz?",
+		"confirmCall": "Bu kullanıcıyı aramak istediğinizden emin misiniz?"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.14"
+		"VERSION": "1.0.19"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -43,7 +43,16 @@
 		"videoMode": "影片",
 		"selectPhoneExperienceLabel": "選擇您的手機體驗",
 		"noService": "無服務",
-		"loadNewPosts": "加載新帖子"
+		"loadNewPosts": "加載新帖子",
+		"cameraInUse": "相機已在使用中",
+		"enterPasscode": "輸入密碼",
+		"back": "返回",
+		"selfieNotAvailable": "自拍相機無法使用",
+		"minuteLabel": "分鐘",
+		"minutesLabel": "分鐘",
+		"deviceUnavailable": "裝置無法使用",
+		"tryAgainIn": "請在稍後重試 ",
+		"close": "關閉"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "歡迎!",
@@ -59,7 +68,10 @@
 		"lightLabel": "明亮",
 		"darkLabel": "深色",
 		"setupReadyLabel": "你已經準備好了!",
-		"finishBtnlabel": "結束"
+		"finishBtnlabel": "結束",
+		"focusTitle": "永遠不要失去您的設備焦點",
+		"focusInfo1": "按下 <strong>{{keybind}}</strong> 可能會導致您失去電話的焦點（游標將消失）。",
+		"focusInfo2": "您可以按下 <strong>{{keybind}}</strong> 鍵以重新獲取電話的焦點。"
 	},
 	"apps": {
 		"messagesLabel": "訊息",
@@ -71,7 +83,10 @@
 		"companiesLabel": "公司",
 		"instashotsLabel": "Instashots",
 		"groupsLabel": "群組",
-		"systemLabel": "系統"
+		"systemLabel": "系統",
+		"ybuyLabel": "YBuy",
+		"darkchatLabel": "Dark Chat",
+		"promoHubLabel": "Promo Hub"
 	},
 	"phone": {
 		"keypad": "號碼",
@@ -126,7 +141,21 @@
 		"emptyFavoritesLabel": "無收藏",
 		"emptyContactsLabel": "無聯絡人",
 		"confirmDeleteContact": "您確定要刪除此聯絡人嗎？",
-		"noService": "無服務"
+		"noService": "無服務",
+		"empty": "這裡是空的",
+		"videoCallCooldown": "請稍等片刻再撥打。",
+		"videoCallContactNotAvailable": "聯絡人不在。稍後再試！",
+		"videoCallLabel": "視頻通話",
+		"missed": "未接",
+		"incoming": "來電",
+		"outgoing": "外撥",
+		"canceled": "已取消",
+		"missed_video": "未接視頻",
+		"incoming_video": "來電視頻",
+		"outgoing_video": "外撥視頻",
+		"canceled_video": "已取消視頻",
+		"videoCallsTitle": "視頻通話",
+		"endCall": "結束"
 	},
 	"messages": {
 		"messagesTabTitle": "訊息",
@@ -142,7 +171,11 @@
 		"enterMessagePlaceholder": "輸入留言",
 		"invalidNumber": "無效號碼",
 		"addMemberLabel": "新增會員",
-		"confirmRemoveMemberLabel": "您确定要移除该成员吗？"
+		"confirmRemoveMemberLabel": "您确定要移除该成员吗？",
+		"leftGroupLabel": "您已離開群組",
+		"leaveGroup": "離開群組",
+		"confirmLeaveGroup": "您確定要離開此群組嗎？",
+		"numberAlreadyExist": "此號碼已存在於群組中"
 	},
 	"settings": {
 		"settingsTabTitle": "設定",
@@ -297,7 +330,10 @@
 		"yourMessagesTabTitle": "您的訊息",
 		"enterMessagePlaceholder": "輸入訊息",
 		"emptyConversationLabel": "沒有訊息",
-		"callFailed": "通話失敗"
+		"callFailed": "通話失敗",
+		"dispatch": "發送",
+		"emptyConversations": "沒有對話可顯示",
+		"companyActionsTitle": "公司行動"
 	},
 	"home": {
 		"homeAppTitle": "擁有的房產",
@@ -369,7 +405,10 @@
 		"transactionsLabel": "交易",
 		"emptyTransactionsLabel": "沒有最近的交易",
 		"transferType1": "至",
-		"transferType2": "來自"
+		"transferType2": "來自",
+		"directToNumber": "直撥至號碼",
+		"enterPhoneNumber": "輸入電話號碼",
+		"unknownRecipient": "未知聯絡人"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "您確定要刪除這張照片嗎?",
@@ -533,7 +572,8 @@
 		"contactPhonePlaceholder": "例如 555-555-555",
 		"allowCalls": "允許通話",
 		"allowMessages": "允許訊息",
-		"createLabel": "建立"
+		"createLabel": "建立",
+		"newAdLabel": "已建立新廣告"
 	},
 	"groups": {
 		"groupCreated": "已建立群組",
@@ -655,11 +695,138 @@
 		"usernameTooLong": "用戶名太長",
 		"displayNameTooLong": "全名太長",
 		"passwordTooShort": "密碼太短。最少6個字符",
-		"newPostLabelNotify": "{{username}} 的新帖子"
+		"newPostLabelNotify": "{{username}} 的新帖子",
+		"goLiveLabel": "開始直播",
+		"confirmGoingLive": "您確定要開始直播嗎？",
+		"confirmCloseLive": "您確定要結束直播嗎？",
+		"watchLive": "觀看直播",
+		"openProfile": "打開個人檔案",
+		"liveEnded": "LIVE 結束",
+		"liveLabel": "LIVE",
+		"commentPlaceholder": "留言",
+		"notificationsTitle": "通知",
+		"errors": {
+			"LiveEnded": "直播已結束"
+		}
 	},
 	"youtoo": {
 		"searchLabel": "搜索 YouToo",
 		"pasteVideoUrl": "粘貼視頻網址",
 		"invalidVideoUrl": "無效的視頻網址"
+	},
+	"ycloud": {
+		"title": "YCloud",
+		"restoreSuccess": "資料成功恢復。正在重新啟動！",
+		"restoreFail": "無法恢復資料。請稍後再試！",
+		"phoneSynced": "您的手機已同步",
+		"sync": "同步",
+		"restore": "恢復",
+		"syncedData": "同步資料",
+		"syncedContacts": "聯絡人",
+		"syncedNotes": "筆記",
+		"syncedGallery": "相簿",
+		"syncedLocations": "位置",
+		"syncedMails": "郵件",
+		"signOut": "登出",
+		"setupYCloud": "設置YCloud以備份您的資料",
+		"invalidPhoneName": "請輸入有效的電話名稱",
+		"signInHint": "登入到您的YCloud",
+		"ycloudIdLabel": "YCloud ID",
+		"ycloudLoginSubTitle": "登入YCloud以備份您的資料"
+	},
+	"darkchat": {
+		"username": "使用者名稱",
+		"displayName": "顯示名稱",
+		"channelName": "頻道名稱",
+		"password": "密碼",
+		"createNewAccount": "創建新帳戶",
+		"login": "登入",
+		"newChannel": "新頻道",
+		"confirmRemoveChannel": "此操作無法撤銷。您確定要刪除此頻道嗎？",
+		"channelRemoved": "頻道已刪除",
+		"channelRemoveFaild": "刪除頻道失敗",
+		"channelMuted": "頻道已靜音",
+		"channelUnmuted": "頻道已解除靜音",
+		"createNewChannel": "創建頻道",
+		"channelExists": "頻道已存在",
+		"channelCreationFailed": "創建頻道失敗",
+		"myChannels": "已加入",
+		"browseChannels": "瀏覽",
+		"channelJoined": "已加入頻道",
+		"empty": "沒有可顯示的頻道",
+		"oldPassword": "舊密碼",
+		"newPassword": "新密碼",
+		"verifyPassword": "驗證",
+		"passwordMismatch": "密碼不匹配",
+		"passwordChanged": "密碼已更改",
+		"passwordChangeFailed": "更改密碼失敗",
+		"changePassword": "更改密碼",
+		"verifyPasswordTitle": "驗證密碼",
+		"passwordVerified": "密碼已驗證",
+		"changeDisplayNameTitle": "更改顯示名稱",
+		"changePasswordBtn": "更改",
+		"displayNameChanged": "顯示名稱已更改",
+		"displayNameChangeFailed": "更改顯示名稱失敗",
+		"profileImageChanged": "個人資料圖片已更改",
+		"logout": "登出",
+		"anonymousChannel": "匿名頻道",
+		"channelIdentifier": "邀請碼或頻道名稱",
+		"join": "加入",
+		"channelNotFound": "找不到頻道",
+		"channelPasswordRequired": "需要頻道密碼",
+		"channelPasswordIncorrect": "頻道密碼錯誤",
+		"channelJoinFailed": "加入頻道失敗",
+		"confirmRemoveMessage": "您確定要刪除此消息嗎？",
+		"messageRemoved": "消息已刪除",
+		"joinByHint": "通過邀請碼或頻道名稱加入",
+		"channelPasswordRequiredHint": "需要密碼才能加入此頻道",
+		"confirmLeaveChannel": "您確定要離開此頻道嗎？",
+		"channelLeft": "已離開頻道",
+		"channelLelfFailed": "離開頻道失敗",
+		"invite": "邀請",
+		"manage": "管理",
+		"remove": "移除",
+		"leave": "離開",
+		"inviteCodeCopied": "邀請碼已複製",
+		"failedToCopyInviteCode": "複製邀請碼失敗",
+		"someoneJoined": "{{username}} 加入了 #{{channelName}}",
+		"someoneLeft": "{{username}} 離開了 #{{channelName}}",
+		"someoneJoinedChannel": "有人",
+		"someoneJoinedChannel2": "加入了頻道",
+		"someoneLeftChannel2": "離開了頻道",
+		"selectPhoto": "選擇照片",
+		"shareLocation": "分享位置",
+		"typeMessage": "輸入消息",
+		"location": "位置",
+		"sharedLocation": "共享位置",
+		"sendPhoto": "發送照片",
+		"confirmRemoveMember": "您確定要移除此成員嗎？",
+		"kickLabel": "踢出",
+		"removeMemberSuccess": "成員已移除",
+		"emptyChannelMembers": "此頻道中沒有成員",
+		"youAreKicked": "您已被踢出"
+	},
+	"promoHub": {
+		"advertisements": "廣告",
+		"createAdTitle": "創建廣告",
+		"addPhoto": "添加照片",
+		"addMore": "添加更多",
+		"addMoreDesc": "第一張照片將是廣告中的主要圖片。",
+		"addMoreDesc2": "您可以通過拖動來更改順序。",
+		"title": "標題",
+		"titlePlaceholder": "例如 KTM 自行車",
+		"description": "描述",
+		"contactNumber": "聯絡電話",
+		"contactNumberPlaceholder": "右鍵填寫或手動填寫",
+		"contactName": "聯絡人姓名",
+		"contactNamePlaceholder": "例如 Mike Smith 或 Burgershot",
+		"descriptionPlaceholder": "例如 KTM 250 EXC-F",
+		"price": "價格",
+		"tags": "標籤",
+		"tagsPlaceholder": "輸入以篩選標籤",
+		"createPost": "創建帖子",
+		"freeTag": "免費",
+		"confirmMessage": "您確定要向此用戶發送消息嗎？",
+		"confirmCall": "您確定要撥打此用戶的電話嗎？"
 	}
 }

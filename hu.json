@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.14"
+		"VERSION": "1.0.19"
 	},
 	"general": {
 		"saveLabel": "Mentés",
@@ -43,7 +43,16 @@
 		"videoMode": "Videó",
 		"selectPhoneExperienceLabel": "Válassza ki a telefonos élményét",
 		"noService": "Nincs szolgáltatás",
-		"loadNewPosts": "Új bejegyzések betöltése"
+		"loadNewPosts": "Új bejegyzések betöltése",
+		"cameraInUse": "A kamera már használatban van",
+		"enterPasscode": "Adja meg a jelszót",
+		"back": "Vissza",
+		"selfieNotAvailable": "Szelfikamera nem érhető el",
+		"minuteLabel": "perc",
+		"minutesLabel": "percek",
+		"deviceUnavailable": "Eszköz nem elérhető",
+		"tryAgainIn": "próbálja meg újra ",
+		"close": "Bezár"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Üdvözöljük!",
@@ -59,7 +68,10 @@
 		"lightLabel": "Világos",
 		"darkLabel": "Sötét",
 		"setupReadyLabel": "Mindennek beállítva!",
-		"finishBtnlabel": "Befejezés"
+		"finishBtnlabel": "Befejezés",
+		"focusTitle": "Soha ne veszítse el a készüléke fókuszát",
+		"focusInfo1": "A <strong>{{keybind}}</strong> megnyomása azt okozhatja, hogy elveszítse a telefon fókuszát (a kurzor eltűnik).",
+		"focusInfo2": "A telefon fókuszának visszaszerzéséhez nyomja meg újra a <strong>{{keybind}}</strong> gombot."
 	},
 	"apps": {
 		"messagesLabel": "Üzenetek",
@@ -71,7 +83,10 @@
 		"companiesLabel": "Vállalatok",
 		"instashotsLabel": "Instashots",
 		"groupsLabel": "Csoportok",
-		"systemLabel": "Rendszer"
+		"systemLabel": "Rendszer",
+		"ybuyLabel": "YBuy",
+		"darkchatLabel": "Dark Chat",
+		"promoHubLabel": "Promo Hub"
 	},
 	"phone": {
 		"keypad": "Billentyűzet",
@@ -126,7 +141,21 @@
 		"emptyFavoritesLabel": "Nincsenek kedvencek",
 		"emptyContactsLabel": "Nincsenek kapcsolatok",
 		"confirmDeleteContact": "Biztosan törölni szeretné ezt a kapcsolatot?",
-		"noService": "Nincs szolgáltatás"
+		"noService": "Nincs szolgáltatás",
+		"empty": "Itt üres van",
+		"videoCallCooldown": "Kérjük, várjon egy pillanatot, mielőtt újra hívna.",
+		"videoCallContactNotAvailable": "A kapcsolat nem elérhető. Próbálja később!",
+		"videoCallLabel": "Videohívás",
+		"missed": "Nem fogadott",
+		"incoming": "Bejövő",
+		"outgoing": "Kimenő",
+		"canceled": "Lemondva",
+		"missed_video": "Nem fogadott videó",
+		"incoming_video": "Bejövő videó",
+		"outgoing_video": "Kimenő videó",
+		"canceled_video": "Lemondott videó",
+		"videoCallsTitle": "Videohívások",
+		"endCall": "Befejezés"
 	},
 	"messages": {
 		"messagesTabTitle": "Üzenetek",
@@ -142,7 +171,11 @@
 		"enterMessagePlaceholder": "Írja be az üzenetet",
 		"invalidNumber": "Érvénytelen szám",
 		"addMemberLabel": "Tag hozzáadása",
-		"confirmRemoveMemberLabel": "Biztos benne, hogy eltávolítja ezt a tagot?"
+		"confirmRemoveMemberLabel": "Biztos benne, hogy eltávolítja ezt a tagot?",
+		"leftGroupLabel": "Kiléptél a csoportból",
+		"leaveGroup": "Kilépés a csoportból",
+		"confirmLeaveGroup": "Biztos vagy benne, hogy el akarod hagyni ezt a csoportot?",
+		"numberAlreadyExist": "Ez a szám már létezik a csoportban"
 	},
 	"settings": {
 		"settingsTabTitle": "Beállítások",
@@ -297,7 +330,10 @@
 		"yourMessagesTabTitle": "Az ön üzenetei",
 		"enterMessagePlaceholder": "Írja be az üzenetet",
 		"emptyConversationLabel": "Nincsenek üzenetek",
-		"callFailed": "Hívás sikertelen"
+		"callFailed": "Hívás sikertelen",
+		"dispatch": "Kiküldés",
+		"emptyConversations": "Nincsenek megjeleníthető beszélgetések",
+		"companyActionsTitle": "Cég tevékenységei"
 	},
 	"home": {
 		"homeAppTitle": "Saját ingatlanok",
@@ -369,7 +405,10 @@
 		"transactionsLabel": "TRANZAKCIÓK",
 		"emptyTransactionsLabel": "Nincsenek friss tranzakciók",
 		"transferType1": "Címzett",
-		"transferType2": "Forrás"
+		"transferType2": "Forrás",
+		"directToNumber": "Közvetlenül a számra",
+		"enterPhoneNumber": "Adja meg a telefonszámot",
+		"unknownRecipient": "Ismeretlen névjegy"
 	},
 	"gallery": {
 		"confirmDeletePhoto": "Biztos benne, hogy törölni szeretné ezt a fényképet?",
@@ -533,7 +572,8 @@
 		"contactPhonePlaceholder": "pl. 555-555-555",
 		"allowCalls": "Hívások engedélyezése",
 		"allowMessages": "Üzenetek engedélyezése",
-		"createLabel": "Létrehozás"
+		"createLabel": "Létrehozás",
+		"newAdLabel": "Új hirdetés létrehozva"
 	},
 	"groups": {
 		"groupCreated": "Csoport létrehozva",
@@ -655,11 +695,138 @@
 		"usernameTooLong": "A felhasználónév túl hosszú",
 		"displayNameTooLong": "A teljes név túl hosszú",
 		"passwordTooShort": "A jelszó túl rövid. Min. 6 karakter",
-		"newPostLabelNotify": "Új bejegyzés {{username}}-tól"
+		"newPostLabelNotify": "Új bejegyzés {{username}}-tól",
+		"goLiveLabel": "Élő adásba lépés",
+		"confirmGoingLive": "Biztos, hogy élő adásba szeretnél lépni?",
+		"confirmCloseLive": "Biztos, hogy be akarod fejezni az élő adást?",
+		"watchLive": "Nézd élőben",
+		"openProfile": "Profil megnyitása",
+		"liveEnded": "LIVE véget ért",
+		"liveLabel": "LIVE",
+		"commentPlaceholder": "Hozzászólás",
+		"notificationsTitle": "Értesítések",
+		"errors": {
+			"LiveEnded": "Az élő adás véget ért"
+		}
 	},
 	"youtoo": {
 		"searchLabel": "Keresés a YouToo-on",
 		"pasteVideoUrl": "Videó URL beillesztése",
 		"invalidVideoUrl": "Érvénytelen videó URL"
+	},
+	"ycloud": {
+		"title": "YCloud",
+		"restoreSuccess": "Az adatok sikeresen visszaállítva. Újraindítás!",
+		"restoreFail": "Az adatok visszaállítása nem sikerült. Kérjük, próbálja meg később újra!",
+		"phoneSynced": "A telefon szinkronizálva van",
+		"sync": "Szinkronizálás",
+		"restore": "Visszaállítás",
+		"syncedData": "Szinkronizált adatok",
+		"syncedContacts": "Kapcsolatok",
+		"syncedNotes": "Jegyzetek",
+		"syncedGallery": "Galéria",
+		"syncedLocations": "Helyek",
+		"syncedMails": "Levelek",
+		"signOut": "Kijelentkezés",
+		"setupYCloud": "Állítsa be a YCloud-ot az adatok biztonsági mentéséhez",
+		"invalidPhoneName": "Kérjük, adjon meg egy érvényes telefonnevet",
+		"signInHint": "Jelentkezzen be a YCloud-ba",
+		"ycloudIdLabel": "YCloud azonosító",
+		"ycloudLoginSubTitle": "Jelentkezzen be a YCloud-ba, hogy biztonsági másolatot készítsen adatairól"
+	},
+	"darkchat": {
+		"username": "Felhasználónév",
+		"displayName": "Megjelenített név",
+		"channelName": "Csatorna neve",
+		"password": "Jelszó",
+		"createNewAccount": "Új fiók létrehozása",
+		"login": "Bejelentkezés",
+		"newChannel": "Új csatorna",
+		"confirmRemoveChannel": "Ez a művelet nem visszavonható. Biztos benne, hogy el akarja távolítani ezt a csatornát?",
+		"channelRemoved": "Csatorna eltávolítva",
+		"channelRemoveFaild": "Csatorna eltávolítása nem sikerült",
+		"channelMuted": "Csatorna némítva",
+		"channelUnmuted": "Csatorna visszahangosítva",
+		"createNewChannel": "Csatorna létrehozása",
+		"channelExists": "A csatorna már létezik",
+		"channelCreationFailed": "Csatorna létrehozása sikertelen",
+		"myChannels": "Csatlakozott",
+		"browseChannels": "Böngészés",
+		"channelJoined": "Csatornához csatlakozva",
+		"empty": "Nincsenek megjeleníthető csatornák",
+		"oldPassword": "Régi jelszó",
+		"newPassword": "Új jelszó",
+		"verifyPassword": "Ellenőrzés",
+		"passwordMismatch": "A jelszavak nem egyeznek",
+		"passwordChanged": "Jelszó megváltoztatva",
+		"passwordChangeFailed": "Jelszó megváltoztatása sikertelen",
+		"changePassword": "Jelszó megváltoztatása",
+		"verifyPasswordTitle": "Jelszó ellenőrzése",
+		"passwordVerified": "Jelszó ellenőrizve",
+		"changeDisplayNameTitle": "Megjelenített név megváltoztatása",
+		"changePasswordBtn": "Változtat",
+		"displayNameChanged": "Megjelenített név megváltoztatva",
+		"displayNameChangeFailed": "Megjelenített név megváltoztatása sikertelen",
+		"profileImageChanged": "Profilkép megváltoztatva",
+		"logout": "Kijelentkezés",
+		"anonymousChannel": "Névtelen csatorna",
+		"channelIdentifier": "Meghívókód vagy Csatorna neve",
+		"join": "Csatlakozás",
+		"channelNotFound": "Csatorna nem található",
+		"channelPasswordRequired": "Csatorna jelszó szükséges",
+		"channelPasswordIncorrect": "Hibás csatorna jelszó",
+		"channelJoinFailed": "Csatlakozás a csatornához sikertelen",
+		"confirmRemoveMessage": "Biztos benne, hogy el akarja távolítani ezt az üzenetet?",
+		"messageRemoved": "Üzenet eltávolítva",
+		"joinByHint": "Csatlakozás Meghívókóddal vagy Csatorna Névvel",
+		"channelPasswordRequiredHint": "Jelszó szükséges ennek a csatornának a csatlakozásához",
+		"confirmLeaveChannel": "Biztos benne, hogy el akarja hagyni ezt a csatornát?",
+		"channelLeft": "Csatorna elhagyva",
+		"channelLelfFailed": "Csatorna elhagyása sikertelen",
+		"invite": "Meghívás",
+		"manage": "Kezelés",
+		"remove": "Eltávolítás",
+		"leave": "Kilépés",
+		"inviteCodeCopied": "Meghívókód másolva",
+		"failedToCopyInviteCode": "Meghívókód másolása sikertelen",
+		"someoneJoined": "{{username}} csatlakozott #{{channelName}}",
+		"someoneLeft": "{{username}} elhagyta #{{channelName}}",
+		"someoneJoinedChannel": "Valaki",
+		"someoneJoinedChannel2": "csatlakozott a csatornához",
+		"someoneLeftChannel2": "elhagyta a csatornát",
+		"selectPhoto": "Fotó kiválasztása",
+		"shareLocation": "Hely megosztása",
+		"typeMessage": "Írjon egy üzenetet",
+		"location": "Hely",
+		"sharedLocation": "Megosztott hely",
+		"sendPhoto": "Fotó küldése",
+		"confirmRemoveMember": "Biztos benne, hogy el akarja távolítani ezt a tagot?",
+		"kickLabel": "Rúgás",
+		"removeMemberSuccess": "Tag eltávolítva",
+		"emptyChannelMembers": "Nincsenek tagok ezen a csatornán",
+		"youAreKicked": "Ki lett rúgva"
+	},
+	"promoHub": {
+		"advertisements": "Hirdetések",
+		"createAdTitle": "Hirdetés létrehozása",
+		"addPhoto": "Fotó hozzáadása",
+		"addMore": "Több hozzáadása",
+		"addMoreDesc": "Az első kép lesz a fő kép a hirdetésedben.",
+		"addMoreDesc2": "Az elrendezést áthúzással változtathatod meg.",
+		"title": "Cím",
+		"titlePlaceholder": "pl. KTM kerékpár",
+		"description": "Leírás",
+		"contactNumber": "Kapcsolattartó telefonszáma",
+		"contactNumberPlaceholder": "Töltsd ki a jobb gombbal vagy kézzel",
+		"contactName": "Kapcsolattartó neve",
+		"contactNamePlaceholder": "pl. Mike Smith vagy Burgershot",
+		"descriptionPlaceholder": "pl. KTM 250 EXC-F",
+		"price": "Ár",
+		"tags": "Címkék",
+		"tagsPlaceholder": "Írj be címkéket a szűréshez",
+		"createPost": "Bejegyzés létrehozása",
+		"freeTag": "Ingyenes",
+		"confirmMessage": "Biztosan szeretnél üzenetet küldeni ennek a felhasználónak?",
+		"confirmCall": "Biztosan szeretnél felhívni ezt a felhasználót?"
 	}
 }
