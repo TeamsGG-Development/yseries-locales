@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Questo non è usato nel telefono.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Salva",
@@ -52,7 +52,8 @@
 		"minutesLabel": "minuti",
 		"deviceUnavailable": "Dispositivo non disponibile",
 		"tryAgainIn": "riprova tra ",
-		"close": "Chiudi"
+		"close": "Chiudi",
+		"clear": "Cancella"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Benvenuto!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Video in uscita",
 		"canceled_video": "Video annullata",
 		"videoCallsTitle": "Videochiamate",
-		"endCall": "Termina"
+		"endCall": "Termina",
+		"emptySim": "Nessuna SIM",
+		"missedCall": "Chiamata persa",
+		"missedVideoCall": "Videochiamata persa"
 	},
 	"messages": {
 		"messagesTabTitle": "Messaggi",
@@ -302,7 +306,22 @@
 		"softwareVersionLabel": "Versione",
 		"publisherLabel": "Editore",
 		"ycloudIdLabel": "ID YCloud",
-		"ycloudLoginSubTitle": "Accedi a YCloud per eseguire il backup dei tuoi dati"
+		"ycloudLoginSubTitle": "Accedi a YCloud per eseguire il backup dei tuoi dati",
+		"simManagerLabel": "Gestore SIM",
+		"simManagerInfoLabel": "Gestisci le tue carte",
+		"simCardsLabel": "Scheda SIM attiva",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Sei sicuro di voler espellere questa SIM?",
+		"simEjected": "SIM espulsa",
+		"availableSimLabel": "Schede SIM disponibili",
+		"confirmSimInsert": "Sei sicuro di voler inserire la scheda SIM con numero {{simNumber}}? Verrà eseguito un riavvio automatico del telefono per applicare le modifiche.",
+		"simEjectedFailed": "Espulsione della SIM non riuscita",
+		"simEjectDisabled": "Espulsione della SIM disabilitata",
+		"switchLayoutLabel": "Cambia layout",
+		"selectedPhoneLabel": "Selezionato",
+		"notificationSettings": "Impostazioni notifiche",
+		"noNotificationsLabel": "Nessuna notifica",
+		"notificationsCentreLabel": "Centro notifiche"
 	},
 	"companies": {
 		"companiesAppTitle": "Aziende",
@@ -335,7 +354,11 @@
 		"callFailed": "Chiamata fallita",
 		"dispatch": "Invia",
 		"emptyConversations": "Nessuna conversazione da mostrare",
-		"companyActionsTitle": "Azioni aziendali"
+		"companyActionsTitle": "Azioni aziendali",
+		"depositFailed": "Deposito fallito",
+		"depositSuccess": "Deposito riuscito",
+		"withdrawFailed": "Prelievo fallito",
+		"withdrawSuccess": "Prelievo riuscito"
 	},
 	"home": {
 		"homeAppTitle": "Proprietà possedute",

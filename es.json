@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Esto no se usa en el teléfono.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Guardar",
@@ -52,7 +52,8 @@
 		"minutesLabel": "minutos",
 		"deviceUnavailable": "Dispositivo no disponible",
 		"tryAgainIn": "intente de nuevo en ",
-		"close": "Cerrar"
+		"close": "Cerrar",
+		"clear": "Borrar"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "¡Bienvenido!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Vídeo saliente",
 		"canceled_video": "Vídeo cancelado",
 		"videoCallsTitle": "Videollamadas",
-		"endCall": "Finalizar"
+		"endCall": "Finalizar",
+		"emptySim": "Sin SIM",
+		"missedCall": "Llamada perdida",
+		"missedVideoCall": "Videollamada perdida"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensajes",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Modelo de producto",
 		"phoneImeiLabel": "IMEI del teléfono",
 		"softwareVersionLabel": "Versión",
-		"publisherLabel": "Editor"
+		"publisherLabel": "Editor",
+		"simManagerLabel": "Administrador de SIM",
+		"simManagerInfoLabel": "Administra tus tarjetas",
+		"simCardsLabel": "Tarjeta SIM activa",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "¿Estás seguro de que deseas expulsar esta SIM?",
+		"simEjected": "SIM expulsada",
+		"availableSimLabel": "Tarjetas SIM disponibles",
+		"confirmSimInsert": "¿Estás seguro de que deseas insertar la tarjeta SIM con número {{simNumber}}? Se realizará un reinicio automático del teléfono para aplicar los cambios.",
+		"simEjectedFailed": "Error al expulsar la SIM",
+		"simEjectDisabled": "La expulsión de SIM está deshabilitada",
+		"switchLayoutLabel": "Cambiar diseño",
+		"selectedPhoneLabel": "Seleccionado",
+		"notificationSettings": "Configuración de notificaciones",
+		"noNotificationsLabel": "Sin notificaciones",
+		"notificationsCentreLabel": "Centro de notificaciones"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",
@@ -333,7 +352,11 @@
 		"callFailed": "Llamada fallida",
 		"dispatch": "Despacho",
 		"emptyConversations": "No hay conversaciones para mostrar",
-		"companyActionsTitle": "Acciones de la empresa"
+		"companyActionsTitle": "Acciones de la empresa",
+		"depositFailed": "Depósito fallido",
+		"depositSuccess": "Depósito exitoso",
+		"withdrawFailed": "Retiro fallido",
+		"withdrawSuccess": "Retiro exitoso"
 	},
 	"home": {
 		"homeAppTitle": "Propiedades en propiedad",

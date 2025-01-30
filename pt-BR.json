@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Isso não é usado no telefone.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Salvar",
@@ -52,7 +52,8 @@
 		"minutesLabel": "dakikalar",
 		"deviceUnavailable": "Cihaz kullanılamıyor",
 		"tryAgainIn": "tekrar deneyin ",
-		"close": "Fechar"
+		"close": "Fechar",
+		"clear": "Limpar"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bem-vindo!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Vídeo saindo",
 		"canceled_video": "Vídeo cancelado",
 		"videoCallsTitle": "Chamadas de vídeo",
-		"endCall": "Encerrar"
+		"endCall": "Encerrar",
+		"emptySim": "Sem SIM",
+		"missedCall": "Chamada perdida",
+		"missedVideoCall": "Chamada de vídeo perdida"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensagens",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Modelo do produto",
 		"phoneImeiLabel": "IMEI do telefone",
 		"softwareVersionLabel": "Versão",
-		"publisherLabel": "Publicador"
+		"publisherLabel": "Publicador",
+		"simManagerLabel": "Gerenciador de SIM",
+		"simManagerInfoLabel": "Gerencie seus cartões",
+		"simCardsLabel": "Cartão SIM ativo",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Tem certeza de que deseja ejetar este SIM?",
+		"simEjected": "SIM ejetado",
+		"availableSimLabel": "Cartões SIM disponíveis",
+		"confirmSimInsert": "Tem certeza de que deseja inserir o cartão SIM com número {{simNumber}}? O telefone será reiniciado automaticamente para aplicar as mudanças.",
+		"simEjectedFailed": "Falha ao ejetar o SIM",
+		"simEjectDisabled": "A ejeção do SIM está desativada",
+		"switchLayoutLabel": "Mudar layout",
+		"selectedPhoneLabel": "Selecionado",
+		"notificationSettings": "Configurações de notificação",
+		"noNotificationsLabel": "Sem notificações",
+		"notificationsCentreLabel": "Centro de notificações"
 	},
 	"companies": {
 		"companiesAppTitle": "Empresas",
@@ -333,7 +352,11 @@
 		"callFailed": "Ligação falhou",
 		"dispatch": "Despacho",
 		"emptyConversations": "Nenhuma conversa para mostrar",
-		"companyActionsTitle": "Ações da empresa"
+		"companyActionsTitle": "Ações da empresa",
+		"depositFailed": "Depósito falhou",
+		"depositSuccess": "Depósito bem-sucedido",
+		"withdrawFailed": "Saque falhou",
+		"withdrawSuccess": "Saque bem-sucedido"
 	},
 	"home": {
 		"homeAppTitle": "Propriedades possuídas",

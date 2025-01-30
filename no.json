@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette brukes ikke på telefonen.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Lagre",
@@ -52,7 +52,8 @@
 		"minutesLabel": "minutter",
 		"deviceUnavailable": "Enheten er utilgjengelig",
 		"tryAgainIn": "prøv igjen om ",
-		"close": "Lukk"
+		"close": "Lukk",
+		"clear": "Tøm"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Velkommen!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Utgående video",
 		"canceled_video": "Avbrutt video",
 		"videoCallsTitle": "Videoanrop",
-		"endCall": "Avslutt"
+		"endCall": "Avslutt",
+		"emptySim": "Ingen SIM",
+		"missedCall": "Ubesvart anrop",
+		"missedVideoCall": "Ubesvart videoanrop"
 	},
 	"messages": {
 		"messagesTabTitle": "Meldinger",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Produktmodell",
 		"phoneImeiLabel": "Telefon IMEI",
 		"softwareVersionLabel": "Versjon",
-		"publisherLabel": "Utgiver"
+		"publisherLabel": "Utgiver",
+		"simManagerLabel": "SIM-administrasjon",
+		"simManagerInfoLabel": "Administrer kortene dine",
+		"simCardsLabel": "Aktivt SIM-kort",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Er du sikker på at du vil mate ut dette SIM-kortet?",
+		"simEjected": "SIM-kort matet ut",
+		"availableSimLabel": "Tilgjengelige SIM-kort",
+		"confirmSimInsert": "Er du sikker på at du vil sette inn SIM-kortet med nummer {{simNumber}}? Telefonen vil starte automatisk på nytt for å bruke endringene.",
+		"simEjectedFailed": "Kunne ikke mate ut SIM-kortet",
+		"simEjectDisabled": "Utkasting av SIM er deaktivert",
+		"switchLayoutLabel": "Bytt oppsett",
+		"selectedPhoneLabel": "Valgt",
+		"notificationSettings": "Varslingsinnstillinger",
+		"noNotificationsLabel": "Ingen varsler",
+		"notificationsCentreLabel": "Varslingssenter"
 	},
 	"companies": {
 		"companiesAppTitle": "Selskaper",
@@ -333,7 +352,11 @@
 		"callFailed": "Anrop mislyktes",
 		"dispatch": "Utsendelse",
 		"emptyConversations": "Ingen samtaler å vise",
-		"companyActionsTitle": "Selskapshandlinger"
+		"companyActionsTitle": "Selskapshandlinger",
+		"depositFailed": "Innskudd mislyktes",
+		"depositSuccess": "Innskudd vellykket",
+		"withdrawFailed": "Uttak mislyktes",
+		"withdrawSuccess": "Uttak vellykket"
 	},
 	"home": {
 		"homeAppTitle": "Dine eiendommer",

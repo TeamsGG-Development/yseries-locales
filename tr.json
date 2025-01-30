@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Bu telefonda kullanılmaz.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Kaydet",
@@ -52,7 +52,8 @@
 		"minutesLabel": "dakikalar",
 		"deviceUnavailable": "Cihaz kullanılamıyor",
 		"tryAgainIn": "tekrar deneyin ",
-		"close": "Kapat"
+		"close": "Kapat",
+		"clear": "Temizle"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Hoşgeldin!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Giden video",
 		"canceled_video": "İptal edilen video",
 		"videoCallsTitle": "Görüntülü Aramalar",
-		"endCall": "Sonlandır"
+		"endCall": "Sonlandır",
+		"emptySim": "SIM yok",
+		"missedCall": "Cevapsız çağrı",
+		"missedVideoCall": "Cevapsız görüntülü çağrı"
 	},
 	"messages": {
 		"messagesTabTitle": "Mesajlar",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Ürün modeli",
 		"phoneImeiLabel": "Telefon imei",
 		"softwareVersionLabel": "Versiyon",
-		"publisherLabel": "Yayıncı"
+		"publisherLabel": "Yayıncı",
+		"simManagerLabel": "SIM yöneticisi",
+		"simManagerInfoLabel": "Kartlarınızı yönetin",
+		"simCardsLabel": "Aktif SIM kartı",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Bu SIM kartını çıkarmak istediğinizden emin misiniz?",
+		"simEjected": "SIM çıkarıldı",
+		"availableSimLabel": "Mevcut SIM kartları",
+		"confirmSimInsert": "Numarası {{simNumber}} olan SIM kartını takmak istediğinizden emin misiniz? Değişikliklerin uygulanması için telefon otomatik olarak yeniden başlatılacaktır.",
+		"simEjectedFailed": "SIM çıkarma başarısız oldu",
+		"simEjectDisabled": "SIM çıkarma devre dışı",
+		"switchLayoutLabel": "Düzeni değiştir",
+		"selectedPhoneLabel": "Seçildi",
+		"notificationSettings": "Bildirim ayarları",
+		"noNotificationsLabel": "Bildirim yok",
+		"notificationsCentreLabel": "Bildirim merkezi"
 	},
 	"companies": {
 		"companiesAppTitle": "İşletmeler",
@@ -333,7 +352,11 @@
 		"callFailed": "Arama Başarısız Oldu",
 		"dispatch": "Gönderim",
 		"emptyConversations": "Gösterilecek sohbet yok",
-		"companyActionsTitle": "Şirket eylemleri"
+		"companyActionsTitle": "Şirket eylemleri",
+		"depositFailed": "Para yatırma başarısız",
+		"depositSuccess": "Para yatırma başarılı",
+		"withdrawFailed": "Para çekme başarısız",
+		"withdrawSuccess": "Para çekme başarılı"
 	},
 	"home": {
 		"homeAppTitle": "Sahip Olduğun Evler",
@@ -598,8 +621,8 @@
 	"playstore": {
 		"gamesLabel": "Oyunlar",
 		"appsLabel": "Uygulamalar",
-		"getLabel": "獲取",
-		"removeLabel": "移除"
+		"getLabel": "Al",
+		"removeLabel": "Kaldır"
 	},
 	"quickshare": {
 		"quickShareTitle": "Hızlı Paylaş",

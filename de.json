@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dies wird nicht im Telefon verwendet.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Speichern",
@@ -52,7 +52,8 @@
 		"minutesLabel": "Minuten",
 		"deviceUnavailable": "Gerät nicht verfügbar",
 		"tryAgainIn": "versuchen Sie es erneut in ",
-		"close": "Schließen"
+		"close": "Schließen",
+		"clear": "Löschen"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Willkommen!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Ausgehendes Video",
 		"canceled_video": "Abgebrochenes Video",
 		"videoCallsTitle": "Videoanrufe",
-		"endCall": "Beenden"
+		"endCall": "Beenden",
+		"emptySim": "Keine SIM",
+		"missedCall": "Verpasster Anruf",
+		"missedVideoCall": "Verpasster Videoanruf"
 	},
 	"messages": {
 		"messagesTabTitle": "Nachrichten",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Produktmodell",
 		"phoneImeiLabel": "Telefon-IMEI",
 		"softwareVersionLabel": "Version",
-		"publisherLabel": "Herausgeber"
+		"publisherLabel": "Herausgeber",
+		"simManagerLabel": "SIM-Manager",
+		"simManagerInfoLabel": "Verwalten Sie Ihre Karten",
+		"simCardsLabel": "Aktive SIM-Karte",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Möchten Sie diese SIM wirklich auswerfen?",
+		"simEjected": "SIM ausgeworfen",
+		"availableSimLabel": "Verfügbare SIM-Karten",
+		"confirmSimInsert": "Möchten Sie die SIM-Karte mit der Nummer {{simNumber}} wirklich einlegen? Das Telefon wird automatisch neu gestartet, um die Änderungen zu übernehmen.",
+		"simEjectedFailed": "Fehler beim Auswerfen der SIM",
+		"simEjectDisabled": "Das Auswerfen der SIM ist deaktiviert",
+		"switchLayoutLabel": "Layout wechseln",
+		"selectedPhoneLabel": "Ausgewählt",
+		"notificationSettings": "Benachrichtigungseinstellungen",
+		"noNotificationsLabel": "Keine Benachrichtigungen",
+		"notificationsCentreLabel": "Benachrichtigungszentrum"
 	},
 	"companies": {
 		"companiesAppTitle": "Unternehmen",
@@ -333,7 +352,11 @@
 		"callFailed": "Anruf fehlgeschlagen.",
 		"dispatch": "Versand",
 		"emptyConversations": "Keine Gespräche zu zeigen",
-		"companyActionsTitle": "Unternehmensaktionen"
+		"companyActionsTitle": "Unternehmensaktionen",
+		"depositFailed": "Einzahlung fehlgeschlagen",
+		"depositSuccess": "Einzahlung erfolgreich",
+		"withdrawFailed": "Auszahlung fehlgeschlagen",
+		"withdrawSuccess": "Auszahlung erfolgreich"
 	},
 	"home": {
 		"homeAppTitle": "Eigene Immobilien",

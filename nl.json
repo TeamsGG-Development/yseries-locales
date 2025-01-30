@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dit wordt niet gebruikt in de telefoon.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Opslaan",
@@ -52,7 +52,8 @@
 		"minutesLabel": "minuten",
 		"deviceUnavailable": "Apparaat niet beschikbaar",
 		"tryAgainIn": "probeer het opnieuw in ",
-		"close": "Sluiten"
+		"close": "Sluiten",
+		"clear": "Wissen"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Welkom!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Uitgaande video",
 		"canceled_video": "Geannuleerde video",
 		"videoCallsTitle": "Videogesprekken",
-		"endCall": "Beëindigen"
+		"endCall": "Beëindigen",
+		"emptySim": "Geen SIM",
+		"missedCall": "Gemiste oproep",
+		"missedVideoCall": "Gemiste video-oproep"
 	},
 	"messages": {
 		"messagesTabTitle": "Berichten",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Productmodel",
 		"phoneImeiLabel": "Telefoon IMEI",
 		"softwareVersionLabel": "Versie",
-		"publisherLabel": "Uitgever"
+		"publisherLabel": "Uitgever",
+		"simManagerLabel": "SIM-manager",
+		"simManagerInfoLabel": "Beheer je kaarten",
+		"simCardsLabel": "Actieve SIM-kaart",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Weet je zeker dat je deze SIM wilt uitwerpen?",
+		"simEjected": "SIM uitgeworpen",
+		"availableSimLabel": "Beschikbare SIM-kaarten",
+		"confirmSimInsert": "Weet je zeker dat je de SIM-kaart met nummer {{simNumber}} wilt invoegen? De telefoon wordt automatisch opnieuw opgestart om de wijzigingen toe te passen.",
+		"simEjectedFailed": "SIM uitwerpen mislukt",
+		"simEjectDisabled": "SIM uitwerpen is uitgeschakeld",
+		"switchLayoutLabel": "Indeling wijzigen",
+		"selectedPhoneLabel": "Geselecteerd",
+		"notificationSettings": "Meldingsinstellingen",
+		"noNotificationsLabel": "Geen meldingen",
+		"notificationsCentreLabel": "Meldingscentrum"
 	},
 	"companies": {
 		"companiesAppTitle": "Bedrijven",
@@ -333,7 +352,11 @@
 		"callFailed": "Oproep mislukt",
 		"dispatch": "Verzending",
 		"emptyConversations": "Geen gesprekken om te tonen",
-		"companyActionsTitle": "Bedrijfsacties"
+		"companyActionsTitle": "Bedrijfsacties",
+		"depositFailed": "Storting mislukt",
+		"depositSuccess": "Storting geslaagd",
+		"withdrawFailed": "Opname mislukt",
+		"withdrawSuccess": "Opname geslaagd"
 	},
 	"home": {
 		"homeAppTitle": "Eigendommen",

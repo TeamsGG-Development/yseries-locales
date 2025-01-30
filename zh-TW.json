@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "手機中不使用此功能",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "儲存",
@@ -52,7 +52,8 @@
 		"minutesLabel": "分鐘",
 		"deviceUnavailable": "裝置無法使用",
 		"tryAgainIn": "請在稍後重試 ",
-		"close": "關閉"
+		"close": "關閉",
+		"clear": "清除"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "歡迎!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "外撥視頻",
 		"canceled_video": "已取消視頻",
 		"videoCallsTitle": "視頻通話",
-		"endCall": "結束"
+		"endCall": "結束",
+		"emptySim": "無 SIM 卡",
+		"missedCall": "未接來電",
+		"missedVideoCall": "未接視訊通話"
 	},
 	"messages": {
 		"messagesTabTitle": "訊息",
@@ -300,7 +304,22 @@
 		"productModelLabel": "產品型號",
 		"phoneImeiLabel": "手機IMEI",
 		"softwareVersionLabel": "版本",
-		"publisherLabel": "發行者"
+		"publisherLabel": "發行者",
+		"simManagerLabel": "SIM 管理器",
+		"simManagerInfoLabel": "管理您的卡片",
+		"simCardsLabel": "啟用的 SIM 卡",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "您確定要彈出此 SIM 卡嗎？",
+		"simEjected": "SIM 卡已彈出",
+		"availableSimLabel": "可用的 SIM 卡",
+		"confirmSimInsert": "您確定要插入號碼為 {{simNumber}} 的 SIM 卡嗎？手機將自動重新啟動以套用變更。",
+		"simEjectedFailed": "SIM 卡彈出失敗",
+		"simEjectDisabled": "SIM 卡彈出已禁用",
+		"switchLayoutLabel": "切換版面",
+		"selectedPhoneLabel": "已選擇",
+		"notificationSettings": "通知設定",
+		"noNotificationsLabel": "無通知",
+		"notificationsCentreLabel": "通知中心"
 	},
 	"companies": {
 		"companiesAppTitle": "公司",
@@ -333,7 +352,11 @@
 		"callFailed": "通話失敗",
 		"dispatch": "發送",
 		"emptyConversations": "沒有對話可顯示",
-		"companyActionsTitle": "公司行動"
+		"companyActionsTitle": "公司行動",
+		"depositFailed": "存款失敗",
+		"depositSuccess": "存款成功",
+		"withdrawFailed": "提款失敗",
+		"withdrawSuccess": "提款成功"
 	},
 	"home": {
 		"homeAppTitle": "擁有的房產",

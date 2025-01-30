@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -52,7 +52,8 @@
 		"minutesLabel": "minutes",
 		"deviceUnavailable": "Appareil non disponible",
 		"tryAgainIn": "réessayez dans ",
-		"close": "Fermer"
+		"close": "Fermer",
+		"clear": "Effacer"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Bienvenue !",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Vidéo sortante",
 		"canceled_video": "Vidéo annulée",
 		"videoCallsTitle": "Appels vidéo",
-		"endCall": "Terminer"
+		"endCall": "Terminer",
+		"emptySim": "Pas de SIM",
+		"missedCall": "Appel manqué",
+		"missedVideoCall": "Appel vidéo manqué"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -299,7 +303,22 @@
 		"productModelLabel": "Modèle de produit",
 		"phoneImeiLabel": "IMEI du téléphone",
 		"softwareVersionLabel": "Version",
-		"publisherLabel": "Éditeur"
+		"publisherLabel": "Éditeur",
+		"simManagerLabel": "Gestionnaire de SIM",
+		"simManagerInfoLabel": "Gérez vos cartes",
+		"simCardsLabel": "Carte SIM active",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Êtes-vous sûr de vouloir éjecter cette SIM ?",
+		"simEjected": "SIM éjectée",
+		"availableSimLabel": "Cartes SIM disponibles",
+		"confirmSimInsert": "Êtes-vous sûr de vouloir insérer la carte SIM avec le numéro {{simNumber}} ? Un redémarrage automatique du téléphone sera effectué pour appliquer les changements.",
+		"simEjectedFailed": "Échec de l'éjection de la SIM",
+		"simEjectDisabled": "L'éjection de la SIM est désactivée",
+		"switchLayoutLabel": "Changer la disposition",
+		"selectedPhoneLabel": "Sélectionné",
+		"notificationSettings": "Paramètres de notification",
+		"noNotificationsLabel": "Aucune notification",
+		"notificationsCentreLabel": "Centre de notifications"
 	},
 	"companies": {
 		"companiesAppTitle": "Entreprises",
@@ -333,7 +352,11 @@
 		"setupPinHint": "Activez un code PIN pour configurer la biométrie",
 		"dispatch": "Expédition",
 		"emptyConversations": "Aucune conversation à afficher",
-		"companyActionsTitle": "Actions de l'entreprise"
+		"companyActionsTitle": "Actions de l'entreprise",
+		"depositFailed": "Dépôt échoué",
+		"depositSuccess": "Dépôt réussi",
+		"withdrawFailed": "Retrait échoué",
+	"withdrawSuccess": "Retrait réussi"
 	},
 	"home": {
 		"homeAppTitle": "Propriétés possédées",

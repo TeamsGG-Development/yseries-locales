@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.19"
+		"VERSION": "1.0.20"
 	},
 	"general": {
 		"saveLabel": "Mentés",
@@ -52,7 +52,8 @@
 		"minutesLabel": "percek",
 		"deviceUnavailable": "Eszköz nem elérhető",
 		"tryAgainIn": "próbálja meg újra ",
-		"close": "Bezár"
+		"close": "Bezár",
+		"clear": "Törlés"
 	},
 	"welcomeScreen": {
 		"welcomeLabel": "Üdvözöljük!",
@@ -155,7 +156,10 @@
 		"outgoing_video": "Kimenő videó",
 		"canceled_video": "Lemondott videó",
 		"videoCallsTitle": "Videohívások",
-		"endCall": "Befejezés"
+		"endCall": "Befejezés",
+		"emptySim": "Nincs SIM",
+		"missedCall": "Nem fogadott hívás",
+		"missedVideoCall": "Nem fogadott videóhívás"
 	},
 	"messages": {
 		"messagesTabTitle": "Üzenetek",
@@ -300,7 +304,22 @@
 		"productModelLabel": "Termékmodell",
 		"phoneImeiLabel": "Telefon IMEI",
 		"softwareVersionLabel": "Verzió",
-		"publisherLabel": "Kiadó"
+		"publisherLabel": "Kiadó",
+		"simManagerLabel": "SIM-kezelő",
+		"simManagerInfoLabel": "Kezelje kártyáit",
+		"simCardsLabel": "Aktív SIM-kártya",
+		"sim1Label": "SIM 1",
+		"confirmSimEject": "Biztosan ki akarja dobni ezt a SIM-kártyát?",
+		"simEjected": "SIM eltávolítva",
+		"availableSimLabel": "Elérhető SIM-kártyák",
+		"confirmSimInsert": "Biztosan be szeretné helyezni a {{simNumber}} számú SIM-kártyát? A változások alkalmazásához a telefon automatikusan újraindul.",
+		"simEjectedFailed": "A SIM eltávolítása sikertelen",
+		"simEjectDisabled": "A SIM eltávolítása le van tiltva",
+		"switchLayoutLabel": "Elrendezés váltása",
+		"selectedPhoneLabel": "Kiválasztva",
+		"notificationSettings": "Értesítési beállítások",
+		"noNotificationsLabel": "Nincsenek értesítések",
+		"notificationsCentreLabel": "Értesítési központ"
 	},
 	"companies": {
 		"companiesAppTitle": "Vállalatok",
@@ -333,7 +352,11 @@
 		"callFailed": "Hívás sikertelen",
 		"dispatch": "Kiküldés",
 		"emptyConversations": "Nincsenek megjeleníthető beszélgetések",
-		"companyActionsTitle": "Cég tevékenységei"
+		"companyActionsTitle": "Cég tevékenységei",
+		"depositFailed": "Befizetés sikertelen",
+		"depositSuccess": "Befizetés sikeres",
+		"withdrawFailed": "Kifizetés sikertelen",
+		"withdrawSuccess": "Kifizetés sikeres"
 	},
 	"home": {
 		"homeAppTitle": "Saját ingatlanok",
