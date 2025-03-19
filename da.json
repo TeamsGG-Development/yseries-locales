@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Dette bruges ikke på telefonen.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Gem",
@@ -151,6 +151,7 @@
 		"incoming": "Indkommende",
 		"outgoing": "Udgående",
 		"canceled": "Annulleret",
+		"declined": "Afvist",
 		"missed_video": "Gået glip af video",
 		"incoming_video": "Indkommende video",
 		"outgoing_video": "Udgående video",
@@ -159,7 +160,9 @@
 		"endCall": "Afslut",
 		"emptySim": "Ingen SIM",
 		"missedCall": "Ubesvaret opkald",
-		"missedVideoCall": "Ubesvaret videoopkald"
+		"missedVideoCall": "Ubesvaret videoopkald",
+		"blockedLabel": "Blokeret",
+		"unblockedLabel": "Ophævet blokering"
 	},
 	"messages": {
 		"messagesTabTitle": "Beskeder",
@@ -301,7 +304,7 @@
 		"aboutYLabel": "Om",
 		"nameLabel": "Navn",
 		"phoneNumberLabel": "Telefonnummer",
-		"productModelLabel": "Produktmodel",
+		"productModelLabel": "ProduMTKodel",
 		"phoneImeiLabel": "Telefon imei",
 		"softwareVersionLabel": "Version",
 		"publisherLabel": "Udgiver",
@@ -564,7 +567,7 @@
 		"messageLabel": "Besked",
 		"freeLabel": "Gratis",
 		"descriptionLabel": "Beskrivelse",
-		"descriptionPlaceholder": "f.eks. KTM 250 EXC-F",
+		"descriptionPlaceholder": "f.eks. MTK 250 EXC-F",
 		"confirmRemoveFavorite": "Er du sikker på, at du vil fjerne denne annonce fra dine favoritter?",
 		"noFavoriteAds": "Ingen favoritannoncer",
 		"confirmArchiveAd": "Er du sikker på, at du vil arkivere denne annonce?",
@@ -576,7 +579,7 @@
 		"noOwnAds": "Du har ingen annoncer",
 		"addPhotosLabel": "Tilføj fotos",
 		"titleLabel": "Titel",
-		"titlePlaceholder": "f.eks. KTM Cykel",
+		"titlePlaceholder": "f.eks. MTK Cykel",
 		"photosLabel": "Fotos",
 		"addMoreLabel": "Tilføj flere",
 		"photosDescription1": "Det første billede bliver det primære i din annonce.",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "Det første billede vil være hovedbilledet i din annonce.",
 		"addMoreDesc2": "Du kan ændre rækkefølgen ved at trække.",
 		"title": "Titel",
-		"titlePlaceholder": "f.eks. KTM Cykel",
+		"titlePlaceholder": "f.eks. MTK Cykel",
 		"description": "Beskrivelse",
 		"contactNumber": "Kontakt nummer",
 		"contactNumberPlaceholder": "Udfyld med højre knap eller manuelt",
 		"contactName": "Kontakt navn",
 		"contactNamePlaceholder": "f.eks. Mike Smith eller Burgershot",
-		"descriptionPlaceholder": "f.eks. KTM 250 EXC-F",
+		"descriptionPlaceholder": "f.eks. MTK 250 EXC-F",
 		"price": "Pris",
 		"tags": "Tags",
 		"tagsPlaceholder": "Skriv for at filtrere tags",

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Esto no se usa en el teléfono.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Guardar",
@@ -151,6 +151,7 @@
 		"incoming": "Entrante",
 		"outgoing": "Saliente",
 		"canceled": "Cancelada",
+		"declined": "Rechazado",
 		"missed_video": "Vídeo perdido",
 		"incoming_video": "Vídeo entrante",
 		"outgoing_video": "Vídeo saliente",
@@ -159,7 +160,9 @@
 		"endCall": "Finalizar",
 		"emptySim": "Sin SIM",
 		"missedCall": "Llamada perdida",
-		"missedVideoCall": "Videollamada perdida"
+		"missedVideoCall": "Videollamada perdida",
+		"blockedLabel": "Bloqueado",
+		"unblockedLabel": "Desbloqueado"
 	},
 	"messages": {
 		"messagesTabTitle": "Mensajes",
@@ -564,7 +567,7 @@
 		"messageLabel": "Mensaje",
 		"freeLabel": "Gratis",
 		"descriptionLabel": "Descripción",
-		"descriptionPlaceholder": "p. ej. KTM 250 EXC-F",
+		"descriptionPlaceholder": "p. ej. MTK 250 EXC-F",
 		"confirmRemoveFavorite": "¿Estás seguro de que quieres eliminar este anuncio de tus favoritos?",
 		"noFavoriteAds": "No hay anuncios favoritos",
 		"confirmArchiveAd": "¿Estás seguro de que quieres archivar este anuncio?",
@@ -576,7 +579,7 @@
 		"noOwnAds": "No tienes ningún anuncio",
 		"addPhotosLabel": "Agregar fotos",
 		"titleLabel": "Título",
-		"titlePlaceholder": "p. ej. Bicicleta KTM",
+		"titlePlaceholder": "p. ej. Bicicleta MTK",
 		"photosLabel": "Fotos",
 		"addMoreLabel": "Agregar más",
 		"photosDescription1": "La primera imagen será la principal en tu anuncio.",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "La primera foto será la principal en tu anuncio.",
 		"addMoreDesc2": "Puedes cambiar el orden arrastrando.",
 		"title": "Título",
-		"titlePlaceholder": "ej. Bicicleta KTM",
+		"titlePlaceholder": "ej. Bicicleta MTK",
 		"description": "Descripción",
 		"contactNumber": "Número de contacto",
 		"contactNumberPlaceholder": "Rellena con el botón derecho o manualmente",
 		"contactName": "Nombre de contacto",
 		"contactNamePlaceholder": "ej. Mike Smith o Burgershot",
-		"descriptionPlaceholder": "ej. KTM 250 EXC-F",
+		"descriptionPlaceholder": "ej. MTK 250 EXC-F",
 		"price": "Precio",
 		"tags": "Etiquetas",
 		"tagsPlaceholder": "Escribe para filtrar etiquetas",

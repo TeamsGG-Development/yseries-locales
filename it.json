@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Questo non è usato nel telefono.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Salva",
@@ -151,6 +151,7 @@
 		"incoming": "In arrivo",
 		"outgoing": "In uscita",
 		"canceled": "Annullata",
+		"declined": "Rifiutato",
 		"missed_video": "Video persa",
 		"incoming_video": "Video in arrivo",
 		"outgoing_video": "Video in uscita",
@@ -159,7 +160,9 @@
 		"endCall": "Termina",
 		"emptySim": "Nessuna SIM",
 		"missedCall": "Chiamata persa",
-		"missedVideoCall": "Videochiamata persa"
+		"missedVideoCall": "Videochiamata persa",
+		"blockedLabel": "Bloccato",
+		"unblockedLabel": "Sbloccato"
 	},
 	"messages": {
 		"messagesTabTitle": "Messaggi",
@@ -566,7 +569,7 @@
 		"messageLabel": "Messaggio",
 		"freeLabel": "Gratis",
 		"descriptionLabel": "Descrizione",
-		"descriptionPlaceholder": "es. KTM 250 EXC-F",
+		"descriptionPlaceholder": "es. MTK 250 EXC-F",
 		"confirmRemoveFavorite": "Sei sicuro di voler rimuovere questo annuncio dai tuoi preferiti?",
 		"noFavoriteAds": "Nessun annuncio preferito",
 		"confirmArchiveAd": "Sei sicuro di voler archiviare questo annuncio?",
@@ -578,7 +581,7 @@
 		"noOwnAds": "Non hai nessun annuncio",
 		"addPhotosLabel": "Aggiungi foto",
 		"titleLabel": "Titolo",
-		"titlePlaceholder": "es. KTM Bike",
+		"titlePlaceholder": "es. MTK Bike",
 		"photosLabel": "Foto",
 		"addMoreLabel": "Aggiungi altro",
 		"photosDescription1": "La prima foto sarà quella principale nel tuo annuncio.",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "La prima foto sarà quella principale nel tuo annuncio.",
 		"addMoreDesc2": "Puoi cambiare l'ordine trascinando.",
 		"title": "Titolo",
-		"titlePlaceholder": "es. Bicicletta KTM",
+		"titlePlaceholder": "es. Bicicletta MTK",
 		"description": "Descrizione",
 		"contactNumber": "Numero di contatto",
 		"contactNumberPlaceholder": "Compila con il tasto destro o manualmente",
 		"contactName": "Nome del contatto",
 		"contactNamePlaceholder": "es. Mike Smith o Burgershot",
-		"descriptionPlaceholder": "es. KTM 250 EXC-F",
+		"descriptionPlaceholder": "es. MTK 250 EXC-F",
 		"price": "Prezzo",
 		"tags": "Tag",
 		"tagsPlaceholder": "Digita per filtrare i tag",

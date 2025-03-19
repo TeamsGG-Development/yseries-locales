@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Bu telefonda kullanılmaz.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Kaydet",
@@ -151,6 +151,7 @@
 		"incoming": "Gelen",
 		"outgoing": "Giden",
 		"canceled": "İptal edildi",
+		"declined": "Reddedildi",
 		"missed_video": "Cevapsız video",
 		"incoming_video": "Gelen video",
 		"outgoing_video": "Giden video",
@@ -159,7 +160,9 @@
 		"endCall": "Sonlandır",
 		"emptySim": "SIM yok",
 		"missedCall": "Cevapsız çağrı",
-		"missedVideoCall": "Cevapsız görüntülü çağrı"
+		"missedVideoCall": "Cevapsız görüntülü çağrı",
+		"blockedLabel": "Engellendi",
+		"unblockedLabel": "Engel kaldırıldı"
 	},
 	"messages": {
 		"messagesTabTitle": "Mesajlar",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "İlk resim, ilanınızdaki ana resim olacaktır.",
 		"addMoreDesc2": "Sıralamayı sürükleyerek değiştirebilirsiniz.",
 		"title": "Başlık",
-		"titlePlaceholder": "örneğin KTM Bisiklet",
+		"titlePlaceholder": "örneğin MTK Bisiklet",
 		"description": "Açıklama",
 		"contactNumber": "İletişim numarası",
 		"contactNumberPlaceholder": "Sağ tuşla veya manuel olarak doldur",
 		"contactName": "İletişim ismi",
 		"contactNamePlaceholder": "örneğin Mike Smith veya Burgershot",
-		"descriptionPlaceholder": "örneğin KTM 250 EXC-F",
+		"descriptionPlaceholder": "örneğin MTK 250 EXC-F",
 		"price": "Fiyat",
 		"tags": "Etiketler",
 		"tagsPlaceholder": "Etiketleri filtrelemek için yazın",

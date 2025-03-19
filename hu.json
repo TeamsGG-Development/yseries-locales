@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Mentés",
@@ -151,6 +151,7 @@
 		"incoming": "Bejövő",
 		"outgoing": "Kimenő",
 		"canceled": "Lemondva",
+		"declined": "Elutasítva",
 		"missed_video": "Nem fogadott videó",
 		"incoming_video": "Bejövő videó",
 		"outgoing_video": "Kimenő videó",
@@ -159,7 +160,9 @@
 		"endCall": "Befejezés",
 		"emptySim": "Nincs SIM",
 		"missedCall": "Nem fogadott hívás",
-		"missedVideoCall": "Nem fogadott videóhívás"
+		"missedVideoCall": "Nem fogadott videóhívás",
+		"blockedLabel": "Letiltva",
+		"unblockedLabel": "Feloldva"
 	},
 	"messages": {
 		"messagesTabTitle": "Üzenetek",
@@ -564,7 +567,7 @@
 		"messageLabel": "Üzenet",
 		"freeLabel": "Ingyenes",
 		"descriptionLabel": "Leírás",
-		"descriptionPlaceholder": "pl. KTM 250 EXC-F",
+		"descriptionPlaceholder": "pl. MTK 250 EXC-F",
 		"confirmRemoveFavorite": "Biztos benne, hogy eltávolítja ezt a hirdetést a kedvencekből?",
 		"noFavoriteAds": "Nincsenek kedvenc hirdetések",
 		"confirmArchiveAd": "Biztos benne, hogy archiválja ezt a hirdetést?",
@@ -576,7 +579,7 @@
 		"noOwnAds": "Nincsenek saját hirdetései",
 		"addPhotosLabel": "Fotók hozzáadása",
 		"titleLabel": "Cím",
-		"titlePlaceholder": "pl. KTM kerékpár",
+		"titlePlaceholder": "pl. MTK kerékpár",
 		"photosLabel": "Fotók",
 		"addMoreLabel": "További hozzáadása",
 		"photosDescription1": "Az első kép lesz a fő kép a hirdetésében.",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "Az első kép lesz a fő kép a hirdetésedben.",
 		"addMoreDesc2": "Az elrendezést áthúzással változtathatod meg.",
 		"title": "Cím",
-		"titlePlaceholder": "pl. KTM kerékpár",
+		"titlePlaceholder": "pl. MTK kerékpár",
 		"description": "Leírás",
 		"contactNumber": "Kapcsolattartó telefonszáma",
 		"contactNumberPlaceholder": "Töltsd ki a jobb gombbal vagy kézzel",
 		"contactName": "Kapcsolattartó neve",
 		"contactNamePlaceholder": "pl. Mike Smith vagy Burgershot",
-		"descriptionPlaceholder": "pl. KTM 250 EXC-F",
+		"descriptionPlaceholder": "pl. MTK 250 EXC-F",
 		"price": "Ár",
 		"tags": "Címkék",
 		"tagsPlaceholder": "Írj be címkéket a szűréshez",

@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "This is not used in the phone.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Save",
@@ -151,6 +151,7 @@
 		"incoming": "Incoming",
 		"outgoing": "Outgoing",
 		"canceled": "Canceled",
+		"declined": "Declined",
 		"missed_video": "Missed video",
 		"incoming_video": "Incoming video",
 		"outgoing_video": "Outgoing video",
@@ -159,7 +160,9 @@
 		"endCall": "End",
 		"emptySim": "No SIM",
 		"missedCall": "Missed call",
-		"missedVideoCall": "Missed video call"
+		"missedVideoCall": "Missed video call",
+		"blockedLabel": "Blocked",
+		"unblockedLabel": "Unblocked"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -564,7 +567,7 @@
 		"messageLabel": "Message",
 		"freeLabel": "Free",
 		"descriptionLabel": "Description",
-		"descriptionPlaceholder": "e.g. KTM 250 EXC-F",
+		"descriptionPlaceholder": "e.g. MTK 250 EXC-F",
 		"confirmRemoveFavorite": "Are you sure you want to remove this ad from your favorites?",
 		"noFavoriteAds": "No favorite ads",
 		"confirmArchiveAd": "Are you sure you want to archive this ad?",
@@ -576,7 +579,7 @@
 		"noOwnAds": "You don't have any ads",
 		"addPhotosLabel": "Add photos",
 		"titleLabel": "Title",
-		"titlePlaceholder": "e.g. KTM Bike",
+		"titlePlaceholder": "e.g. MTK Bike",
 		"photosLabel": "Photos",
 		"addMoreLabel": "Add more",
 		"photosDescription1": "The first picture will be the main one in your ad.",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "The first picture will be the main one in your ad.",
 		"addMoreDesc2": "You can change the order by dragging.",
 		"title": "Title",
-		"titlePlaceholder": "e.g. KTM Bike",
+		"titlePlaceholder": "e.g. MTK Bike",
 		"description": "Description",
 		"contactNumber": "Contact number",
 		"contactNumberPlaceholder": "Fill with right button or manually",
 		"contactName": "Contact name",
 		"contactNamePlaceholder": "e.g. Mike Smith or Burgershot",
-		"descriptionPlaceholder": "e.g. KTM 250 EXC-F",
+		"descriptionPlaceholder": "e.g. MTK 250 EXC-F",
 		"price": "Price",
 		"tags": "Tags",
 		"tagsPlaceholder": "Type to filter tags",

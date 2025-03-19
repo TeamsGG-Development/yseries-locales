@@ -1,7 +1,7 @@
 {
 	"metadata": {
 		"INFO": "Ceci n'est pas utilisé sur le téléphone.",
-		"VERSION": "1.0.20"
+		"VERSION": "1.0.21"
 	},
 	"general": {
 		"saveLabel": "Enregistrer",
@@ -151,6 +151,7 @@
 		"incoming": "Entrant",
 		"outgoing": "Sortant",
 		"canceled": "Annulé",
+		"declined": "Refusé",
 		"missed_video": "Vidéo manquée",
 		"incoming_video": "Vidéo entrante",
 		"outgoing_video": "Vidéo sortante",
@@ -159,7 +160,9 @@
 		"endCall": "Terminer",
 		"emptySim": "Pas de SIM",
 		"missedCall": "Appel manqué",
-		"missedVideoCall": "Appel vidéo manqué"
+		"missedVideoCall": "Appel vidéo manqué",
+		"blockedLabel": "Bloqué",
+		"unblockedLabel": "Débloqué"
 	},
 	"messages": {
 		"messagesTabTitle": "Messages",
@@ -356,7 +359,7 @@
 		"depositFailed": "Dépôt échoué",
 		"depositSuccess": "Dépôt réussi",
 		"withdrawFailed": "Retrait échoué",
-	"withdrawSuccess": "Retrait réussi"
+		"withdrawSuccess": "Retrait réussi"
 	},
 	"home": {
 		"homeAppTitle": "Propriétés possédées",
@@ -564,7 +567,7 @@
 		"messageLabel": "Message",
 		"freeLabel": "Gratuit",
 		"descriptionLabel": "Description",
-		"descriptionPlaceholder": "par ex. KTM 250 EXC-F",
+		"descriptionPlaceholder": "par ex. MTK 250 EXC-F",
 		"confirmRemoveFavorite": "Êtes-vous sûr de vouloir supprimer cette annonce de vos favoris ?",
 		"noFavoriteAds": "Aucune annonce favorite",
 		"confirmArchiveAd": "Êtes-vous sûr de vouloir archiver cette annonce ?",
@@ -576,7 +579,7 @@
 		"noOwnAds": "Vous n'avez aucune annonce",
 		"addPhotosLabel": "Ajouter des photos",
 		"titleLabel": "Titre",
-		"titlePlaceholder": "par ex. Vélo KTM",
+		"titlePlaceholder": "par ex. Vélo MTK",
 		"photosLabel": "Photos",
 		"addMoreLabel": "Ajouter plus",
 		"photosDescription1": "La première image sera la principale dans votre annonce.",
@@ -837,13 +840,13 @@
 		"addMoreDesc": "La première photo sera la principale dans votre annonce.",
 		"addMoreDesc2": "Vous pouvez changer l'ordre en les déplaçant.",
 		"title": "Titre",
-		"titlePlaceholder": "ex. Vélo KTM",
+		"titlePlaceholder": "ex. Vélo MTK",
 		"description": "Description",
 		"contactNumber": "Numéro de contact",
 		"contactNumberPlaceholder": "Remplir avec le bouton droit ou manuellement",
 		"contactName": "Nom du contact",
 		"contactNamePlaceholder": "ex. Mike Smith ou Burgershot",
-		"descriptionPlaceholder": "ex. KTM 250 EXC-F",
+		"descriptionPlaceholder": "ex. MTK 250 EXC-F",
 		"price": "Prix",
 		"tags": "Étiquettes",
 		"tagsPlaceholder": "Tapez pour filtrer les étiquettes",
